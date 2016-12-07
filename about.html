@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<link rel="icon" href="icon.png">
+<title>Imperium - About</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<script>
+function validateForm() {
+var x = document.forms["Form"]["name"].value;
+if (x == "") {
+	alert("Missing name!");
+	return false;
+	}
+	
+var y = document.getElementById('message').value;
+if (/^\s*$/g.test(y)) {
+    alert("Missing message!");
+	return false;
+    }
+}
+</script>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<img src="sidebg.png" style="width:541px;height:1080; position: fixed; opacity: .5; align: left;"> 
+
+
+<div id="background2">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/misterv520">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<div id="bar">
+			<div class="blink"><a href="index.html">HOME</a></div> 
+			<div class="blink"><a href="about.html">ABOUT</a></div>
+			<div class="blink"><a href="gw2.html">GW2</a></div>
+			<div class="blink"><a href="specs.html">SPECS</a></div>
+		</div> 
+	
+	<h1 style="margin-top: 10px";>ABOUT ME</h1>
+	
+	<img src="me.png" style="position: relative; border: 3px solid black; margin: 10px; width: 500px;">
+	
+	<h1 style="font-family: Garamond;">Sup. My name is Vincent.</h1>	
+	
+	<p style="line-height: 25px; margin-left: 10px; width: 500px;">Full-time computer information system student and elitist gamer. Gaming enthusiast and eSports aficionado. Grew up enticed with the story telling and control aspect of videogames.</p>    
+
+	<h1 style="margin-top: 20px;">CONTACT ME</h1>
+	
+	<p style="margin-left: 10px; margin-right: 250px;">If you would like to contact me for whatever reason, use the form below.</p>
+	
+	<form name="Form" action="" onsubmit="return validateForm()" method="post" style="line-height:30px; margin-left: 10px;">
+	Name:* <input type="text" name="name"> <br>
+	Email: <input type="text" name="email"> <br>
+	Message:* <br> <textarea id="message" rows="4" cols="50" name="message" form="Form">
+	</textarea> <br>
+	<input type="submit" value="Submit"> 
+	</form>
+	
+</div>	
+	
+	
+<footer>©2016 Vincent Quach, vInceptive Gaming<br>All video game works belong to their respective owners.</footer>		
+	
+</body>
+</html>
