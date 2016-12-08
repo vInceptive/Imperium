@@ -49,41 +49,54 @@ color: #000000;
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 } 
 
-#bar 
-{
-margin-left: 0px;
-display: block; 
-height: auto; 
-position: relative;
-width: 900px;
-overflow: hidden;
-} 
-
 #background2
 {
-background-color: #ccc;
-margin-left: 490px;
+background-color: #e0e0e0;
+margin: auto;
 padding: 50px; 
-width: auto;
-position: static;
+width: 50%;
+min-width: 500px;
 }
 
-.blink
-{ 
-text-align: left; 
-position: relative; 
-margin-top: 10px; 
-margin-left: 15px; 
-float: left;
+#extrapadding
+{
+margin-left: 110px;
+margin-right: 110px;
+}
+
+#center
+{
+margin: auto;
+width: 50%;
+text-align: center;
+}
+
+ul 
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow:hidden;
+margin-top: 5px;
+}
+
+
+li
+{
+margin-top: 17px;
+margin-left: 15px;
+float: left; 
+display: block;
+font-size: 10px; 
 width: 65px;
 height: 25px;
-line-height: 35px;
-font-size: 10px; 
 font-family: Verdana, Geneva, sans-serif;
 color: black; 
+position: relative;
+z-index: 1;
 } 
 
-.blink a
+li a
 {
 text-decoration:none;
 color: black;
@@ -94,14 +107,11 @@ color: black;
  transition: color 0.5s ease-out;
 }
 
-.blink a:hover
+li a:hover
 {
-text-align: left;
-color: #FFFFFF;
-display: block;
+color: white;
 width: 65px;
 height: 25px;
-line-height: 35px;
 }
 
 h1
@@ -126,9 +136,10 @@ font-family: Calibri;
 .imgA 
 {
 position: absolute;
-opacity: 0.10;
-height: 90px;
+opacity: 0.05;
+height: 100px;
 width: 100%;
+z-index: 0;
 }
 
 .breathing
