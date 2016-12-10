@@ -28,22 +28,15 @@ if (/^\s*$/g.test(y)) {
 
 <img class="imgA" src="line.png">
 
-<img src="sidebg.png" style="width:428px;height:1080; position: fixed; opacity: .5; align: left;"> 
-
-<img src="sidebg2.png" style="width: 428px;height: 1080px; position: fixed; opacity: .5; right: 0px;"> 
-
 <div id="background2">
 
 	<div id="extrapadding">
 	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
 	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
 	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
-	<img src="line2.png" style="position: fixed; width: 1px; height: 1080px; right: 428px; top: 0px;">
-	<img src="line2.png" style="position: fixed; width: 1px; height: 1080px; left: 428px; top: 0px;">
 	<a href="https://www.twitch.tv/misterv520">
-	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 215px; right: 358px; border: 2px solid black;">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
 	</a>
-	<img src="line.png" style="position: fixed; width: 19px; height: 1px; right: 410px; top: 240px;">
 	<div id="title">T H E &nbsp I M P E R I U M</div>
 	<div id="subtitle">My Realm of Play</div>
 
@@ -54,21 +47,24 @@ if (/^\s*$/g.test(y)) {
 			<li><a href="specs.html">SPECS</a></li>
 		</ul>
 	
-	<img src="line3.png" style="position: static; width: 100%; height: 1px; margin: auto; margin-bottom: 10px;">
+	<img class="imgB" src="bg2.png">
+
+	<img src="line3og.png" style="position: fixed; width: 50%; height: 100%; margin: auto; top: 0px; left: 25%; z-index: -1;">
 	
-	<h1 style="margin-top: 60px";>ABOUT ME</h1>
+	<br>
+	<h1>ABOUT ME</h1>
 	
-	<img src="me.png" style="position: relative; border: 3px solid black; margin: 10px; width: 500px;">
+	<img src="me.png" style="position: static; border: 3px solid black; margin: auto; width: 100%;">
 	
-	<h1 style="font-family: Garamond;">Sup. My name is Vincent.</h1>	
+	<h1 style="font-family: Garamond; margin: auto;margin-top: 5px;">Sup. My name is Vincent.</h1>	
 	
-	<p style="line-height: 25px; margin-left: 10px; width: 500px;">Full-time computer information system student and elitist gamer. Gaming enthusiast and eSports aficionado. Grew up enticed with the story telling and control aspect of videogames.</p>    
+	<p style="line-height: 25px; margin: auto; width: 100%px, margin-top: 0px;">Full-time computer information system student and elitist gamer. Gaming enthusiast and eSports aficionado. Grew up enticed with the story telling and control aspect of videogames.</p>    
 
 	<h1 style="margin-top: 20px;">CONTACT ME</h1>
 	
-	<p style="margin-left: 10px; margin-right: 250px;">If you would like to contact me for whatever reason, use the form below.</p>
+	<p style="margin: auto; width: 100%;">If you would like to contact me for whatever reason, use the form below.</p>
 	
-	<form name="Form" action="" onsubmit="return validateForm()" method="post" style="line-height:30px; margin-left: 10px;">
+	<form name="Form" action="" onsubmit="return validateForm()" method="post" style="line-height:30px; margin: auto;">
 	Name:* <input type="text" name="name"> <br>
 	Email: <input type="text" name="email"> <br>
 	Message:* <br> <textarea id="message" rows="4" cols="50" name="message" form="Form">

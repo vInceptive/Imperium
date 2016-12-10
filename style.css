@@ -17,6 +17,7 @@ color: white;
 background-color: grey;
 clear: left;
 text-align: center;
+opacity: .75;
 }
 
 *
@@ -49,12 +50,46 @@ color: #000000;
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 } 
 
+
+body:after {
+content: "";
+display: block;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: -5;
+background: url(bg.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body:after {
+content: "";
+display: block;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: -4;
+background-color: #e0e0e0;
+opacity: 0.5;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 #background2
 {
 background-color: #e0e0e0;
 margin: auto;
 padding: 50px; 
-width: 50%;
+width: 42%;
 min-width: 500px;
 }
 
@@ -77,7 +112,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow:hidden;
-margin-top: 5px;
+width: 100%;
 }
 
 
@@ -119,7 +154,7 @@ h1
 font-size: 18px;
 color: black;
 margin-top: -10px;
-padding: 10px;
+margin-bottom: 10px;
 font-family: Calibri;
 }
 
@@ -127,8 +162,9 @@ h2
 {
 font-size: 16px;
 color: black; 
+margin-top: 10px;
+margin-bottom: 10px;
 line-height: 120%;
-padding: 10px; 
 font-weight:normal; 
 font-family: Calibri;
 }
@@ -137,12 +173,23 @@ font-family: Calibri;
 {
 position: absolute;
 opacity: 0.05;
-height: 100px;
+height: 90px;
 width: 100%;
 z-index: 0;
 }
 
-.breathing
+.imgB
+{
+position: fixed;
+opacity: 0.1;
+width: 60%;
+top: 0;
+left: 20%;
+height: 100%;
+z-index: -1;
+}
+
+.breathing /*cool breathing animation, no use yet*/
 {
 animation:10s breather linear infinite;
 -webkit-animation:10s breather linear infinite;
@@ -175,23 +222,20 @@ animation:10s breather linear infinite;
 
 .box
 {
-margin-left: 10px; 
+margin-left: 0px; 
 position: relative;
 width: 130px;
 height: auto;
 background-color: white; 
-padding: 10px;
+padding: 15px;
 }
 
 #blogimage
 {
-float: left;
-position: relative;
+position: static;
 border: 2px solid black;
-margin-left:10px;
-margin-top: 5px;
-margin-bottom: 5px;
-width: 500px;
+margin: auto;
+width: 100%; 
 transition: -webkit-transform 0.25s ease;
 }
 
@@ -214,11 +258,10 @@ text-decoration: underline;
 
 #cleanline
 {
-width: 500px;
+width: 100%;
 height: 2px;
 float: left;
 margin-top: -5px;
-margin-left: 10px;
 }
 
 #bff 
@@ -228,12 +271,13 @@ margin-top: 25px;
 
 #bodytextog
 {
-margin-left: 10px;
-width: 500px; 
-margin-top: 5px;
+width: 100%; 
+margin-top: 15px;
+margin-bottom: 10px;
 }
 #bodytext
 {
-margin-left: 10px;
-width: 500px; 
+width: 100%; 
+margin-top: 10px;
+margin-bottom: 10px;
 }
