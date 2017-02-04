@@ -6,6 +6,29 @@
 <link rel="icon" href="icon.png">
 <title>Imperium - Specs</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 </head>
 
 <body> 
@@ -29,6 +52,14 @@
 			<li><a href="about.html">ABOUT</a></li>
 			<li><a href="gw2.html">GW2</a></li>
 			<li><a href="specs.html">SPECS</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">VITAE</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="mental.html">Mind</a>
+			  <a href="physical.html">Body</a>
+			  <a href="#">Link 3</a>
+			</div>
+		    </li>
 		</ul>
 		
 	<br>
@@ -47,6 +78,7 @@
 	·OS: Windows 7 Home Premium (x64)<br>
 	·Case: Thermaltake VERSA N21 Snow Edition ATX Mid Tower <br>
 	·Fans: Fractal Design Silent Series R2 Black Edition 120mm / 2x Corsair AF120 LED Quiet Edition 120mm <br>
+	·Monitors: Pixio PX277 27in 1440p 144Hz Freesync / Sceptre 22in 1080p 60hz <br>
 	·Headset: HyperX Cloud II Gun Metal<br>
 	·Mouse: Logitech G600 White<br>
 	·Keyboard: CM Storm QuickFire TK Cherry MX browns w/ Vortex White Translucent Doubleshot backlit PBT + POM Keycaps<br>
@@ -59,15 +91,13 @@
 	
 	
 	<img class="imgB" src="bg2.png">
-
-	<img src="line3og.png" style="position: fixed; width: 50%; height: 100%; margin: auto; top: 0px; left: 25%; z-index: -1;">
 		
 	</div>
 </div>
 	
 	
 	
-<footer>©2016 Vincent Quach, vInceptive Gaming<br>All video game works belong to their respective owners.</footer>		
+<footer>©2017 Vincent Quach, vInceptive Gaming<br>All video game works belong to their respective owners.</footer>		
 	
 </body>
 </html>

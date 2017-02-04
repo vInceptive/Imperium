@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - Specs</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#p1").toggle();
+    });
+});
+</script>
+
+</head>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/misterv520">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gw2.html">GW2</a></li>
+			<li><a href="specs.html">SPECS</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">VITAE</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="mental.html">Mind</a>
+			  <a href="physical.html">Body</a>
+			  <a href="#">Link 3</a>
+			</div>
+		    </li>
+		</ul>
+		
+	<h1 style="font-size: 300%; text-align: center; font-style: oblique; font-weight: normal; margin: 0px 0px 15px;">Pr0j3ct N0cTurn3</h1>
+	
+	<h2 style="text-align: center; margin: 0px 0px 10px;">The Body</h2>
+	
+	<div class="box">
+	<h1>Contents</h1> 
+	<button>Show/Hide</button> 
+		<div id="p1">
+		<a href="#1" id="p1">The Regime</a><br>
+		<a href="#2" id="p1">IP 020117</a><br>
+		<a href="#3" id="p1">IP 020217</a><br>
+		<a href="#4" id="p1">Six Foods</a>
+		</div>
+	</div>
+	
+	<h1 id="1" style="margin: 10px 0px;">The Regime</h1>
+	<img src="line.png" id="cleanline">
+	
+	<div class="tg-wrap"><table class="tg">
+	  <tr>
+		<th class="tg-baqh" colspan="6">The Regime</th>
+	  </tr>
+	  <tr>
+		<td class="tg-yw4l">Day1</td>
+		<td class="tg-yw4l">Day 2</td>
+		<td class="tg-yw4l">Day 3</td>
+		<td class="tg-yw4l">Day 4</td>
+		<td class="tg-yw4l">Day 5 </td>
+		<td class="tg-yw4l">Rest</td>
+	  </tr>
+	  <tr>
+		<td class="tg-yw4l">Madness Monday</td>
+		<td class="tg-yw4l">Tipper Tuesday</td>
+		<td class="tg-yw4l">Wearisome Wednesday</td>
+		<td class="tg-yw4l">Tedious Thursday</td>
+		<td class="tg-yw4l">Familiar Friday</td>
+		<td class="tg-yw4l">Wicked.</td>
+	  </tr>
+	  <tr>
+		<td class="tg-yw4l">3 Pyramid Pushup Sets/8 min abs</td>
+		<td class="tg-yw4l">3 Pyramid Pushup Sets/8 min abs</td>
+		<td class="tg-yw4l">3 Pyramid Pushup Sets/8 min abs</td>
+		<td class="tg-yw4l">3 Pyramid Pushup Sets/8 min abs</td>
+		<td class="tg-yw4l">3 Pyramid Pushup Sets/8 min abs</td>
+		<td class="tg-yw4l">3 Pyramid Pushup Sets/8 min abs</td>
+	  </tr>
+	  <tr>
+		<td class="tg-yw4l">5 Max effort sets</td>
+		<td class="tg-yw4l">Scaling sets until missed, then one max set</td>
+		<td class="tg-yw4l">3 sets normal<br>3 sets palm inward, hands together<br>3 sets wide grip</td>
+		<td class="tg-yw4l">Max number of training sets (9+)</td>
+		<td class="tg-yw4l">Repeat hardest day</td>
+		<td class="tg-yw4l"></td>
+	  </tr>
+	  <tr>
+		<td class="tg-yw4l">90s Rest</td>
+		<td class="tg-yw4l">10s for every pullup</td>
+		<td class="tg-yw4l">60s</td>
+		<td class="tg-yw4l">60s</td>
+		<td class="tg-yw4l">X</td>
+		<td class="tg-yw4l"></td>
+	  </tr>
+	  <tr>
+		<td class="tg-baqh" colspan="6">Track</td>
+	  </tr>
+	  <tr>
+		<td class="tg-yw4l">Set 1 :<br>Set 2:<br>Set 3:<br>Set 4:<br>Set 5:<br>Total:</td>
+		<td class="tg-yw4l">Set X:<br>Set M:<br>Total: </td>
+		<td class="tg-yw4l">Set 1:<br>Set 2: <br>Set 3:<br>Set 4:<br>Set 5:<br>Set 6:<br>Set 7:<br>Set 8:<br>Set 9:<br>Total:  </td>
+		<td class="tg-yw4l">PUs per set:<br>Sets completed:<br>Total:</td>
+		<td class="tg-yw4l">Total:</td>
+		<td class="tg-yw4l">Average<br>W1:<br>W2:<br>W3:<br>W4:<br>W5:<br>W6:<br>W7:</td>
+	  </tr>
+	</table></div>
+	
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 01, 2017</p>
+	<br>
+	
+	<h1 id="2" style="margin-top: -15px;">Improvement Pill 020117</h1>
+	<img src="line.png" id="cleanline">
+	<h2>How to Increase Testosterone</h2>
+	<p>1. Lift weights. <b>(Kya!)</b> <br>
+	2. Keep balls cool. <b>(cold showers/sleep naked)</b> <br>
+	3. Quality undisturbed sleep. <b>(zZz)</b> <br>
+	4. Diet. <b>(intermittent fasting/supplements)</b> <br>
+	5. Lower fat = lower estrogen = more effective testoterone. <b>(low fat %)</b> <br>
+	6. Reduce stress. <b>(meditation)</b> <br>
+	7. Increase androgen receptors. <b>(avoid stimulates; drugs and porn lower receptor count)</b> <br>
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 02, 2017</p>
+	<br>
+	
+	<h1 id="3" style="margin-top: -15px;">Improvement Pill 020217</h1>
+	<img src="line.png" id="cleanline">
+	<h2>How to Meditate</h2>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/mMMerxh_12U" frameborder="0" allowfullscreen></iframe>
+	
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 03, 2017</p>
+	<br>
+	
+	<h1 id="4" style="margin-top: -15px;">Six Foods Recipe</h1>
+	<img src="line.png" id="cleanline">
+	<h2>Paprika Chicken & Rice</h2>
+	<p>Servings: 5 <br><br>
+	INGREDIENTS <br>
+	5 chicken thighs<br>
+	1 teaspoon salt<br>
+	1 teaspoon pepper<br>
+	1 teaspoon paprika<br>
+	1 teaspoon dried parsley<br>
+	1 tablespoon olive oil<br>
+	1 tablespoon garlic, minced<br>
+	½ cup red onion, diced<br>
+	1 cup long grain rice<br>
+	1½ cups chicken broth<br>
+	Salt, to taste<br>
+	Pepper, to taste<br><br>
+	PREPARATION<br>
+	1. Preheat oven to 400˚F/200˚C.<br>
+	2. In a large bowl, evenly season chicken thighs with salt, pepper, paprika, and parsley.<br>
+	3. On high, heat olive oil in a oven-proof pot and place chicken thighs, skin-side down, in the hot oil. Cook 5-6 minutes or the thighs develop brown crispy skin and flip over. Cook an additional 5-6 minutes to brown the other side and remove from the pot.<br>
+	4. Add the garlic and onions to the pot, and cook until the onions are transparent.<br>
+	5. Pour in the rice and chicken broth to the pot and season with salt and pepper. Stir well, bringing to a boil.<br>
+	6. Add the chicken thighs back into the pot, skin-side up, on top of the rice, bring back to a boil and cover with a lid.<br>
+	7. Bake for 35-40 minutes, or until the rice is fully cooked. <br>
+	8. Optional: remove chicken thighs and broil for crispy skin.<br>
+	9. Enjoy!<br><br>
+	</p>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/YklBmGx5li0" frameborder="0" allowfullscreen></iframe>
+
+	
+	<h2>Butter Chicken</h2>
+	<p>Ingredients:<br><br>
+
+	2 lbs of chicken breast<br>
+	salt and pepper<br>
+	1 tsp of chili powder<br>
+	1/2 tsp of ground turmeric<br>
+	6 tbsp of butter, divided into 2 tbsp chunks<br>
+	1 1/2 cups of yellow onion, diced<br>
+	3 tsp of garam masala<br>
+	1 tsp of chili powder<br>
+	1 tsp of cumin<br>
+	1 tsp of cayenne pepper<br>
+	1 Tbsp. of grated ginger<br>
+	3 garlic cloves, minced<br>
+	3” stick of cinnamon<br>
+	14 oz of tomato sauce<br>
+	1 cup of water<br>
+	1 cup of heavy cream<br>
+	chopped cilantro for garnish<br>
+	rice<br><br>
+
+	Directions:<br><br>
+
+	Marinate chicken breast in chili powder, turmeric, salt and pepper. Let it sit for 15 minutes.<br>
+
+	Brown chicken in 2 Tbsp. of butter, remove and set aside.<br>
+
+	Melt another 2 Tbsp. of butter over medium heat, add onions, garlic, garam masala, grated ginger, chili powder, ground cumin, cayenne pepper, cinnamon, salt and pepper. Cook until fragrant.<br>
+
+	Add the tomato sauce and bring to a simmer. Add the water and cream, bring back to a simmer. Return the chicken and simmer covered for another 10 -15 minutes. <br>
+
+	Stir in the last 2 tbsp of butter and additional salt and pepper to taste.<br>
+
+	Serve garnished with cilantro on top of rice. Enjoy! <br><br></p>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/VHfhCXkJh34" frameborder="0" allowfullscreen></iframe>
+
+	
+	<h2>Creamy Chicken Bacon Pesto Pasta</h2>
+	<p>Servings: 4 <br><br>
+
+	INGREDIENTS <br>
+	6 bacon strips<br>
+	2 chicken breasts <br>
+	2 teaspoons salt <br>
+	1 teaspoon pepper<br>
+	1 teaspoon garlic powder<br>
+	2 onions, sliced<br>
+	4 garlic cloves<br>
+	5 ounces spinach <br>
+	5 cups milk<br>
+	1 pound fettuccine <br>
+	½ cup pesto <br>
+	1 cup parmesan <br><br>
+
+	Garnish<br>
+	Parmesan<br>
+	Fresh parsley <br><br>
+
+	PREPARATION<br>
+	1. In a large pot or dutch oven over medium-high heat, cook the bacon until crispy. <br>
+	2. Add chicken and season with salt, pepper, and garlic powder. Cook until no pink is showing, then remove the chicken. <br>
+	3. Add onion and garlic and cook until softened. <br>
+	4. When onions are caramelized, add spinach and cook until wilted<br>
+	5. Add milk and bring to boil.<br>
+	6. Add fettuccine into boiling mixture and cover. <br>
+	7. Cook fettuccine on medium heat until milk thickens and pasta is cooked (about 7 minutes). <br>
+	8. Mix back in the chicken. Stir in the pesto and parmesan. <br>
+	9. Garnish with parsley and additional parmesan <br>
+	10. Enjoy! <br><br></p>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/f7OI2BB6p_Y" frameborder="0" allowfullscreen></iframe>
+
+	<h2>Chicken Alfredo Penne</h2> 
+	<p>Servings: 6<br><br>
+
+	INGREDIENTS<br>
+	1½ pounds (700 grams) chicken breast, cubed<br>
+	2 tablespoons butter<br>
+	½ teaspoon dried oregano<br>
+	½ teaspoon dried basil<br>
+	½ teaspoon salt<br>
+	½ teaspoon pepper<br>
+	16 ounces (450 grams) penne pasta, cooked<br>
+	¼ cup parsley<br>
+	¼ cup parmesan, shredded <br><br>
+
+
+	Sauce<br>
+	2 tablespoons butter<br>
+	4 cloves garlic, minced<br>
+	3 tablespoons flour<br>
+	2 cups milk<br>
+	½ teaspoon oregano<br>
+	½ teaspoon basil<br>
+	1/2 cup parmesan, shredded <br>
+	½ teaspoon salt<br>
+	½ teaspoon pepper<br><br>
+
+
+	PREPARATION<br>
+	1. In a pan over medium-high heat, melt butter, then add the chicken breast.<br>
+	2. Season with salt, pepper, oregano, and basil. Cook 8-10 minutes or until chicken is fully cooked. Remove from heat and set chicken aside.<br>
+	3. In the same pan over medium heat, melt butter and add the garlic. Cook until the garlic begins to soften.<br>
+	4. Add half of the flour to the garlic and butter, stirring until incorporated. Then add the rest of the flour and stir.<br>
+	5. Pour in the milk a little bit at a time, stirring well in between, until fully incorporated and sauce begins to thicken.<br>
+	6. Season with salt, pepper, oregano, and basil, and stir well to incorporate.<br>
+	7. Add parmesan cheese and stir until melted.<br>
+	8. Pour the sauce over cooked penne pasta, add the chicken and mix well.<br>
+	9. Add parsley and extra parmesan, and mix again.<br>
+	10. Enjoy!<br><br></p>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/CTTsN3QggDc" frameborder="0" allowfullscreen></iframe>
+	
+	<h2>Beef and Cheese Rigatoni Bake</h2>
+	<p>Yields 2 9x13 in (23x33 cm) casseroles <br><br>
+
+	INGREDIENTS<br><br>
+
+	2 pounds ground beef<br>
+	Salt & pepper<br>
+	3 tablespoons salted butter<br>
+	⅓ cup flour<br>
+	3 cups milk<br>
+	1 cup unsalted butter (2 sticks), melted<br>
+	2 pounds rigatoni, cooked<br>
+	4 eggs, beaten<br>
+	24 ounces marinara sauce<br>
+	3 cups shredded mozzarella cheese<br>
+	½ cup shredded parmesan cheese<br><br>
+
+
+	PREPARATION<br>
+	Preheat oven to 375°F/190˚C.<br>
+	In a skillet, cook and crumble the ground beef with garlic powder, onion, powder, salt, & pepper. Remove from pan and drain.<br>
+	In the same pan, melt the butter, and mix with the flour until it forms a paste. <br>
+	Add the milk gradually, and bring to a boil, until it thickens into a creamy sauce. Set aside.<br>
+	In a bowl, mix the rigatoni with the eggs. Divide between two 9x13 inch (23x33 centimeter) baking dishes.<br>
+	Layer on the marinara, ground beef, mozzarella, white sauce, and parmesan.<br>
+	Bake both for 30-35 minutes, or until cheese is melted and golden brown.<br>
+	Cool and freeze extra casserole up to 2 months. (To cook, transfer to the refrigerator overnight. Bake covered at 375°F/190°C for 40 minutes. Remove cover and bake an additional 10 minutes.)<br>
+	Enjoy!<br><br></p>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/7krAuGq2sTI" frameborder="0" allowfullscreen></iframe>
+	
+	<h2>Pasta Primavera</h2>
+	<p>Servings: 4 <br><br>
+
+	INGREDIENTS<br>
+	4 cups broth of your choice<br>
+	10 ounces uncooked linguine<br>
+	10 ounces broccoli florets<br>
+	1 pound asparagus, chopped into 1-inch pieces<br>
+	1 small onion, diced<br>
+	4 cloves garlic, minced<br>
+	½ teaspoon red pepper flakes<br>
+	Salt & pepper to taste<br>
+	1 teaspoon olive oil<br>
+	4 ounces mushrooms, sliced<br>
+	¼ cup heavy whipping cream<br>
+	½ cup grated parmesan<br>
+	3 tablespoons fresh parsley, finely chopped<br><br>
+
+	PREPARATION<br>
+	1. In a pot over high heat, combine broth, linguine, broccoli, asparagus, onion, garlic, red pepper flakes, salt, pepper, and olive oil.  Stir.<br>
+	2. Add the mushrooms and bring to a boil.<br>
+	3. Once at a boil, reduce heat to medium and cook the pasta for 10 minutes, continuously tossing with tongs.<br>
+	4. Add the heavy cream, parmesan, and parsley, and toss for an additional 3 minutes.<br>
+	5. If the liquid hasn’t been completely absorbed, let the pasta sit off the heat for an additional few minutes.<br>
+	6. Enjoy!<br><br></p>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/9G77zU-uSA4" frameborder="0" allowfullscreen></iframe>
+	
+	<img class="imgB" src="bg2.png">
+		
+	</div>
+</div>
+	
+	
+	
+<footer>©2017 Vincent Quach, vInceptive Gaming<br>All video game works belong to their respective owners.</footer>		
+	
+</body>
+</html>
