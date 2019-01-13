@@ -1,0 +1,928 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - 2018</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#p1").toggle();
+    });
+});
+</script>
+
+</head>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/vInceptive">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gw2.html">GW2</a></li>
+			<li><a href="specs.html">SPECS</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="mental.html">Mind</a>
+			  <a href="physical.html">Body</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			</div>
+		    </li>
+			<li><a href="books.html">LIT</a></li>
+		</ul>
+		
+	
+	<div class="box">
+	<h1>Contents</h1> 
+	<button>Show/Hide</button> 
+		<div id="p1">
+		<a href="#1" id="p1">01/14</a><br>
+		<a href="#2" id="p1">02/06</a><br>
+		<a href="#3" id="p1">02/07</a><br>
+		<a href="#4" id="p1">02/14</a><br>
+		<a href="#5" id="p1">02/15</a><br>
+		<a href="#6" id="p1">02/18</a><br>
+		<a href="#7" id="p1">02/22</a><br>
+		<a href="#8" id="p1">02/26</a><br>
+		<a href="#9" id="p1">03/04</a><br>
+		<a href="#10" id="p1">03/09</a><br>
+		<a href="#11" id="p1">03/11</a><br>
+		<a href="#12" id="p1">03/15</a><br>
+		<a href="#13" id="p1">03/18</a><br>
+		<a href="#14" id="p1">03/19</a><br>
+		<a href="#15" id="p1">03/22</a><br>
+		<a href="#16" id="p1">03/27</a><br>
+		<a href="#17" id="p1">04/17</a><br>
+		<a href="#18" id="p1">04/25</a><br>
+		<a href="#19" id="p1">05/02</a><br>
+		<a href="#20" id="p1">05/06</a><br>
+		<a href="#21" id="p1">05/07</a><br>
+		<a href="#22" id="p1">05/14</a><br>
+		<a href="#23" id="p1">05/15</a><br>
+		<a href="#24" id="p1">05/20</a><br>
+		<a href="#25" id="p1">05/21</a><br>
+		<a href="#26" id="p1">05/30</a><br>
+		<a href="#27" id="p1">06/03</a><br>
+		<a href="#28" id="p1">06/24</a><br>
+		<a href="#29" id="p1">07/07</a><br>
+		<a href="#30" id="p1">07/15</a><br>
+		<a href="#31" id="p1">07/20</a><br>
+		<a href="#32" id="p1">08/22</a><br>
+		<a href="#33" id="p1">08/23</a><br>
+		<a href="#34" id="p1">08/24</a><br>
+		<a href="#35" id="p1">08/25</a><br>
+		<a href="#36" id="p1">08/26</a><br>
+		<a href="#37" id="p1">08/27</a><br>
+		<a href="#38" id="p1">08/28</a><br>
+		<a href="#39" id="p1">08/30</a><br>
+		<a href="#40" id="p1">09/01</a><br>
+		<a href="#41" id="p1">09/03</a><br>
+		<a href="#42" id="p1">09/04</a><br>
+		<a href="#43" id="p1">09/05</a><br>
+		<a href="#44" id="p1">09/06</a><br>
+		<a href="#45" id="p1">09/07</a><br>
+		<a href="#46" id="p1">09/12</a><br>
+		<a href="#47" id="p1">09/13</a><br>
+		<a href="#48" id="p1">09/14</a><br>
+		<a href="#49" id="p1">09/16</a><br>
+		<a href="#50" id="p1">09/18</a><br>
+		<a href="#51" id="p1">09/21</a><br>
+		<a href="#52" id="p1">09/23</a><br>
+		<a href="#53" id="p1">09/24</a><br>
+		<a href="#54" id="p1">09/25</a><br>
+		<a href="#55" id="p1">09/26</a><br>
+		<a href="#56" id="p1">09/30</a><br>
+		<a href="#57" id="p1">10/01</a><br>
+		<a href="#58" id="p1">10/02</a><br>
+		<a href="#59" id="p1">10/03</a><br>
+		<a href="#60" id="p1">10/05</a><br>
+		<a href="#61" id="p1">10/06</a><br>
+		<a href="#62" id="p1">10/08</a><br>
+		<a href="#63" id="p1">10/10</a><br>
+		<a href="#64" id="p1">10/12</a><br>
+		<a href="#65" id="p1">10/14</a><br>
+		<a href="#66" id="p1">10/15</a><br>
+		<a href="#67" id="p1">10/18</a><br>
+		<a href="#68" id="p1">10/21</a><br>
+		<a href="#69" id="p1">10/22</a><br>
+		<a href="#70" id="p1">10/23</a><br>
+		<a href="#71" id="p1">10/25</a><br>
+		<a href="#72" id="p1">10/28</a><br>
+		<a href="#73" id="p1">10/30</a><br>
+		<a href="#74" id="p1">10/31</a><br>
+		<a href="#75" id="p1">11/03</a><br>
+		<a href="#76" id="p1">11/04</a><br>
+		<a href="#77" id="p1">11/06</a><br>
+		<a href="#78" id="p1">11/07</a><br>
+		<a href="#79" id="p1">11/09</a><br>
+		<a href="#80" id="p1">11/12</a><br>
+		<a href="#81" id="p1">11/13</a><br>
+		<a href="#82" id="p1">11/15</a><br>
+		<a href="#83" id="p1">11/19</a><br>
+		<a href="#84" id="p1">11/20</a><br>
+		<a href="#85" id="p1">11/21</a><br>
+		<a href="#86" id="p1">11/23</a><br>
+		<a href="#87" id="p1">11/24</a><br>
+		<a href="#88" id="p1">11/25</a><br>
+		<a href="#89" id="p1">11/26</a><br>
+		<a href="#90" id="p1">11/27</a><br>
+		<a href="#91" id="p1">11/29</a><br>
+		<a href="#92" id="p1">11/30</a><br>
+		<a href="#93" id="p1">12/01</a><br>
+		<a href="#94" id="p1">12/02</a><br>
+		<a href="#95" id="p1">12/03</a><br>
+		<a href="#96" id="p1">12/04</a><br>
+		<a href="#97" id="p1">12/05</a><br>
+		<a href="#98" id="p1">12/06</a><br>
+		<a href="#99" id="p1">12/07</a><br>
+		<a href="#100" id="p1">12/08</a><br>
+		<a href="#101" id="p1">12/09</a><br>
+		<a href="#102" id="p1">12/11</a><br>
+		<a href="#103" id="p1">12/12</a><br>
+		<a href="#104" id="p1">12/13</a><br>
+		<a href="#105" id="p1">12/16</a><br>
+		<a href="#106" id="p1">12/17</a><br>
+		<a href="#107" id="p1">12/18</a><br>
+		<a href="#108" id="p1">12/19</a><br>
+		<a href="#109" id="p1">12/20</a><br>
+		<a href="#110" id="p1">12/21</a><br>
+		<a href="#111" id="p1">12/22</a><br>
+		<a href="#112" id="p1">12/23</a><br>
+		<a href="#113" id="p1">12/24</a><br>
+		<a href="#114" id="p1">12/25</a><br>
+		<a href="#115" id="p1">12/26</a><br>
+		<a href="#116" id="p1">12/27</a><br>
+		<a href="#117" id="p1">12/28</a><br>
+		<a href="#118" id="p1">12/29</a><br>
+
+
+		</div>
+	</div>
+	
+	<a href="#title"> <img src="b2t.png" style="position: fixed; width: 50px; height: 50px; bottom: 0px; right: 0px;">
+	</a>
+	
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Jan 14, 2018</p>
+
+	
+	<h1 id="1">Prelude to 2018</h1>
+	<img src="line.png" id="cleanline">
+	One year ago I began this site in hopes of maintaining and expressing my life. For the most part I've failed to do so however without failure one cannot learn from past mistakes. This past year has been a beach; there has been some ups and many downs. 2017 if I had to describe it was a year of improvement. I would like to share with myself axioms to serve as evidence of such. 
+	
+	<h2>Axiom 1</h2>
+	Humans want to achieve a state of happiness.
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 06, 2018</p>
+
+	<h1 id="2">Onwards</h1>
+	<img src="line.png" id="cleanline">
+	Fast forward a couple of weeks... These hiatuses are quite disappointing. I think I'll be it a habit to write an entry on here daily. So I want to reiterate and continue my train of thought since last month. In 2017 I began improving myself mentally and physically. I want to lay some ideas, habits, thoughts, and occurrences from 2017.<br><br>
+		
+		- Lost <br>
+			<ind>unable to find one's way; not knowing one's whereabouts.</ind><br>
+		- Improvement Pill <br>
+			<ind>Biggest takeaways were the tamed series and the six fundamental needs, learned a lot here.</ind><br>
+		- Guild Wars 2 WvW <br>
+			<ind>Oh god. This was/is my time sink. PoF. WvW. Maguuma. Legendaries. Fun.</ind><br>
+		- Fire Emblem Heroes
+			<ind>Second biggest time sink. Fire emblem>3ds>Kreygasm. </ind><br> 
+		- Art <br>
+			<ind>First art class since high school, foundation drawing. It started here.</ind><br> 
+		- Quitting <br>
+		- Drawing <br>
+			<ind> Sycra. The Masters. Fuwa. Riot Games. Fire Emblem. Guild Wars. Anime.</ind> <br>
+		- Reading <br>
+			<ind>Tried to get into reading again late 2017. Only finished one book: Stories of Your Life and Others. Brilliant book. Will create section for books.</ind><br>
+		- Billionaires <br>
+			<ind>Time Ferriss' book, led to the podcasts. Good idea sharing.</ind> <br>
+		- Hiking <br>
+			<ind>Hike to Inspiration Point in June. Changed the way I saw my health and fitness. More hikes please.</ind><br>
+		- Cycling <br>
+		- Addiction <br>
+			<ind>Better than before, still not tamed.</ind><br>
+		- Gaming <br> 
+			<ind>Might be addiction. Tone down, replace with others.</ind><br>
+		- Life Drawing and After Effects <br>
+			<ind>Wow these courses were stressful and fast. Improved but I was just drained after</ind> <br>
+		- Star Wars<br> 
+		- Meditation<br> 
+			<ind>Started this habit. Good for staying calm but I'm kind of failing off lately.</ind>
+			
+		<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 07, 2018</p>
+
+	<h1 id="3">Fuwa</h1>
+	<img src="line.png" id="cleanline">
+	<3
+		
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 14, 2018</p>
+
+	<h1 id="4">V-Day</h1>
+	<img src="line.png" id="cleanline">	
+	I've been thinking. One week since a entry. Not doing too well but it's progress. Some thoughts: change my mindset, build better habits, and have a dream to strive for. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 15, 2018</p>
+
+	<h1 id="5">Chinese New Years</h1>
+	<img src="line.png" id="cleanline">	
+	CNY was celebrated today. We paid $100.14 for lobster. Not bad I suppose. I finished As A Man Thinketh, will write overview soon. The main takeaway I think is my lack of a dream. Things on my mind: use more observation, fix sleep schedule, practice drawing, I watch too much twitch, INTJs are awesome. Idk. Don't feel expressive; still coming off relapse. School next week, lets get that degree. 
+	
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 18, 2018</p>
+
+	<h1 id="6">Failure</h1>
+	<img src="line.png" id="cleanline">	
+	Didn't make it today. It seems like I am just coasting through time. I'm going to research more about your brain on porn. Sleep schedule was kind of fixed until recently. I think that was what triggered me. Some thoughts: read more, limit watching streams, DRAAAAAAAAAAAAAW, get ready for classes. How can I contribute to the universe? That will be the dream I strive for. Also need to change my mindset from toxic to understanding. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 22, 2018</p>
+
+	<h1 id="7">Good</h1>
+	<img src="line.png" id="cleanline">	
+	It's been four days so far and I am feeling good. Despite school starting up and lack of sleep, things have been  really good. My classes are personal growth and networking (cis). Mr E. and Mrs. Q, both really good teachers. Both classes seem good so far would recommend. Also yourbrainonporn has been a good resource. The duality of mind and body, viewing the mind as the master to have a better mind set I feel is very important. Some things going on: started clip studio paint, bought new phone (V20), learning and going to cut my own hair, bodyweightfitness, TTD GvG Pride of Maguuma, what's good. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Feb 26, 2018</p>
+
+	<h1 id="8">Sleep</h1>
+	<img src="line.png" id="cleanline">	
+	Things are looking up, I think. My mind has been clearer and I'm not as anxious as before. It's not like I have crazy motivation now but it's more like I'm more calm and focused to do habitual actions. The separate mind/body mentally is an important concept to understand I feel like. Things that occurred this past weekend: Alhambra chinese new year festival was so bad, watched Annihilation, got hit on sort of, chilled with the homies, Takumi GHB was hell, v20 came damaged, hair cut success. Sleep is also something I'm having trouble balancing. My schedule is kind of fucked but I'll get that nailed. It's just so cold in the morning. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 04, 2018</p>
+
+	<h1 id="9">Fun</h1>
+	<img src="line.png" id="cleanline">		
+	It's a Sunday. Went out with the UCI boys today minus Chau. It was a nice reunion since we haven't seen each other for a couple of months/years. Watched Game Night, one of the best movies this year. Had some boba and ramen. Caught up a lot. Good fun. Been on a fucked up sleep schedule this week. Still on that no fap grind, I've been down in terms of mentally but it's picked up a bit. Rachel McAdams is fire. Week two of classes tomorrow and Inspiration Point round two on Saturday, time to conqueror my demon. Got a bit of drawing in yesterday, I will draw and read more. Going to improve my mentally more this year. Other tid bits: Terraria is good, second chances!! Socialize more, game nights, mentally, oscars, TTD quaterfinals. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 09, 2018</p>
+
+	<h1 id="10">Sick</h1>
+	<img src="line.png" id="cleanline">		
+	End of the work week. Things have been going. Been logging a lot of hours into Terraria. School has been good. Around wednesday I contracted strep throat. Been feeling up and down, better as the week progresses. Tomorrow hanging with the boys again. Feh has been awesome, buff goddess Eirika. Today (friday) has been bad though, didn't really do anything. Gonna sleep "early". Oyasami nasai. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 11, 2018</p>
+
+	<h1 id="11">Life and Death</h1>
+	<img src="line.png" id="cleanline">	
+	I nearly died twice this weekend. Glendale robbery/random car turn on longden. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 15, 2018</p>
+
+	<h1 id="12">Working Hard</h1>
+	<img src="line.png" id="cleanline">	
+	The theme today is working hard. It's something that defines your worth as a human being. Those that work hard are successful and thereby happier? The logic doesn't follow. But I think there is intrinsic value in working hard. The reason it's today theme is that in personal growth we discussed parenting styles and how my parents were neglectful in that regard. It's not because they were neglectful but more that they were working hard to provide. It's a glass half full thing. They show care through work. I wouldn't recommend this parenting style but as I said unfortunate but understandable. --TERRARIAAAAA. 5:12am now too sleepy to continue...
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 18, 2018</p>
+
+	<h1 id="13">Empty and Lost</h1>
+	<img src="line.png" id="cleanline">	
+	I semi-relapsed this weekend. Alone and bored at home, you know how it goes. Went to the movies on saturday, definitely noticed a change because of it. But I actually made it 30 days so there's that. Let's go for 60 days now. I want to discuss the concept of emptiness and being lost. This weekend my mind's been racing and I've just procrastinated and put off everything. The feeling of having no goals and binging twitch/lcs/youtube is pretty terrible and unproductive; especially when I have a presentation/quiz soon. Three ways to deal with emptiness: improve yourself mentally and physically, create!!, and meditate. For me I think this is <b>learn, read, exercise, draw, and meditate.</b> These will be my focus for the next 60 days. Drop the binging of games/streams/videos and replace it with them. Learn growth/networking. Read books. Exercise for fitness. Draw to create. Mediate to face it. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 19, 2018</p>
+
+	<h1 id="14">Pain</h1>
+	<img src="line.png" id="cleanline">	
+	Pain. It's something everyone feels. It is a teacher. It is a friend. It is an enemy. Today I bombed by presentation and the pain from this experience taught me that I can improve. I have a quiz tomorrow so I don't want to spend too much time journalling. Started to read I Never Knew I Had a Choice, very insightful. I need to be a more active learner. I don't know. Stay strong. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 22, 2018</p>
+
+	<h1 id="15">The Uninstructed Worldling</h1>
+	<img src="line.png" id="cleanline">	
+	Three more times. It's something I don't want to discuss. Rather I want to talk about the Buddhist principle which revolves around the response to painful feelings. As I mentioned I felt pain this week which lead to relapses and binging. What got me out of the pit of despair was this principle I seemed to have forgotten. Here's how it goes: 
+	
+	<blockquote>Both the worldling and the noble disciple experience painful bodily feelings, but they respond to these feelings differently. The worldling reacts to them with aversion and therefore, on top of the painful bodily feeling, also experiences a painful mental feeling: sorrow, resentment, or distress. The noble disciple, when afflicted with bodily pain, endures such feeling patiently, without sorrow, resentment, or distress. It is commonly assumed that physical and mental pain are inseparably linked, but the Buddha makes a clear demarcation between the two. He holds that while bodily existence is inevitably bound up with physical pain, such pain need not trigger the emotional reactions of misery, fear, resentment, and distress with which we habitually respond to it. Through mental training we can develop the mindfulness and clear comprehension necessary to endure physical pain courageously, with patience and equanimity. Through insight we can develop sufficient wisdom to overcome our dread of painful feelings and our need to seek relief in distracting binges of sensual self indulgence. <br><br>
+
+“Monks, when the uninstructed worldling experiences a painful feeling, he sorrows, grieves, and laments; he weeps beating his breast and becomes distraught. He feels two feelings—a bodily one and a mental one. Suppose they were to strike a man with a dart, and then strike him immediately afterward with a second dart, so that the man would feel a feeling caused by two darts. So too, when the uninstructed worldling experiences a painful feeling, he feels two feelings—a bodily one and a mental one. <br><br>
+
+“While experiencing that same painful feeling, he harbors aversion toward it. When he harbors aversion toward painful feeling, the underlying tendency to aversion toward painful feeling lies behind this. While experiencing painful feeling, he seeks delight in sensual pleasure. For what reason? Because the uninstructed worldling does not know of any escape from painful feeling other than sensual pleasure. When he seeks delight in sensual pleasure, the underlying tendency to lust for pleasant feeling lies behind this. He does not understand as it really is the origin and the passing away, the gratification, the danger, and the escape in the case of these feelings. When he does not understand these things, the underlying tendency to ignorance in regard to neither-painful-nor-pleasant feeling lies behind this. <br><br>
+
+“If he feels a pleasant feeling, he feels it attached. If he feels a painful feeling, he feels it attached. If he feels a neither-painful-nor-pleasant feeling, he feels it attached. This, monks, is called an uninstructed worldling who is attached to birth, aging, and death; who is attached to sorrow, lamentation, pain, dejection, and despair; who is attached to suffering, I say.<br><br>
+
+“Monks, when the instructed noble disciple experiences a painful feeling, he does not sorrow, grieve, or lament; he does not weep beating his breast and become distraught. He feels one feeling—a bodily one, not a mental one. Suppose they were to strike a man with a dart, but they would not strike him immediately afterward with a second dart, so that the man would feel a feeling caused by one dart only. So too, when the instructed noble disciple experiences a painful feeling, he feels one feeling—a bodily one, and not a mental one.<br><br>
+
+“While experiencing that same painful feeling, he harbors no aversion toward it. Since he harbors no aversion toward painful feeling, the underlying tendency to aversion toward painful feeling does not lie behind this. While experiencing painful feeling, he does not seek delight in sensual pleasure. For what reason? Because the instructed noble disciple knows of an escape from painful feeling other than sensual pleasure. Since he does not seek delight in sensual pleasure, the underlying tendency to lust for pleasant feeling does not lie behind this. He understands as it really is the origin and the passing away, the gratification, the danger, and the escape in the case of these feelings. Since he understands these things, the underlying tendency to ignorance in regard to neither-painful-nor-pleasant feeling does not lie behind this.<br><br>
+
+“If he feels a pleasant feeling, he feels it detached. If he feels a painful feeling, he feels it detached. If he feels a neither-painful-nor-pleasant feeling, he feels it detached. This, monks, is called a noble disciple who is detached from birth, aging, and death; who is detached from sorrow, lamentation, pain, dejection, and despair; who is detached from suffering, I say.<br><br>
+
+“This, monks, is the distinction, the disparity, the difference between the instructed noble disciple and the uninstructed worldling.”<br><br>
+
+(SN 36:6; IV 207–10)</blockquote>
+
+Please do not forget to reference this in times of need. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Mar 27, 2018</p>
+
+	<h1 id="16">AHHHHHHHHHHH</h1>
+	<img src="line.png" id="cleanline">	
+	Couple of compounding pains this week/weekend. I have gestalts in my mind by there's no execution which leads to self-deprecation and thus a need for relief. I need not run from my pain or seek relief. I have noticed them and they will pass. These pains include awkwardness among friends, a couple I look up to broke up, my progress with my gestalts have been slow, I got anxious when I decided not to go to the movies, I fapped instead of working out. Other news: bidet, 100T, FeH Colorless Greyma, new bike?, new sleep schedule, Andrew Loomis. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Apr 17, 2018</p>
+
+	<h1 id="17">Struggle</h1>
+	<img src="line.png" id="cleanline">	
+	Is real. D: 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Apr 25, 2018</p>
+
+	<h1 id="18">Daijoubu</h1>
+	<img src="line.png" id="cleanline">	
+	It's ok. The past few weeks have been garbage in terms of progress. I think spring break and laziness created problems. Been binging an unhealthy amount of Jakenbake. It has opened my eyes to other opportunities and cultures. I need to sleep. Porn does not exist. Oyasuminasai. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 02, 2018</p>
+
+	<h1 id="19">For Whom the Bell Tolls</h1>
+	<img src="line.png" id="cleanline">
+	It's been a strange couple of months. These past two months have been a learning experience. I fell off the wagon and things just sped by. Ah..... Ok so let's talk about Bryan Dorsey and Jakenbake. These two role models have opened my eyes, "woke" me if you will, to the opportunities and experiences of the world. The stuff these two have done are quite inspiring and the values/lessons I've learned will stay with my forever. I wish I could replay Bryan's presentation yesterday but this crude journalling is all I have. Some points to remember: value yourself over what you think you're worth (90kv120k), think outside the box (don't follow the norm, adult painting, BMW, three socks), pursue your passions (art center, bmx, cooking; landmark btw), ask the worst is that they'll say no, selling time vs selling royalties, pizza policy for commissions, be a leader or the first follower, be genuine and honest ("we have no jobs"), and do one thing that scares you.  
+
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/xQnDZ_gSbMM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	
+	From Jake I just learned so much about the world, being a good person, and doing something different. Love ya Jaku. jnbPride <br> Anyways it's getting late, here's some stuff that happened and I want written: JnB VODS, IRL cultures, Life is Strange BtS (rip Rachel the manipulator :heart:), FeH, Gw2, walks with Derek, tag with classmates, three library renews btw, goals: sing, astro/quantum physics, guitar, bladesmithing, build a workshop, study languages/culture abroad, massage, dance, art. Aight mattene.  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 06, 2018</p>
+
+	<h1 id="20">Flow of Gray Waves</h1>
+	<img src="line.png" id="cleanline">
+	Today I spent some time with both families. I can't believe it has been four days already. This transitions well into the topic of time. I've been binging so much media these past days. JakeIRL, NBA, Summit 6 (amazing btw, lolm2k), anime, silicon valley, gw2, feh... These things are important to me but they seem to overwrite other things that also matter; art, reading, school, personal life etc. Right now I am having difficulty managing time. Good night. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 07, 2018</p>
+
+	<h1 id="21">EZ</h1>
+	<img src="line.png" id="cleanline">
+	Don't have much to say. Had a good day. Worked out. Ate and went to school. Taking that a bit more seriously. Walked with Derek. Did the 40 self-sconcept questions. Thought a bit about life. Not much to share. Hung with the boys and golf it crashed my pc. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 14, 2018</p>
+
+	<h1 id="22">Uhhhhhhhhhh</h1>
+	<img src="line.png" id="cleanline">
+	Time is just flying. It's been a week already. Ummm... Didn't really do much. Today I slept in because I watched 6 hours of Jake. Japan is so awesome. It's another 3 am night. Too much anime, tv, twitch, gw2, reddit, and youtube. The idea of doing some so difficult that everything else is relatively easy is a Spartan ideology. Kind of disappointed I missed a workout and mediation session today. Anyways, some things: C4 LAN, Trap party, Airplane girl, Mario party at andrews, Gen kbbq, Tully movie, tablestop simulator, bl2 melee zer0, north korea peace?, learned about STIs, mother's dad, Cavs in semis. Buenas noches. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 15, 2018</p>
+
+	<h1 id="23">Stuff</h1>
+	<img src="line.png" id="cleanline">
+	Not too much today. Pretty normal workout, gw2, class, din din at grandmas. Oh I went solo walking to Ralphs in MP to buy some milk. People don't really say hi to stranger I guess. Umm gotta do some spartan up! summaries tomorrow.
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 20, 2018</p>
+
+	<h1 id="24">Downward Spiral</h1>
+	<img src="line.png" id="cleanline">
+	Fell down the pit of despair once again. Need to remind myself that it happens just reframe the mind and continue as if it doesn't exist. FUCK. If i can just make it through this month, reset and continue. Watched deadpool 2 this week. Really good movie. God damn it. Went with chau and jeff. Alright <br>
+	Few things: foreseeing the future, downward spiral, cognitive dissonance. <br>
+	The future is like a tin foiled wrapped ball (stupid 2018 meme btw). To see the future one needs to chip away at the foil to see it. To do so
+	one needs to learn about different fields that will poke holes to see the future. Documentaries, honing different skills, traveling, reading books. <br>
+	Next is the downward spiral the mental state you get when you fail and think negative thoughts that leads to inaction etc. I think a lot of this is due to cognitive dissonance, at least for me. My thoughts conflict with my actions so I conflict within myself, leading me to said spiral. <br>
+	So yea work on these things. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 21, 2018</p>
+
+	<h1 id="25">Everyone Matters</h1>
+	<img src="line.png" id="cleanline">
+	"During my second month of college, our professor gave us a pop quiz. I had studied hard and breezed through the questions until I read the last one: "What is the first name of the woman who cleans the school?" Surely this was some kind of joke. I had seen the cleaning woman several times. She was tall, dark haired, and in her fifties, but how would I know her name? So I handed in my paper with the last question blank. As we were being dismissed, one student asked if the last question would count toward our quiz grade. "Absolutely," said the professor. "In your careers, you will meet many people. All are significant. They deserve your attention and care, even if all you do is smile and say 'Hello.'" - Joe De Sena  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 30, 2018</p>
+
+	<h1 id="26">Sumimasen Sparta</h1>
+	<img src="line.png" id="cleanline">
+	I notice I don't really journal unless I made a mistake. Off the wagon once more. It's a Wednesday afternoon and I'm procrastinating. Um some things that happened, kind of blew my presentation last week. My birthday. Steven visited Saturday and we went to the Void to do secrets of the empire VR in downtown disney. Went for a hike Sunday with jeff and chau. Saw Solo and talked about stuff. Yea not a bad second half of May but it existed again. I'm going to live as if it doesn't exist. Other things: Spartan mental and ethics. I really wished I had time to write a summary of this book but I procrastinated and didn't have time. Barely finished it... Guess I'll write it here. The spartan lifestyle is one that I would like to emulate. They didn't helicopter parent. Their kids were taught at a young age to accept and go through hardships. They were always at peak physical health and had the mentally of well...spartans. They achieved this through unrelenting passion for their art, adept decision making, unimaginable frame of reference (experience), and natural dieting. One key point I'd like to keep with me is the priority tree De Sena spoke of: 1. Health 2. Family 3. Business 4. Fun. This guy literally biked 20 hours for a family gathering instead of working/going out. I admire someone who has their priorities in this manner. For me though family isn't as big and I think that's one reason why I do "it." Spartans were really close with each other, they ate meals together in giant mess halls and were brothers and sisters. Today its strange to know your friends and neighbors on such a level. Another thing was that Spartans were leaders. They knew what had to be done and took charge quickly without hesitation. They had a vision/goal/dream and nothing else except health and family got in the way. My problem is that my vision of the future is very ambiguous and as such my resolve falters. I ask why and give up and seek pleasures and temporary relief from stress. I am going to embrace the pain more and shift my reference. Last year my goal was to work on health, for the most part I succeeded. This year, starting from June, I'm going to work on socializing and family a lot more. I'm going to share and communicate more and get out of my head. Say hi to more people, network, become a leader. As for my "dream" that is still unclear for now it is to be more like Jake (living life), Tim (essence of success), Jocko (thinking/mentality), Lebron (greatness), Leonidas (spartan), and Joe (being human). Wow I typed a lot more than I thought I would. This really helped me. Arigatougozaimasu. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">June 3, 2018</p>
+	
+	<h1 id="27">Late</h1>
+	<img src="line.png" id="cleanline">
+	It's 4am and we just finished a Dauntless session. Been sleeping really late lately. Thursday got a first A on personal growth quiz. Pretty motivating but lately it has not been going well. This relapse has been bad in terms of rebound. It has also been pretty hot lately. In part by watching Jake and procrastination. Missed some exercise this week too. I kind of want to do more. All talk no action. Next week is Korea stream. Have to find a balance. Chao/tam biet. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">June 24, 2018</p>
+	
+	<h1 id="28">Wtf</h1>
+	<img src="line.png" id="cleanline">
+	Hmm. Time really flies. School is over and I don't really care. Relapsed like eight times. Had a decent streak but eh. Been on top of the exercise and language studying but mentally has been shit. Korea stream was awesome and the following weekend in Mito was probably my favorite stream. Sleep has been bad. Lots of gw2 and Dauntless. Uh so summer has been unproductive. Cavs lost, FIFA world cup ongoing. League is meta weird, F OMEGALUL RTNITE, bought gw1. Reading Sun-Tzu's Art of War and wanting to watch genius/documentaries but can't get around to it. Goodnight.
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">July 7, 2018</p>
+	
+	<h1 id="29">Dopamine</h1>
+	<img src="line.png" id="cleanline">
+	Yesterday was the hottest day of the year so far. During which I experienced great stress and anxiety which led me to turn to dopamine from pmo to relieve it. This causes me to miss out on deep and meaningful relationships which in turn leads me to greater stress and lack of motivation to do what truly matters. The cyclic problem compounds and thus my poison remains. How to break this? Find a healthier source of dopamine, say hi. Enough of depression talk. Updates on life: Jeiku's Bali trip, people, PoGo, Dauntless, Fall of Mag, Art of War, Heat, Lebron to Lakers, working out... 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">July 15, 2018</p>
+	<h1 id="30">Time</h1>
+	<img src="line.png" id="cleanline">
+	Wtf time just flew by. It had continued to be hot (90s) these past week. Some events: family gathering at kami buffet, so much Stardew Valley, pogo caught mewtwo, binged Darling in the Franxx, watched Ant man 2 hung with the boyz, anime expo. Games: gw2, dauntless, pogo, feh, stardew.. I want to discuss Darling in the Franxx. The anime up to episode 15 is really good, especially the overall meanings and ideas but the execution went to shit at the big reveal. It really got me thinking about the existence of humans and other species. Also the ideas of loneliness and relationships really resonated to me. 02 is such as well written waifu. Other things, pain. I don't know if its the heat or bike fit or recovery but I am hurting everywhere. My lower back hurts, my knees burn, my wrist stings. Hopefully my body can adapt or I'll have to make adjustments. Tomorrow I'm going to change my schedule up to be more consistent and efficient. Vacation is over. I've gotten too complacent. Also I'll be going to Norcal next weekend. Just say hi. Another thing I want to add more stuffs to this site so more steady updates to come. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">July 20, 2018</p>
+	<h1 id="31">Procrastination</h1>
+	<img src="line.png" id="cleanline">
+	Saw a talk on procrastination by that professor for one hour. Really helped me piece along why I'm feeling lost and explains past behaviors of procrastination. That along with the Tony Robinson video on feeling lost helped steer me on the way. Here's a summary: <br><br> Summary of points that stood out to me:
+- Managing emotions: you need to be able to recognize your negative emotions associated with approaching tasks you tend to procrastinate on, and realize that procrastination is primarily about "feeling good now".<br>
+-Realize that the good feelings you get from accomplishing a task should be used as motivation to continue to work and make progress, not an excuse to celebrate/procrastinate more, e.g. work late for an essay due the next morning, then do nothing about your exam next week after you turn in your essay since you feel good about having accomplished one assignment. <br>
+-Procrastinators often suffer from lack of identity, don't know what they want to achieve, or why they want to achieve it. <br>
+-People who are 'social perfectionists' and are motivated to work because of other people's/society's expectations rather than their own sense of accomplishment are more likely to procrastinate.<br>
+-At a high level, tasks often seem insurmountable since they are so vague. e.g. "working on my thesis" or "studying for my class" often means doing nothing, whereas "reading 4 pages of a textbook to understand a concept i need to summarize in my thesis" is a concrete, broken down goal.<br><br>
+
+Most important technique introduced at the end 54:11:<br>
+Be intentional about your implementation. Instead of "I'll work on my task all day saturday" (which few people ever do successfully), use the formula: <b>In situation x, I will do y to achieve subgoal z.</b> By identifying your situation, action, and goal, you have broken down the task into an easily achievable, chewable piece.﻿<br><br>
+
+Don't blame. Blueprint for life. Sometimes it doesn't match, you move on. Go through tragedy. Happiness = what you have - what you had. Change, adapt, blueprint. Life doesn't happen to you, it happens for you. <br><br>
+
+Some updates: didn't go to norcal because Andrew was "busy"...zzz New bodyweightfitness routine. Finished second year of stardew. Sniping again in PoGo. Jake in sendoi. Maplestory 2 cbt. Doing nothing meaningful.. 
+
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 22, 2018</p>
+	<h1 id="32">Thirty Three Days</h1>
+	<img src="line.png" id="cleanline">
+	This is perhaps the longest period without journalling this year. For that, I apologize to myself. Not much actually happened tbh just lots of pmo. I'm working more on my bodyline fitness and we pretty much finished Stardew. Got most of my perfected pokemon in pogo. Ate korean fried chicken with the boys and hungout one weekend. Its been hot and unrelenting. Festival of the four winds past in gw2. Went to an awkward vietnamese wedding. Watching lots of twitch irl, WoW, Leffen winning evo. Jake and fam tours japan. Tokyo, Yokohama, Hokkaido: Sapporo/Otaru, Niigata, Kanazawa. Got hit by a car making a right near Walgreens on Rosemead. Went to NorCal one weekend. Visited fam, went to SanFran, explored Milpitas, Round One at SJ and scuffed JTown. Hung out and talked was fun. Connected with the cousins. Got back into reading/listening to The Way of Kings. Bus ride was the same as before I guess. Not bad at all. Reading Rich Dad. Thinking about everything and nothing at once. Derek can drive and went to college. Two days of straight pmo.. Fog cleared this Wednesday so I'm flipping the switch. Getting tamed. Oh and FeH CYL2 was kind of a disappointment maybe that contributed to my mini depression... 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 23, 2018</p>
+	<h1 id="33">Tired</h1>
+	<img src="line.png" id="cleanline">
+	Day 1 of my recovery. Woke up decently early and felt so damn tired. Kept trying to lay down and fall asleep. Overall quite a productive day meditated, drew, read, watched ImprovementPill, watched some JNB48 and Reckful being really happy. Almost done with Rich Dad, summary/review to come. Something I found interesting was Reckful's surety to happiness in his life and always being sad. Friends, family, and Amsterdam was all he wanted. For a millionaire with so much going for him it's really sugoine that he wants so little. Yeah. Also the craves aren't too bad today just really tired gonna wait until next week before I cycle again, 2 week recovery time.. Downloaded Nier so I hope thats good. Classes next week and probably going to see a conselor. 
+
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 24, 2018</p>
+	<h1 id="34">Triggers</h1>
+	<img src="line.png" id="cleanline">
+	Fell off the wagon a bit today. It seems that my trigger is privacy and loneliness. Not good at all. Pretty productive day. Got everything done. Nothing really eventful today. Ate a lot and almost done with Rich Dad. I keep taking naps during the day. Ho-oh raids return this weekend and Mewtwo raid tomorrow. Ugh.. Stay strong. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 25, 2018</p>
+	<h1 id="35">Family</h1>
+	<img src="line.png" id="cleanline">
+	Had a family gathering at Kelly's that I wasn't invited to today. Small get together with chai and stuff. Did a mewtwo raid and failed to catch and then Ho-oh. Went to get boba with Annie and Kelly, talked about school and life. Place was Dingleberry in El Monte, pretty cool that they let us sample everything on the menu. Still on that grind but still napping in the afternoons. Tomorrow I'm going to haircut/shave. Excited for dance next week and counselor meeting. Almost done with Tamed, gonna have to do a review on it, lots of good stuff. Oh yea remember HyoonK? That girl who's 10/10? She had a rare stream today made me realize how normal yet broken people are. Everyone puts up a front and acts the part but deep down everybody people, everybody bleed, everybody need something, everybody love, everybody know, how it go. -Logic
+
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 26, 2018</p>
+	<h1 id="36">Life Goal</h1>
+	<img src="line.png" id="cleanline">
+	Went on a binged frenzy last night.. Kept to the plan today. Not much happened. Learned to draw more lightly, installed router for uncle. Played a little gw2. Week's about to begin. I got to sleep earlier to be able to awaken at 7.. In Rich Dad, it spoke about have a life goal to motivate you towards your financial and ideal future. This got me thinking that I'm pretty lost right now. Meandering through life, satisfied with my computer and games...Not really. There's a hole, that same hole I spoke about earlier this year. I think that this reason to strive for is the life goal that keeps people going. The human spirit. Most people have friends and family to propel them. I guess I don't really have that. My family isn't close at all. I'd like to think it's a cultural/language gap but really it's a lack of effort and necessity that kept us from developing a stronger relationship..Lack of effort from the children and the terrible parenting mixed with the necessity to keep food on the table and paying the bills. There was never any time to bond. I feel bad about this. So I was thinking my life goal is to first find a way to get myself out of this rat race then forge a bond between our dysfunctional family; close, cousins, then blood and all. Then maybe help others in situations similar to mine. Lack of guidance and apparent care, no child should grow up pessimistic, addicted, and lost as I was. Gotta get more friends first, just say hi.
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 27, 2018</p>
+	<h1 id="37">Average</h1>
+	<img src="line.png" id="cleanline">
+	Pretty average day. Weather has been nice. Binged a bit with regrets but still managed to do what I wanted. It's 11 pm atm and I should sleep. Making day naps a habit now, not good. Finished Tamed and made a review on paper, going to transfer onto digital soon. Lots of great knowledge. Watched a bit of Fuslie today in Vegas made me realize how I don't really know how to enjoy life and lack experiences. Gonna make a note to improve this. Jake going to China tomorrow, that will be hype. The Way of Kings time. Peace. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 28, 2018</p>
+	<h1 id="38">Abyssal</h1>
+	<img src="line.png" id="cleanline">
+	Still on a lack of sleep. Managed to start biking again, two weeks after I was hit by the car. Finished transcribing Tamed into the Lit section. Lost sleep due to the abyssal maps in FeH, Greyma and King Marth. Managed ok regardless, had my fair share of sleepiness today but didn't nap. Meditated and walked a bit. Tomorrow is dance and maybe counselor before. Hope my parking permit arrives. Had some crazy keep fights with Xushin and VR against NSP and YB felt really good and the thrill was so prevalent on the NSP keep, running S/D Core w/ no food OMEGALUL. YB keep was just unsatisfying after the many years of siege we wanted to farm them until they quit... :) 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 30, 2018</p>
+	<h1 id="39">Dance</h1>
+	<img src="line.png" id="cleanline">
+	Woke up pretty late today. Slept late because Jake was streaming with Eloise and I watched until 3. Also kind of tired from dance. Social dance was pretty cool, felt human for once but I was really bad. Don't think I should think about the negatives. FUCK there was a cockroach in my room, just killed it with the old lysol/slipper combo. Amyways I just was to read lata. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 1, 2018</p>
+	<h1 id="40">Friends</h1>
+	<img src="line.png" id="cleanline">
+	Early class today then biked on this lovely Saturday. Been watching a lot of Jake stream since he's in Shanghai. Such a shit hole but as they say, welcome to China. I would not want to live there but one cannot deny the cultural experience of such an ancient civilization. Went to all you can eat sushi at Yes Sushi in San Marino tonight with Chau and Jeff. One of the better ayce experiences. Talked about life, travel, food, and whatever. Overall a very fun night. Burnt out on Gw2, mag linked with jq OMEGALUL, Dauntless is in a content drought, CYL2 is past in feh/abyssal mode left me burnt, pogo is redundant with sniping, maybe I should focus on life now. Playing Nier atm. Also Rich Dad done. Onwards. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 3, 2018</p>
+	<h1 id="41">Strujggle</h1>
+	<img src="line.png" id="cleanline">
+	Unfortunately I fell off the wagon sunday and twice today. Once is really all it takes. Anyways had Korean tofu soup on sunday with Derek and walked to get AU79 then went to see Crazy Rich Asians. Took a stroll down main before the show. Was fun just walking and talking. Idk why I failed. I guess I reached ego depletion from that day and just went ham.. Then today the urges were something.. And my pc overheating that reminds me I was triggered originally by Reddit and Jake getting catch in Vegas casino. So what I've learned is to stay off Reddit nsfw and not to get so caught up emotionally. Had Thai Paradise in MP tonight after a decent workout. Ate a ton, delicious. I hit 140 from all this food. Hope my books arrive tomorrow, I need the knowledge and exercise.  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 4, 2018</p>
+	<h1 id="42">Bullshit</h1>
+	<img src="line.png" id="cleanline">
+	Started off today good, went to the library to return a book then watched Jake for 5 hours. Felt so tired after I ego depleted and took a nap then pmo'd.. Our family from Costa Rica visited on the way to China. Talked a bit with the cousins, Larry came. I was so out of it. Ate some food and talked about school mostly and drew a lion leg for Annie.. No willpower atm fuck. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 5, 2018</p>
+	<h1 id="43">Life Before Death</h1>
+	<img src="line.png" id="cleanline">
+	Life before death. Strength before weakness. Journey before destination. Read this today in The Way of Kings. It was when Kaladin was searching for a reason to keep living after he realized that bridgemen weren't meant to live, that they were bait. It really resonated with me since I read the section on purpose in As a Man Thinketh. Went to dance class today, we reviewed chacha, mambo/salsa, bachata, and swing, doing waltz next week. I learned that there's a lot posture and elegance involved in dance also being accommodating to your partner is very important. There's a lot of mannerisms and exchange going on. I'm going to work on my leading more for social dance. :) 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 6, 2018</p>
+	<h1 id="44">Late</h1>
+	<img src="line.png" id="cleanline">
+	Played Grim Dawn all night with the boys. Waking up in 3 hours, fuck me.
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 7, 2018</p>
+	<h1 id="45">Swing</h1>
+	<img src="line.png" id="cleanline">
+	Pretty slow day today. Managed to get some stuff done and play a bit of grim dawn. Got early class tomorrow so gonna sleep. Updates: Worked out, swing dance, FeH, Moltres raids, Jake in SMP today. Night. Blade. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 12, 2018</p>
+	<h1 id="46">Mood</h1>
+	<img src="line.png" id="cleanline">
+	So it has been five days I missed. Not much happened, some drawing, reading about emotions, working out. Dance shoes came. Weekend was uneventful and a blur. Relapsed monday... Learned a bit about emotion triggers, reasoning, and duration. Played way too much grim dawn. Dance was pretty strange today, I wasn't in the mood. FeelsBadMan. Ekman's reasoning on emotions and mood really is true. The worse I got the worse my mood, emotions lead to mood with fuels performance. Anyways, I'm going to improve upon this and dance. も = also. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 13, 2018</p>
+	<h1 id="47">Heat</h1>
+	<img src="line.png" id="cleanline">
+	Today was a hot day to some standards. 90 degrees f. I didn't do much as I would have liked today. Woke up at 11am because I was tired and stayed up a little. The heat is a little demoralizing too. Spent most of today reading TWoK. Yeah.. Currently on discord with the homies. I can't seem to focus when reading traditionally and its really annoying. Tomorrow Im going to review willpower again. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 14, 2018</p>
+	<h1 id="48">Failures</h1>
+	<img src="line.png" id="cleanline">
+	I failed again today. It started after an early ended Grim Dawn session and on my phone.. Woke up and binged like a madman. Managed to pick myself up and workout while reading As a Man Thinketh. It really helped me get my mentally back. I realized that my mental attitude can change so much after unfortunate events and my thoughts become lowly ones. AaMT really gets me into the right mindset to do anything I want. Another thing I realized that I don't need to be afraid and doubtful. These are counter intuitive thoughts that lead to negative circumstances. With good thoughts I can strive to be someone I truly want to be which I'm starting to see as a leader. Dance helped me see that I am a leader but lowly thoughts prevent me from being one. I want to guide others in dance and in life much like Kaladin led bridge 4. Yeah. Also just came back from kbbq at Gen, this was the worst experience at Gen in Alhambra so far. The meat quality stunk, the waiters were busy as hell, and the... never these are negative thoughts that I should not think. I'm grateful for the meal and the chance to dine with my family. It was nice being out in main street just people watching. Went to Tan Cha afterwards to get some good Uji matcha milk tea with boba. There was this really attractive korean? girl there, I should've said hi. I will next time. Yea. Overall main is probably the place to be in the 626 at night. Also saw a dance class while walking back to the parking lot. Aw fuck I need to do duolingo. Cya. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 16, 2018</p>
+	<h1 id="49">The Thrill</h1>
+	<img src="line.png" id="cleanline">
+	Just read some more TWoK on this Sunday night. We aren't playing Grim Dawn tonight I think. Pretty slow day, just went to grandma's to eat a variety of vietnamese foods. Chilled a bit with Derek and went home. Went to wash my car and chilled the rest of the day. Watched Jake's stream at Ultra 2018 in Odaiba, Tokyo. Pretty cool I guess. Interactions were meh I don't think I'll personally enjoy it but the girls were well well well well well... Then caught Rob's stream on discord and saw some of that. Rob has a certain charisma that seems to attract people, seems to be able to talk to anyone. I'd like to emulate that. I noticed that his demeanor is quite poised and confident, his face is never depressed. Gotta work more on my tone and facial expressions. Yep... Gonna sleep early tonight and do more tomorrow. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 18, 2018</p>
+	<h1 id="50">Turning Point</h1>
+	<img src="line.png" id="cleanline">
+	Well yesterday was a disaster. I binged like a mad man and was totally lost in thoughts. I feel like it is a turning point however because I tossed the password to K9 and actually wrote my habits down on sheets. Today I actually did everything without burning out. Emotions revealed the book is actually good and I managed to wake up before 9. Going to use attentiveness is understand my emotions better by having an emotional diary entry to my ramblings from now on. <br> <br> ED: So today I felt kind of afraid and embarrassed for keeping traffic while left turning into lemon on my bike. Thinking back on it, I totally had the right of way and mostly did it safely. Logically I had not reason to be afraid, anxious, embarrassed. It was probably a result of my previous experience when I got honked at when attempting the turn pre-emptively. This time however I signaled before and waited for cars to pass. I need not feel afraid, next time turn with confidence. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 21, 2018</p>
+	<h1 id="51">Good Thoughts</h1>
+	<img src="line.png" id="cleanline">
+	This week was a good week I think. After the turning point I actually managed to do everything these past few days. My willpower seems to be at an all time high. Things I still need to work on are sleep and procrastinating but it seems like I'm on the right track. Jake has been at Tokyo Game Show these past thurs/fri streaming, there is a lot of booth babes in Japan, mothermonkas. On wednesday I actually danced pretty well throughout the class until near the end with the swing circle. My fatigue just set in and I went into autopilot and self-frustration. While driving home that girl whose name I forgot honked at me, maybe I need to look at the side cars more often. ED: I felt kind of thirsty today after seeing Makoto666's insta and on stream. Couldn't do anything but be horny. Managed to breathe and began working out. Went through a thought chain that led to bad thoughts so decided to reset and ima wa dijoubu. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 23, 2018</p>
+	<h1 id="52">The World</h1>
+	<img src="line.png" id="cleanline">
+	The world is such a large place yet it can be seen on my 21 inch monitor. I was just looking at all the countries in the world through google maps because Becca and Reckful were streaming in London and I'm currently watching the VOD. Today was a good Sunday. I went to eat tsukemen at Benten near the SG mission. Really good and then went for boba at my go to Factory Tea Bar. Went with my man Jeff and we talked about life and finance, really good bonding. Went home and followed the way. I think I'm really getting ok at swing dance now. Also I think I've found a way to define happiness simply today. Andrew spoke about wanting making himself happy so I told him how it is. "Happiness = what you will have - what you have now . If you keep having more eventually you will have more than you can acquire and be unhappy. The trick is to keep what you have far less than what you will have, appreciate what you have. Life before death. Strength before weakness. Journey before destination. ED: I felt great anxiety watching a yt video of an attorney uber driver having his rider arrested and getting threatened while filming the popo. I think my feelings derive from personally given a ticket and media making police look bad. This is fear and will lead to weak habits and circumstances of failure. Be courageous and never worry of failure. Irrational fear is failure. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 24, 2018</p>
+	<h1 id="53">Anger</h1>
+	<img src="line.png" id="cleanline">
+	Made my first stock trade today. It felt good even though it was down today. I'm not worried, I am actually pretty excited. Did the normal routine today. Managed to get everything done even though I slept at 3 am talking the with boys. Kind of disappointed I napped today but it's whatever. I realized that lack of sleep even though 30% of willpower can affect state of mind a lot. I was so out of it after yesterday at night that conversation made me agitated and I became really not me. Moral of the story = sleep early, nothing good happens after 2am. ED: Funny thing, today I read about anger in emotions revealed and my dad came home to the trash bins blocking the driveway. He went off and has been in an extremely irritable mood all night. OMEGALUL. This made me realize that emotional control and attentiveness is not something many people practice. Hateful and condemnatory thoughts are negative to the being. I will make a note to bring the trash in next week but such a small thing to be upset about is just hilarious to me. I can't wait for dance. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 25, 2018</p>
+	<h1 id="54">Vent</h1>
+	<img src="line.png" id="cleanline">
+	Tuesday has been pretty average. Almost got right hooked again by a van right turning on Longden. Brakes weren't that good when I was braking. Dunno if it was because I froze or what but it really frustrated me. Managed to get a whole chapter done while reading and played a bit of Grim Dawn with the boys. Chris went off the hinged and vented. The anger and frustration I feel released really helped our friendship. ED: Feeling of anxiety when being confronted. Managed to keep calm and serene for the most part. Back to talking. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 26, 2018</p>
+	<h1 id="55">Peace, Be Still</h1>
+	<img src="line.png" id="cleanline">
+	Did good today and actually pretty tired. Dance was actually tiring. I think I did pretty good but my leading leaves a lot to be desired. ED: a little bit of anxiety just keeping to myself and watching people, I think I need to be more engaging and energetic. Tired so lidl journal tonight. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 30, 2018</p>
+	<h1 id="56">The Run</h1>
+	<img src="line.png" id="cleanline">
+	Well it's done. I blew it today, literally. Missed a few days of stuff and it led to a downward spiral and late nights. Lack of sleep shattered my willpower. Saturday especially was just a semi binge day that wasn't productive. I missed habits and that weighted on me. Today is the last day of the month I'm especially disappointed but not too saddened. Went to dim sum yesterday and then Onezo boba. I noticed Jake's streams have been keeping me up and the pressure from my cis class of doing nothing is sapping my will. Also I lost control and downloaded Mount and Blade and tried playing, that whole thing exemplified my lack of control. Gonna try and sleep early tonight. ED: Stress from not doing or missing a habit leads to constant strain on willpower. Lack of willpower leads to dangerous thoughts and then circumstance. Resolution: Maintain high willpower, don't blame sleep/think about past decisions, move on and be the you with goodwill. Note: Meditate when sleepy as naps cause you to think about missing habits after. Sidenote: Almost done with emotions, getting better drawing, follow the way..
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 01, 2018</p>
+	<h1 id="57">Hmm</h1>
+	<img src="line.png" id="cleanline">
+	monkaHmm.. Today wasn't that bad of a day but I overslept and procrastinated a lot. The heat was pretty odd too for October. Got a little anxious from staying up until 1 last night and it carried on to today. There just doesn't seem to be enough time during the day and there's so much to do. Jake visited Waeseda university yesterday and it was pretty cool to see the differences and culture there. Then I spent a fair amount of time playing fire emblem and stocks... It all seems fruitless in the grand scheme of things. I'm going to focus on things that matter more like education and improvement. Also I want to read more but it's tough habit wise atm. I relapsed too albeit quickish. ED: Feeling before binging: Anxious. Anxiety from not doing what will better me in the future and instead doing things for short term pleasure. Thought: selfish/impure, habit: self-seeking/confusing/enervating (will draining) circumstance: distracting/distressing/adverse (causing more anxiety, sorrow, pain). Break the cycle, follow the way.  
+
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 02, 2018</p>
+	<h1 id="58">Smile</h1>
+	<img src="line.png" id="cleanline">
+	The problem continues. Don't want to focus too much on it so yea. Got pretty frustrated on my art today and kind of fucked up. Got through the day and practiced fast dancing footwork. I went to pick up some pizza from Dominoes and heard FRIENDS by J. Cole. It's a pretty good rap about addiction and mindset. It got me thinking about my emotions study and facial features. Everyone suppresses their emotion to a point that showing happiness seems unnatural and abnormal. Which means that everyone is depressed and that is the new normal. ED: Depression is normal now, fuck being normie, let's be happy. :) Meditate don't medicate. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 03, 2018</p>
+	<h1 id="59">Hakone</h1>
+	<img src="line.png" id="cleanline">
+	Jake is riding a train in Hakone right now. Pretty early stream start in the mountainous area south of Tokyo. Today I did a lot and did dance. I'm pretty tired right now so I'm going to keep it short and sweet. Dance was good, we finished most of the steps to the basic dances and I didn't feel too anxious. It started raining hard after dance which was pretty magical to be honest. Did a little research into swing dance today too, gotta learn some west coast swing. ED: Felt sad when my dance partner was sad/tired. Partners mirror each other so if I'm happy they'll be happy. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 05, 2018</p>
+	<h1 id="60">Worlds</h1>
+	<img src="line.png" id="cleanline">
+	Watching C9 try and get into worlds from wildcard. Relapsed today. Not feeling too good but life moves on. Had to go to popo cause aunt kelly had surgery for breast cancer. The off-track routine just ruined my days. I shouldn't let it mess up my mindset and mood so much but it does. Car crashed on walnut grove before the train tracks while going home. Was pretty stressful and procrastinating led to my relapse... I realize that doujinshis lead to pmo so I've disabled incognito mode. Gambatene... Spent almost half my FeH orbs on F!Nino yesterday too. ED: Not doing habits makes me angry and leads to stress. 
+	There's also a bit of fear which leads to irresoluteness, ending in failing circumstances. Be courageous, self-reliant, and decisive and this will not occur. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 06, 2018</p>
+	<h1 id="61">OO-KOOK</h1>
+	<img src="line.png" id="cleanline">
+	Ate some kbbq at my favorite kbbq oo-kook in San Gabriel. Probably the best cuts in SGV with the best service. We had almost every cut of meat and steamed egg EZ. The kobe wasn't the most amazing but it was good. Cute waitress(es) / waiter was on top of it. After we went to NestT for boba after. The matcha milk tea is very good, boba is eh. Recently there has been a mosquito infestation in socal, these fuckers bit me so much this past week. C9 made it into worlds. Been watching some Battlerite Royale, The Big House 8 ended today, mang0 didn't win an even number big house finally FeelsBadMan. ED: Feeling out of it after relapsing. Emotion: Courageous/self-reliant when ordering kbbq for Chau/Jeff, habits of manly/guidance, to circumstances of success. FeelsAmazingMan. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 08, 2018</p>
+	<h1 id="62">Ugh</h1>
+	<img src="line.png" id="cleanline">
+	Ugh. Succumbing to my addiction again. Want to sleep early so gonna keep this short. Bad day. Paid $470 in insurance and license renewals. That could've been a new bike. The market has had a slight recession. Not making any money. Stress... Fear and doubt. Not good thoughts. Pessimism. So much to learn/improve. Breathe. ED: Getting anxiety. Sleep, relax and <s>live in</s> focus on the moment.  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 10, 2018</p>
+	<h1 id="63">Waltz</h1>
+	<img src="line.png" id="cleanline">
+	Wednesday night after a wonderful dance class. Got some Costco pizza and in a good mood, waiting for LoL Worlds group games to start. Dance was pretty good in the beginning but kind of scuffed during polka which made me annoyed. Then we did waltz and god damn it was good. Danced with Taj and had a crazy time. A viennese waltz pace is actually really fun and it was FeelsAmazingMan. Considering going to Salsa lessons tomorrow since I have a stupid bug bite on my lower pelvis that makes cycling painful. We also did some thriller that I need to practice. Today was a good day. ED: depressed as fuck, then a good dance 180'd my mood and confidence. More people should dance and be happy. Watched a bit of Reckful and a lot of Averse. Becca and Reckful fought on stream yesterday was pretty monkaS but interesting. Also started watching Destiny, thought he was a meme lord from LoL days but he's actually well spoken and knowledgeable. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 12, 2018</p>
+	<h1 id="64">The Barn</h1>
+	<img src="line.png" id="cleanline">
+	Went to The Barn in arcadia to eat some skewers with the boys. Its pretty late and I want to sleep earlier so fuck.. Been pretty stressed lately, Thursday I went to pcc for salsa but chickened out when I got there. Just FeelsWeirdMan my whole day. Also been napping late afternoons NotLikeThis.. Anyways the friday night was great, ate good food and caught up. Won four rounds of that vampire/hunter game. There was a freak lightning storm tonight too. Overall the world is in chaos and I'm doing just fine. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 14, 2018</p>
+	<h1 id="65">Falling</h1>
+	<img src="line.png" id="cleanline">
+	Saturday was pretty good until night. Pretty ok day until I kept procrastinating on the reading I need to do for my CIS class on full stack development and databases. Didn't do much and woke up late-ish. For dinner I went to Ryan's birthday who is now 15? I think. Yeah ate and talked with the cousins. They don't seem to grow old for now. After andrew, kelly, annie, and I went to something Maru boba in San Gabriel. It was a grand opening and had favored boba, I was kind of disappointed tbh. Onezo is better. After that we went to la dona's taco truck and then chilled at home. Connected a bit with Andrew with some real talk and it went downhill after. For some reason I stayed up until 5 am watching worlds, which was a remarkable day. C9 and Vitality beating GenG (samsung) and RNG to make first Ro8. During which soapland happened and I spent like 6 hours binging and edging before falling asleep. Today was no better, woke up at like 3pm and just kept doing nothing and binging. I need a reset, sleep before 12, stay focused, reset mindset, thoughts, emotions, leave animal thoughts behind. Practice dance, study, draw only. Refuel willpower. Reset. Read...
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 15, 2018</p>
+	<h1 id="66">Lunes</h1>
+	<img src="line.png" id="cleanline">
+	Just another normal tuesday. Got a good workout. Woke up to a windy and cold day. Read for my midterm... Yeah not much to say. Surprised so much time passed without doing anything for my cs class. Idk web development isn't really my thing I guess. Jake back in LA, his dad is hilarious and really smart. I got a massive blister on my thumb from that burning oyster on Friday. Using it for writing/mmo mouse has made it bigger. monkaS.. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 18, 2018</p>
+	<h1 id="67">Sing</h1>
+	<img src="line.png" id="cleanline">
+	Pretty standard Thursday. Feeling kind of good because of the weekly wednesday dance class. Notice that the rest of my week goes better after dance class. Didn't particularly do better because I spent the past week studying for cis midterm rather than dance but I talked a lot more than before and tried to change up my dances a bit. Feels weird man to talk about it but I really got along well with Julien, dancing wise not so much. Halloween is coming up so I gotta think of a costume. Tokyo is going to be insane. Jake's in LA right now, did some valencia and LA streams, not too exciting but interesting none the less. They're at karaoke in little tokyo right now which reminds me of Emu, the best honeybaby. Idk not much to say, feeling good reading, drawing, dancing. I gotta make some more friends I think, it's better for my mood just chatting with people. Started reading the life changing magic of tidying up. Doing some gw2 stuff for halloween, can't believe it's almost five years. I'm going to dance more and get out of my comfort zone. Also let's wake up ealier. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 21, 2018</p>
+	<h1 id="68">Weird flex but ok</h1>
+	<img src="line.png" id="cleanline">
+	Yea not much happened these past few days. Been stretching more and trying to touch my toe with great success. Decent couple of days on the grind. Jake did a shooting range today. C9 in semi finals and destroyed KR. Did some just chatting with Jeff and didn't really relapse. Dance has been good, revisited some learning methods and phase 1 of cis project done. Spent most of the time watching stream and hanging online which is not too good. Reading magic of tidying which is eye opening. I don't have many weird flex but oks. Weather has been warm these past few days but getting cooler now. Yea not much else to say. Just routine and gw2. Really want to remind myself, inspiration and motivation gets you up and across the staring line but discipline and habit keeps you going, even when you think you can't. Peace be still. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 22, 2018</p>
+	<h1 id="69">Girls</h1>
+	<img src="line.png" id="cleanline">
+	Pretty average day. Got a good workout in then cut my hair. Internet is currently out for no reason. Played a bit of gw2 and finished living season 2, onwards to HoT. Theme is girls today because I realize that girls are put on a pedestal for some reason in this society and it's weird because they aren't really different from guys. Pokimane without her makeup is pretty plain looking tbh. All this magic/glamour is all a facade. I think that seeing through this barrier is important to develop actual relationships. Also watched Jake on the Raj Pattle show with a tinderesque style talkshow. The girls there were hot I suppose but what really shined was personality and that mattered way more than looks. Anyways ED: Feeling Happy after dancing to good music. Carry that onwards. POGGERS. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 23, 2018</p>
+	<h1 id="70">Destitution</h1>
+	<img src="line.png" id="cleanline">
+	I went to soapland and was semi binging a bit. I spent most of the day drawing but rage quit during shading. I need a lot more practice on that. I think I will start researching color values because it's my weakest. Another trigger for me was Raj patel's just chatting show. There are just too many hot girls there, I unfollowed because it keeps triggering me. Got dance midterm tomorrow, it will go well, really well. Breathe in, breathe out. Bestial thoughts lead to destitute circumstances. ED: Felt really angsty buying gw2 gems on kinguin which led me to peek at soapland. That led to bestial thought. Catch your anxiety and change before it spirals. Think of yourself and her. 
+
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 25, 2018</p>
+	<h1 id="71">Monkey Brain</h1>
+	<img src="line.png" id="cleanline">
+	So Wednesday was ok. Did everything and learned about the monkey brain from improvement pill. Our monkey brain needs to be satiated with primal rewards to reduce stress. Things like fatty/sugary foods, sex, socializing, connection. Porn, social media, deserts, and aimless binging are negative sum rewards as they impact the mind and body in averse ways. Zero sum rewards are like tv, video games, and surfing reddit/the web. These aren't good or bad but too much becomes negative sum. Positive sum rewards reduce stress during and some time after. Things like spending time with people you care about, eating good food, getting a massage. So in order to stay pornfree I need to feed my monkey brain. With in my mind, dance this week was a bit weird. I fapped the night before which actually fucked me a lot. I avoided eye contact, choked on my words, and kept to myself. I was also trying to be cool which made it more anxious thinking about it. I was so excited that it was just a mess. The class was a bit short and everyone was depleted from the midterm and crazy dances like chicken, polka, folk, chacha real smooth, and electric slide. I think I said four words to her. FeelsBadMan. Another weird thing was I slept on the floor last night imagining she kicked me off the bed LUL.. That and Jake streaming in UCLA area with GreekGodX and Kkona Clown. Tomorrow is twitchcon, let's reset and perform. Sidenote: been playing a lot of Thronebreaker and Aversa best waifu. Oh yea, I'm going to be a yukata wearing oni kabuki dancer for halloween. That will be cool. THRILLA practice.  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 28, 2018</p>
+	<h1 id="72">Hemingway</h1>
+	<img src="line.png" id="cleanline">
+	It's sunday/monday now. Super late and I should be asleep but I can't sleep. My Halloween yukata is here. Spent the most of the weekend watching Twitchcon streams, reading, and thronebreaker. Twitchcon was kind of cool, first time really watching. Not much to say, lots of fans and networking. Almost done with magic of tidying, lots of good insights and life changing ideas. Played a crap ton of Thronebreaker, gwent and the witcher universe is awesome. On friday I spent a bot of time with Derek and ate at grandma's. Got my halloween grind done on gw2. C9 lost against fnatic.. Started playing modded Terraria with Derek and Chris hence the fucked up sleep schedule. Thorium is pretty cool but it's such a time investment. Couple of things coming: Raybin sunglasses, $50 monitors, and my oni mask. ED: Felt really in tune with the world during dinner with the parents. Went to Garden cafe in arcadia and just really appreciated the quiet yet spacious and homey feeling the 626 area provides. Lots of diverse foods and people seem to be doing their thing. The chicken steak there is to die for, filet mignon not so much. I like it. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 30, 2018</p>
+	<h1 id="73">Tidying</h1>
+	<img src="line.png" id="cleanline">
+	Almost done with tidying. It's an underrated book that I would recommend to those in dark times. Tomorrow is halloween and I'm kind of anxious and excited. First time in years I'm going to dress up. Today was a pretty good average day. Yesterday I played Terraria with Thorium/leveled mods with the boys until five and woke really late so I don't feel very good. Yeah don't feel very chatty atm, just want to read WoR and hopefully sleep and wake early for tomorrow. ED: Kind of second guessing my halloween outfit and leading to anxiety. Notice it and have confidence, own it. Don't forget to smile and live in the moment. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 31, 2018</p>
+	<h1 id="74">Halloween</h1>
+	<img src="line.png" id="cleanline">
+	Dance was pretty good today I guess. Class was looking thin and I felt like I half assed it. It was not bad though. I need to hang out and socialize more. I keep getting mixed signals and not acting on it. Going to just go up and talk and see what happens. Dancing wise I'm definitely getting better at leading. ED: Was super hyped for today but thoughts of not know what to do and trying to be cool kept me in my own head. Ended up semi disappointed. Think about the good and try again tomorrow. Idk where do I meet like minded individuals my age? Julien dancing in those stockings Kreygasm. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 3, 2018</p>
+	<h1 id="75">Clean</h1>
+	<img src="line.png" id="cleanline">
+	It's been a couple more days of decent routines. Workouts and studies then late night terraria with the boys. Sleep schedule kind of fucked but I'm trying to get back at it. Yesterday was grandma's birthday and we ate at Newport Seafood. Besides that not much else going on except drawing, terraria, and reading. Watching a bit of abroad in japan riding across japan. It's a interesting and eye opening. One episode was about little japanese girls eating so much food. I think her stomach expanded 66x after eating 100 pieces of sushi. Wtf. ED: Been kind of on edge with the poor signals and frustrations with how dance ends; that and the compounded FEH using a ton of orbs to snipe FOlivia on a legendary banner fail. I'm ok now I think. Spent a bit of time organizing my FEH teams and cleaned the bathroom today put me in a good mood. Life isn't too bad. Clean when depressed. Be "solemn," whatever that means. <3
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 4, 2018</p>
+	<h1 id="76">Realizations</h1>
+	<img src="line.png" id="cleanline">
+	Today was a pretty good sunday. I woke up early and watched Jake's vod on tokyo drift event. Drew a bit and ate a bunch. Spaghetti, some old salmon, shrimp, and beef. Just chilling. Attempted to dance and realized something while trying to learn more dance. A reddit post stated: the problems is not my moves, it's inside my head. I don't want to quote the whole thing because it's in The Way but a negative self feeding loop is holding me back. Break the loop, stop thinking about it and do it. "Keep having embarrassing days and own it." -/u/Foragerr I realize this time and time again yet never act upon it. This is why I like Jake so much. ED: Felt lost trying to learn dance, instead focus on the music and get lost in it instead.  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 6, 2018</p>
+	<h1 id="77">KDA</h1>
+	<img src="line.png" id="cleanline">
+	Tuesday, bike ride, protein shake, drew atri, read a moveable feast, watched babyhsu in la, danced a bit. got lost in the internet. Productive day but monkey brain is getting restless. Lots of bestial influences online. A specific one that blew up is Riot's KDA popstar group. They are so damn sexy. Jake's in mainland china and ate at a crazy good service hot pot, something something lao... Uh yeah not much going on. ED: Anxious for not really socializing at all and cis project is creeping. Pull the splinter out and stop the hemorrhage. Got dance tomorrow and should set up a time to meet for the project. Stay strong brother, don't be a man marked for death. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 7, 2018</p>
+	<h1 id="78">Bittersweet</h1>
+	<img src="line.png" id="cleanline">
+	Had dance today and unfortunately Julien wasn't there. This sort of soured my mood but I realized it a bit and rolled with the punches. We reviewed a lot of the dance steps and did some new turnouts. The realization that the basic steps are truly fundamental to social dancing really hit home for me today. Even if you mess up movement and arms, if you still have the basic steps it's okay. We did some new swing and tango moves which really translated well when I danced with Taj. There was a part of the song that was like "spin her? like a yo---yo" and I sentout slow and reversed it perfectly and then that was when I knew thoughts truly led to circumstances, that there may be something at work in the universe that could somehow get two minds to connect and synchronize with music I've never heard so perfectly. That and the fact that I got 97% on the midterm really elevated my mood. ED: Fear specifically nervousness when wanting to converse with people, particularly the slightly attractive Katelyn about her hip hop class. Just ask, fear is a negative thought. Fuck it and dance. Yeah also bittersweet because I realize that I only have six more dance sessions left to become friends with everyone. This thought of regret of not getting to know Julien really got me depressed but I think that worrying about the future is useless, I will work harder these last six weeks. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 9, 2018</p>
+	<h1 id="79">Mad Moody</h1>
+	<img src="line.png" id="cleanline">
+	Late friday/saturday night, just finished Terraria session with chris and derek. Today I felt very depressed and lazy. Woke up late and didn't finish working out until 4pm. Then the thought of working on the CIS project gave me a lot of anxiety. I watched 7 hours of Jake in Hangzhou in like 3 hours which was pretty tiring and cool. I like chinese traditional shared dinners. Being anxious, tired, and restless didn't help much to my mood that and reading A Moveable Feast got me thinking a lot about war, life, relationships, and profession. All this thinking really fucked with my mood and mentally. I attempted to study CIS but I just ended up hating and giving up. Disciplined my way through language studies and procrastinated some more. I'm thinking about ditching class in the morning because it's recorded and way too early. Countering with the fact that I could exercise and go to pick up my library book. I managed to practice dance before dinner and it completely changed my mood. The music and dancing and moving really relaxed and brought order in this chaotic world. Tomorrow/today is a relevant day. Derek going to las vegas then japan until thanksgiving and I'm having lunch with jeff and chau I think. Should sleep or at least try to. My sleep schedule is fucked right now because of all this thinking and magnesium doesn't seem to work. ED: this entire entry. Mind is racing perhaps I need to focus more on meditation and quieting my thoughts. Dancing also seems to help. I think playing terraria counts as spending time with loved ones too, however feigned it may seem. Could this be my monkey brain acting up?
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 12, 2018</p>
+	<h1 id="80">Unexpected</h1>
+	<img src="line.png" id="cleanline">
+	This weekend was a revelation. I had the perfect day on Saturday, ate dim sum on Sunday, and dopamine fasted on Monday. It was an experience and somewhat life changing. The fast gave me insight on myself and what I need to do. Idk what I'm going to do with the hours of writing from the fast, maybe transcribe it here, but that was something I really needed. Kind of burnt out from it and kind of glad. Bittersweet. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 13, 2018</p>
+	<h1 id="81">F</h1>
+	<img src="line.png" id="cleanline">
+	F. Relapsed today. Didn't do much. Thoughts a mess and super anxious about the cis project. F. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 15, 2018</p>
+	<h1 id="82">Dopa</h1>
+	<img src="line.png" id="cleanline">
+	Feeling a lot better moodwise. I have been research random stuff like dopamine, sleep, and semen retention. Yesterday I tried my best to ignore the relapse and did a decent job. Got some CIS done and moving in the right direction. Dance was the best session so far. The thought of a few sessions left really lit a fire under my ass. I didn't really feel tired after and was focused throughout. I struggled a bit with the rumba swaps but managed to get it. I'm going to practice a lot more. In terms of socializing, it went really well. I was a bit shy at first but Julien took the initiative and our interactions flowed naturally. I was pretty happy. Then around break I had a semi deep conversation with Taj, motivated from my dopamine fast. Learned a bit about her and myself. Mature content in television today was the main topic but I was just grateful for the exchange. Dance after that was good, some rhumba hand movements, continuous bachata steps, and ended with a swing circle. I was kind of bitter that time was so short and Julien was going out. Mmm she looked so good all done up with the heels and mid-drift. A bit selfish of me now that I think about it. Also I'm going to remove some words like probably and I guess from my personal vocabulary. I never realized how much I used these words of fear and doubt that contribute to negative thoughts and mindsets. Taj helped my realize this when she asked to dance waltz and I had some doubts. ED: Low motivation after the overdose, am I really going to let a chemical mess with my own mind? Can't my thoughts overcome a physical chemical reactions. Its like willpower, if you think it's limited then it will be limited. If I think dopamine is completely responsible for my mood and motivations than it will be. Dopamine is not what controls you, you control you. You are what you will. As a man thinketh, so it shall persist and become. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 19, 2018</p>
+	<h1 id="83">Descent</h1>
+	<img src="line.png" id="cleanline">
+	It's Monday night and I haven't been writing in the journal much. The whole weekend was a waste of time just watching streams and procrastinating. I didn't really do anything meaningful except finish some parts of the CIS project. I tried another writing session but it was only ok. The lack of meaningful events and my depressed mood hasn't been good for me at all. I relapsed again this morning and today I tried to read the Tractatus but gave up. On the positive side exercise is now a habit fueled by discipline and I managed to cut my hair to a way I like. A lot of thoughts and ideas about my neurotransmitter and reward system but no real progress. The failures I can learn from though. I looked into massages and tea but they were both rabbit holes. Massages being hard to do by yourself and without practice/education and teas not really providing concrete evidence of the health benefits I'm looking for. Again I know raising a dog would help. Going to read that dog book and 13 laws or whatever tomorrow. I'm getting off this descent and growing wings again. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 20, 2018</p>
+	<h1 id="84">A Good Day</h1>
+	<img src="line.png" id="cleanline">
+	I would say today was a good day. I woke up before 8 am, biked in the warm cold, ate a lovely omelette breakfast. Watched a bit of Twitch. Cleaned my room then danced awhile. Around 4 I read the beginning of 12 Rules for Life, really earth shattering work. Then I chatted with the cousins around 5 and ate a hearty burrito dinner. Overall quite peaceful and I accomplished a bit too. I also discovered I quite like sipping tea. I am considering a tea set but I feel like I can brew it with stuff at home. About to read and sleep so g'night. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 21, 2018</p>
+	<h1 id="85">INTJ</h1>
+	<img src="line.png" id="cleanline">
+	Sleep poorly last night when I found a reddit post about INTJ explained in such a stark manner. It was so fully fleshed out and described me so well. I began some thought research on cognitive functions and spent the day talking with Steven and beginning to read the 12 Rules for Life. Dance was so so. Did like one and a half hours of dance, it was okay. Throughout the night I was over thinking everything and making parallels with my INTJ typing. Saw a lot of truth in it. Overanalyzing. Trying to make people happy. Social ineptitude. Letting go and being really good. On the way home I went to grandmas instead and my car was overheating. Had to bring it to uncle's. Oh and had a pretty good chat with Derek on going ons. Then got home and talked to Derek and Will about Japan and life. Then played some Tabletop. Lots of ups and downs today but in the end it doesn't really matter does it. Peterson made an insight at the history of the lobster and their 350 million years on earth compared to our 0.8-1 million years as homosapiens. We're literally dust in the sand. This got me pretty nihilistic into dance and along with Julien's absence really hampered my mood. Tomorrow is a new day. Smile. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 23, 2018</p>
+	<h1 id="86">Understanding</h1>
+	<img src="line.png" id="cleanline">
+	Reading more into the 12 Rules for Life and my research on cognitive functions has given me a different understanding on life. Things I never really thought about or knew about has come into my attention. Noticing these social nuances and how humans function and interact has been quite interesting. I feel a bit more wiser and cognizant of the world and motives behind action. It's strange to explain but Peterson has done a very good job. Yesterday was Thanksgiving. A time to celebrate gratitude in America. Today we are celebrating it on dad's family side. This week has been pleasant and insightful. Many events this weekend and I can put my knowledge into practice. I am also changing up my morning routine to fit criterias that will improve my serotonin levels. Arigatogouzimashita. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 24, 2018</p>
+	<h1 id="87">FeelsWeirdMan</h1>
+	<img src="line.png" id="cleanline">
+	We had thanksgiving on dad's side yesterday. It was weird, I think. The environment didn't seem like a holiday party. Everyone was distant and not really in the mood. The young adults were bunkered in the game room which didn't add any livelihood to the party. As I observed I realized that the kids don't socialize anymore and their postures suck. All in all it was quite disappointing. IO think I talked the most to Matthew and that's saying something. Today I'll hang with the homies about right now so I'm going to get ready. I'm thankful for the time to do what I want to do this year, my health, and mind. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 25, 2018</p>
+	<h1 id="88">FeelsAmazingMan</h1>
+	<img src="line.png" id="cleanline">
+	Yesterday was an amazing day. Saturday meet up with the homies with some Noods at a chinese braised beef place. Talked about jobs and life. Got some AU79 boba and then decided to go to Will's board game party meetup in Altadena. Altadena is pretty peaceful and teeming with nature. Lots of fancy houses and hills. The hosts were very kind and welcoming. The party was all in the garage, everyone seemed lively. We played sushi go, a shootout game, and then multiple rounds of Avalon and a round of Resistance. The people playing were really good at the game or at least they were very practiced. They immediately prey on new players and manipulate the game from the get go. They also have strong poker faces and will the game very well. I felt like after a couple of rounds I could start reading them and their tells but the veteran players were much more trickier. Overall it was a fun and mentally exhausting experience. I learned a lot from it but I'm certain I despise loud party environments even more now. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 26, 2018</p>
+	<h1 id="89">Good Shit</h1>
+	<img src="line.png" id="cleanline">
+	Yesterday was a long day. Started the day around lunch time. Andrew finally came back from Boston and we met up for lunch at a hot pot place. Jeff drove to my place and we drove to Diamond Bar for lunch. Had a good talk along the way and caught up with Andrew. We decided to drive back to Monterey Park for Onezo to meet up with Chau. We caught up more and drank decent boba. Finally got to try the charcoal latte which really overpowered the taro boba. After I decided to walk to Sequoia Park on top of that mountain in mp. The walk was really nice, good bonding experience and good views. Good thing Chau brought it up. On the way back we lifted a cement trashcan and then went to The Exit escape rooms. We got destroyed playing the 007 one and only managed to get 80% of it. I want to go over the order just to remember. 1. Escape locks/deathbeam/keys 
+	2. Suitcase behind door/bookshelf/free leader 
+	3. Call JB/spin wall dial 
+	4. Use flag to input numbers on ceiling keypad  
+	5. Arrange decorations inside spy room 
+	6. Glasses to eye thing/open hand corner thing/invisible ink marks indicate on/off 
+	7. Typewriter puzzle/unlock transport 
+	8. Laser room..? 
+	9. Color shit? 
+	10. Puzzle>Slide?? After that we drove to chaus and I drove everyone to Yoshida's for sushi and that was the day. I was pretty mentally and physically drained but it was quite memorable, fun, and good "Bond"ing. Huehue. Time to chill.   
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 27, 2018</p>
+	<h1 id="90">Down</h1>
+	<img src="line.png" id="cleanline">
+	Yesterday wasn't a bad day but after a really late Terraria session I semi relapsed. Did it until early in the morning until I passed out from exhaustion then resumed five hours later in the morning... It snowballed from reading doujinshis. I lost it when I felt lonely last night. I didn't O so there that and managed to do some things. At least I'm a little tired and able to sleep early now. My face is reflecting my mental state very well, two breakouts and poor complexion. I am going to reset now and eat, read, and sleep early. Put my knowledge to practice. Tomorrow is a good day. I will cram some dance moves in the morning and live life with resolve. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 29, 2018</p>
+	<h1 id="91">Up</h1>
+	<img src="line.png" id="cleanline">
+	Woke up extra early today. Haven't done much since but I'm feeling motivated since yesterday. Body is healthy, mind is happy. Ate some spicy korean noodles and drank some tea. Spent the morning watching old twitch vids of my past games. Twitch is cool but a huge time sink. It was raining all morning so I didn't bike but it's clear now. I think I'll just dance inside today. Yesterday was a really really good dance class. We were just practising all the dances and it went very well. I attempted extra moves and spins and it was okay. The waltz was when things really picked up. Did like four partners of that and we were flying. During break Julien asked me to be her partner for argentinian tango practice and we hung out a bit. Then we did demos on new dances brought to class by everyone. It was okay, like other things I need practice to pick it up so it was a bit unfamiliar. Chaos with attempted order. It got a little weird when I felt a bit of jealousy when Julien did her tango without me but I understand. It still hurt a bit. Near the end I had a talk with Noelle about my dance and how to improve which was much needed. We discussed downbeats, basic becoming second nature, dancing with the music, charleston, and the future. Order. I understand the two powers of our universe now. We need chaos so that order can be enjoyed. Jumping into an unfamiliar move and nailing it is chaos and order. The balance is where one wants to be. I should have approached Julien when she was alone and asked her to dance. Chaos in unfamiliarity. Understanding the discomfort and improving because of it. Order.  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 30, 2018</p>
+	<h1 id="92">Thinking</h1>
+	<img src="line.png" id="cleanline">
+	Did a lot of thinking this past day. Today is the last day of no nut november. Only did it three times this month. Quite an improvement. Been feeling okay, good more than half the time. Mind is still a constant race. Trying to wake up at 6:30 but keep oversleeping or taking naps. Falling asleep early is very difficult to get into. Parent are going to Norcal for a wedding, have the house to myself this weekend. Going to clean a bit and a bit unsure of cis197. I really think I'll just watch the conferzooms. Had a weird day yesterday. I was tired from waking at 6:30 and took a nap in the afternoon. I was out of it all day. Had awkward half awake conversations on discord. Today I slept until noon so it's a really late start for me. Got a workout done and watched Kana's birthday a bit. Feeling old today. The world makes a lot more sense now that I've read rule 2. Yet I still do not know my vision to walk with God. otanjobi omedeto gozaimasu.   
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 1, 2018</p>
+	<h1 id="93">Rough Start</h1>
+	<img src="line.png" id="cleanline">
+	No excuses. I fucked up last night. Parents were out of town in Norcal and I binged. Got a little antsy from thinking about something and I caved. Learned about lesson 3 yesterday. I think it was about having good friends which made me a bit lonely. What I learned from that: nothing good every happens after midnight. Other than that, yesterday wasn't a bad day other than the fact that I woke up late. Today I woke up early and tuned in to cis and biked to the library. Spent most of the morning eating and watching a clown fiesta of a 2v2 tourney. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 2, 2018</p>
+	<h1 id="94">COOL</h1>
+	<img src="line.png" id="cleanline">
+	Binged a lot more yesterday. Not my best day. After the fiasco I cleaned my desk and keyboard and decluttered stuff in my room. I went to sleep relatively early to catch up on sleep. Woke up this Sunday feeling good. Made some tea and an omelette. About to play bl2 with Jeff. Not much to say. I messed up. Suffer, learn, continue. Peace. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 3, 2018</p>
+	<h1 id="95">Reflect</h1>
+	<img src="line.png" id="cleanline">
+	Good start to this Monday. Ignoring the huge procrastination in the morning, I managed to do lot of to dos. My mood is positive. Read about improving myself and my circumstances everyday last night. I reflected a bit before writing and realized that I've grown a lot these past two/three months. Last month in particular was a record for me. It wasn't the most happiest time but the struggle and journey itself, I realize, is the fun part. The fleeting joy at the summit is never without the hope and suffering to reach it. Without suffering there cannot be happiness. So enjoy suffering with the knowledge that happiness will come. -hope. ED: Feeling good, the suffering from the weekend has ended and I can improve myself for tomorrow. Neural balance is okay I think. Improvements: Wardrobe, getting to know self: INTJ, practice Charleston. Reward: Pumpkin pie. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 4, 2018</p>
+	<h1 id="96">Better</h1>
+	<img src="line.png" id="cleanline">
+	Slept and woke later today. Did a decent bike ride, then read 12 rules. Learned about how to raise children. Then I ate a good sized supper. Spent the rest of the day practicing charleston and learning about INTJ/C.S. Joseph's explanation of the world. Feeling good about life. I've finally aimed and found a direction to strive towards. First better myself and then my child. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 5, 2018</p>
+	<h1 id="97">Tea</h1>
+	<img src="line.png" id="cleanline">
+	Good workout this Wednesday morning. I didn't sleep very well and woke up around 10 am. The weather today is dreary and looks like it will rain. I woke up pretty demotivated by powered through. I ate some of mom's porridge and made some tea so now I'm feeling pretty good. Happiness from suffering. Today is the day I present charleston to the class so I'm a bit nervous but not too bad. Improvement: today I will make more eye contact and talk to people. ED: Really annoyed/angry that the house was so hot, mom was watching chinese soap, and lights were on last night when I was trying to sleep. Solution: Close BOTH doors, leave a crack in the window, keep blankets near. Sleep sounds if noise too loud. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 6, 2018</p>
+	<h1 id="98">Happy</h1>
+	<img src="line.png" id="cleanline">
+	Felt really good yesterday and today. Dance went really well and I talked a little more to people. Jill asked me to partner up for the dance showcase thing extremely last minute so we did. I was so excited that it took me two hours to fall asleep last night. It was also raining a lot. Today I bought a suit jacket and pants from Simply Suits and got it delivered to my door wtf right. Good service but I had no idea what I was doing. Apparently now I have to get it tailored so tomorrow I'll call and hopefully get my stuff tailored by Saturday's performance. It's a bit stressful but worth it in the end I think to have a tailored suit ready for formal occasions. Didn't exercise today because of the rain so I'll dance a bit. Also I cried reading about the reasoning for human existence from the perspective of mass shooters and the opposite view from those that rejected that view even when they were at their lowest. Very powerful stuff. Got to know my core mbti traits too from research. ED: PISSED AF from dying over and over to Terramorphous. Solution: don't play bl2 when you have other commitments, it will make you depressed. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 7, 2018</p>
+	<h1 id="99">Rush</h1>
+	<img src="line.png" id="cleanline">
+	Kind boy Rush. Jk in a rush today to get my suit tailored so really short entry. Learned about core functions of INTJs and ate some good fish mom cooked. Onion, garlic, chile, tumeric, and salt. Nice. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 8, 2018</p>
+	<h1 id="100">Hunna</h1>
+	<img src="line.png" id="cleanline">
+	Woot 100 entries. A small milestone. Yesterday I managed to get tailored and got some ayce sushi at yes sushi with Derek and Will. Gotta pick up my suit and do some errands this morning and got the dance performance late afternoon. First time getting something tailored so I'm a little nervous and surprised by how easy it is. Gonna cost me a bit more for the 1 day job but it's okay with me. I have to return 12 rules today because it's on hold and I've stopped on Rule 6. Half way, how perfect. Researched a lot more on Jungian psychology and CS's typing methodology. It's much more simpler and manageable. I need to master this to understand nature which will take out half of the equation in understanding other people. Nature/nurture. Got a busy day today. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 9, 2018</p>
+	<h1 id="101">Yesterday</h1>
+	<img src="line.png" id="cleanline">
+	Had my performance yesterday. It was really fun. Totally out of my comfort zone and something I never imagined doing. It wasn't bad at all. I was exhausted by the end of it but it was worth it. Bonded with Jill for a good part of the day. We arrived early around 3 and practiced and talked until 6ish, did the performance and I left. She's so innocent and seems to have a rough life in terms of health but still seems positive. I'm glad I had a chance to bring some order and mould chaos for her. Also we were looking like a snack, solid blues and orange tie. A thing I could improve on is appearing energetic, as the day progressed I appeared more exhausted and it reflected in my demeanour. Dance is pretty awesome and the variety I saw yesterday was overwhelming, draining in fact to attend to everyone. I'm just going to chill today. Oh yeah Jill also made me rethink the value of social media, perhaps it isn't entirely evil if it brings joy to people. It isn't true joy but it helps ease the suffering of life and as we know many people go through life this way and seem to embrace it. By joy I mean meaning and "happiness." Also I'm such a downer and I think she picked up on that. ED: Nobody likes a downer, I will need to improve on this but making myself more positive in my endeavours. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 11, 2018</p>
+	<h1 id="102">Illumination</h1>
+	<img src="line.png" id="cleanline">
+	A really beautiful tuesday today. Weather is nice and the day has been kind. Yesterday was dreary and I did okay. I spent most of the day procrastinating and researching Jungian psychology. I specifically looked into temperaments and categorizing by nature. Lots of big announcements in terms of gaming. We got smash ultimate coming out, monster hunter collabs, fallout obsidian releasing a new game in 2019, fire emblem heroes book III, gw2 seasonal updates, and swtor jedi vs sith return patch. All of this makes me excited and happy? idk. Got our dance party tomorrow, final class PepeHands. Lets make the most of it. I set goals in mind this year and I hit all of them and more. I'm going to research more on mbti cognitive typings and how to raise a dog. 12 Rules is on hold since I had to return the book and purchased a personal copy being shipped. CIS on saturday, I'll get on that soon. Um yeah just trying to improve everyday and get my household in perfect order. Getting some soba this weekend so that's hype. Might start classifying those close to me next week and been thinking about writing to myself as if I were my future self. Besides that life is good. :D
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 12, 2018</p>
+	<h1 id="103">Enlightenment</h1>
+	<img src="line.png" id="cleanline">
+	Yesterday I was going to research the interaction styles but I decided that understanding all the core cognitive functions was more important since our minds are made of four typings. To fully grasp and utilize all four side in perfect balance and harmony is said to be enlightenment. The thing is using the subconscious and unconscious and superego is a daunting task since many aren't able to tap into it's potential or even aware of it. Right now I'm at an impasse of learning about myself and typing others. I feel that understanding self first is the way to go. The feat of tapping into my subconscious is already alien to me but that will allow a broader use of my four core functions. Also I learned that at most a human is four typings, 25% of the types. This is why we need to build relationships with others. Anyways, I have a dance party today, last day I believe. Started reading the Other Side of the Leash. Not much more going on. Almost done with this quarter. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 13, 2018</p>
+	<h1 id="104">Parties</h1>
+	<img src="line.png" id="cleanline">
+	Having a decent understanding of oneself does not mean you can activate the best parts of you at will. I learned that yesterday. Yesterday was bittersweet. The last day of dance class and we had a party. It was not bad. I danced and socialized a little bit. Sulked in the corner and watched really good dancers dance. I really wanted my ESFP to come out and just make everyone a bit more happy but the my extraverted sensing inferior was too strong. There was a couple of highlights yesterday. I met that girl I forgot her name, Eliza or Evelyn? We connected pretty well being the first time talking. She let me know about Lindy Groove in Pasadena, I'll check it out soon. Holy hell can she dance. I think she's an intellectual which is quite exciting. She was drawing and doing math in the midst of everything wtf lol. Quite direct. INTJ or ENTJ for sure. We did a nice waltz to Kiss from a Rose. That and a final waltz with Taj was fun. The rest of the night was okay. I watched and learned. Said goodbyes and it hurt. Now to focus my Ni, Te on CIS. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 16, 2018</p>
+	<h1 id="105">Holidays</h1>
+	<img src="line.png" id="cleanline">
+	Officially first day of my vacation. On Thursday I hate delicious hotpot at grandmas. Also discord chatted with Annie and Steven. Steve seems to be in a bad place with Chris so I pray that doesn't get to him too much. Caught up with Derek and chatted. Friday and spent the day trying to work on CIS but ended up playing Destiny 2 with the boys. Saturday I got carried thanks to Eliot in CIS and went to eat cold soba with Chau and Jeff. Ducks is so fucking good, how have I never been here in the last 11 years? After that we chilled at Meet Tea for awhile and then I went home and played monster hunter world until now. All this gaming has left me a little anxious and unfulfilled. Perhaps because I'm a bit more mature and understand the world, idk. Oh yeah I joined the fb dance group so that has made be a bit happier. Next week I'll check out Lindy Groove. Got my copy of 12 Rules too so life is good.  
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 17, 2018</p>
+	<h1 id="106">Fuck the World for Seventy Two Hours</h1>
+	<img src="line.png" id="cleanline">
+	It's a monday. Did a good workout and ate very well. Made a pseudo cold buon soba with crab base, tsuyu, mom's chilli, fried and green onions. It was really tasty. Played a bunch of mhw yesterday and a bit of destiny with the boys. I thought a lot about what I should be doing this vacation and I realize I don't want to waste it all on mhw. Balance in all things. Besides that not much else. These days I look at myself in the mirror and try to perfect the natural smile. Oh I texted Jill a bit last night. I think we may be taking piano some time next year. That's exciting. ED: Empty after mhw. Solution: Gaming is a zero sum gain in terms of real progress. You're movement oriented personality realizes this and you feel sad. Again the key is balance. A little dance, gaming, growth, and socializing. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 18, 2018</p>
+	<h1 id="107">A1490607</h1>
+	<img src="line.png" id="cleanline">
+	I believe I found the dog I've been looking for. A chocolate/black purebred belgian malinois at Riverside animal control. This is what I want for christmas. Not much going on today, almost got right hooked by a car again. Did some chores and ate a bit. Might go to movies tonight. Yesterday I spoke with Steve and went to grandma's to eat some dry pho. Read a bit of 12 Rules. Today I feel that I should go ham on dog research after rule 7 and a bit of psychology research. Played mhw a lot yesterday and noticed that it led to dark thoughts. Tried a bit of pmo but it didn't really do much for me except waste my time. Left me with some dark force corruption aka eczema around my eyes. ED: Bored and lonely at night, negative thoughts leads to negative circumstances. 
+	Bestial thoughts, sensuality, disease. Solution: Go to bed and wake up earlier. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 19, 2018</p>
+	<h1 id="108">A1490608</h1>
+	<img src="line.png" id="cleanline">
+	It's Wednesday. Just routine today and yesterday. Had a pretty deep conversation with Steven while playing gw2 and played a bit of mhw. Read about dogs more. There is so much to know about dogs and the differences between our species. On the other tend of the leash has changed my understanding of dogs entirely. Jake is in LA the Grove. It looks nice but I don't know, I feel uncomfortable in large populated areas. Downside of introversion I guess. I watched spiderman multiverse or whatever yesterday with Derek. It's a good movie, my favorite of the franchise. I enjoyed it very much. Today I found out that there is a female malinois too so I'll look into that too. Getting plans in order for next week. Should be an experience. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 20, 2018</p>
+	<h1 id="109">I Want to Hold Your Hand</h1>
+	<img src="line.png" id="cleanline">
+	Decent start today. Pretty routine. Yesterday I procrastinated all day and did a bit of psychology research about INTJ compatibility and mistyping. I realized that Jill maybe ESFJ as weird as that seems. One of the top four compatibility types for me apparently. I think I mistyped her because of my lack of experience and our subconscious interact so comfortably around each other. Other thoughts: presentation for parents about getting a dog. Work on visualizing what I've learned on nature. ED: none. ^___^
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 21, 2018</p>
+	<h1 id="110">Hair</h1>
+	<img src="line.png" id="cleanline">
+	Did a work out and cut my hair today. Spent a decent amount of time on it and made it look good in my opinion. Ate some food and was watching Jake in LA. He was in Chinatown and universal studios right now. Got rule 7 down and research more on analytical psychology last night. Really late start today. Things I need to work on: visualizing my research and create a Prezi on everything relating getting that dog. Lots of ideas in my mind that is waiting implementation. ED: a bit anxious about a lot of things regarding the dog and my research and the people in my life. Solution: Relax and take it one step at a time. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 22, 2018</p>
+	<h1 id="111">Master Gee</h1>
+	<img src="line.png" id="cleanline">
+	Just completed a bl2 session with Jeff. We were running through the raid bosses again on op8. We did Son of Crawmax, Hyperius, Master Gee, and Pete. This taught me that value and rewards of sacrificing the expedient for more meaningful futures. The fight itself wasn't difficult but patience, strategy, and communication is required. I actually thought I hated the Master Gee fight but actually it's one of the best raid bosses in the game. I felt the most joy and relief from Master Gee than one shotting hyperius etc. Anyways, not much else going on. Been having difficulty starting my projects and what not. Is it willpower or is it simply interaction style? Read and implement that is all you need to do. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 23, 2018</p>
+	<h1 id="112">Lazy Sunday</h1>
+	<img src="line.png" id="cleanline">
+	I always feel lazy on sundays. This sunday being no different. I woke up really early this morning around 8 and simply played mhw and gw2 until 2. I got to pick Steven up from the bus at 3 so thats something to do. Last night I researched more Yungian psychology and planned the week out a bit. The mind blowing aspect of my research was finding out that our mind work with radios for the eight cognitive functions. Also looked into functional emulation of the mind and the optimistic/pessimistic versions of functions. All very fascinating. My batteries are recharged and I'm excited for some extroversion. Not much to say, let's grow our unconscious. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 24, 2018</p>
+	<h1 id="113">Tea Spot</h1>
+	<img src="line.png" id="cleanline">
+	Christmas Eve! Yesterday was okay. Picked Steven up and we hung out at home. Did some reading and flashed his Xperia Z4. Then we ate and went to Andrew's to eat more. I had a good talk with Andrew's mom and we watched a zombie idol anime then went to Tea Spot. About to go volunteer after a good workout this morning. I'm looking swole. Jake back from SD yesterday and went mini golfing with Water. Really enjoying my life. Even though yesterday was a bit demotivating in terms of socializing I hope that I can improve that today. ^_^
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 25, 2018</p>
+	<h1 id="114">Best Christmas Eve</h1>
+	<img src="line.png" id="cleanline">
+	Yesterday was the best christmas eve so far. Apparently volunteer was actually for dem kids. We did a project santa thing and bought and delivered toys to kids in the pasadena area. It was very wholesome and then we had a party at Larry's with the dogs. Good times. Very memorable day. I need to go to Nathan's for the Christmas party so going to keep this short. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 26, 2018</p>
+	<h1 id="115">Christmas</h1>
+	<img src="line.png" id="cleanline">
+	Christmas was pretty feelsweirdman. I was kind of tired for the day because of christmas eve and the drive to fontana made me very sleepy. Sleeping and waking in traffic is not a good time. The food was good but our christmases never feel festive ever since we stopped at Larry's house. Being groggy all day didn't really help when we went to grandma's and the weather has been cold for socal. I slept in today and then felt really lonely and anxious which led to a terrible binge of porn. Didn't really do anything until 4pm when I climaxed. I've gotten back on track since then fortunately. ED: I was having crazy bad performance anxiety when Lucy found out I spoofed in PoGo. I felted really bad for lying and such. It really dampened my mood. Solution: Avoid PoGo after the trade and don't lie so much in general, it will get back to you somehow.
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 27, 2018</p>
+	<h1 id="116">Savers</h1>
+	<img src="line.png" id="cleanline">
+	Today was a pretty good day. We went to Ducks and then Lunacious dumplings to get some food for my sister and Kelly. Duck was as good as before. The cold ramen was a bit sour though. Then we went to run some errands for my sister. We bought some containers and a night stand at daiso and savers. My workout this morning was good too. Overall not a bad day. Soon we'll go to Pasadena for a star wars meetup of some sort. Got some overlapping plans too. It's going to be a busy night I think. I studied a bit more psychology last night about cognitive transitions and unlocking the four sides of the mind. These three main things but the interesting aspect was unlocking the superego. To reach enlightenment this side needs to be used. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 28, 2018</p>
+	<h1 id="117">Lost and Insecure</h1>
+	<img src="line.png" id="cleanline">
+	Chill friday. Yesterday was pretty hectic. The starwars meetup was cool. The park next to the rose bowl was awesome. I really enjoyed the pirate ship playground. It must be nicer during the day. I went with Annie to eat with the boys at Cluck2Go which had the best hainamese chicken I ever had. I did a lot of driving yesterday. I wanted everyone to have a good time but I think we were all a little tired. A rest day today would be good. I am going to read and finish the other end of the leash today and because it's due today. Back into FeH a bit because my waifu is on a legendary banner. I might do another fast on Sunday. 
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">December 29, 2018</p>
+	<h1 id="118">/r/dadjokes</h1>
+	<img src="line.png" id="cleanline">
+	A sperm donor, a carpenter, and Julius Caesar walk into a bar. . . He came, he saw, he conquered. Yesterday was a good day. I ended up not finishing the book. A lot of things went wrong and I got super anxious but in the end, everything was okay. I pissed off Steven and Andrew by ignoring them I think. Then when I did go to Kevin's we talked a bit. That wasn't actually bad. I learned a few things from these awkward lovable nerds Kappa. Ryan is actually incredibly intellectual and frequents political and economical subreddits at the age of 15, wtf? Kevin's a closet weeaboo who's a bit awkward socially. I think they grew up too socially isolated with helicopter parents like Steven a bit. Steven and I went to a jazz dance club in Pasadena to dance. It was my first time at a thing like that. My two step game needs a lot of work. Yeah Steven was dead set on not going but I managed to drag him there. Once we got there my performance anxiety hit hard. My excuse was that I left my dance shoes in the car and after two dances, I sulked in a corner all night. Still the experience was quite insightful and I enjoy watching people dance and interact. Some of these people were very good dancers. I will try to be better than them someday. Steven had a great time, I'm glad I could get him interested in dance just like I got into it. He danced a lot more than me and said he enjoyed it. We then dropped off my library book and got late night McDonalds. I droved him back to Andrew's house and we talked until 2 am about family, life, the internet, etc. A good bonding talk. Speaking of which I discovered that Steven has deeper parental issues than I. Much like the opposite of me, neglectful vs overbaring parents. Life isn't too fair to kids growing up as a first generation American in the age of the internet. Today I had a nice bike ride and surfed a intj post that wanted new, interesting subreddits. I found a nice amount of subs to subscribe to. ED: Crippling performance anxiety. Solution: Just think of it as practice, start doing it, and have FUN!
+	
+	
+	
+	
+	
+	<img class="imgB" src="bg2.png">
+
+	</div>
+</div>
+	
+	
+	
+<footer>©2018 Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>		
+	
+</body>
+</html>
