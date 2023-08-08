@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - Photography</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#p1").toggle();
+    });
+});
+</script>
+
+<script>
+function showStuff(element)  {
+    var tabContents = document.getElementsByClassName('tabContent');
+    for (var i = 0; i < tabContents.length; i++) { 
+        tabContents[i].style.display = 'none';
+    }
+    
+    var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+    document.getElementById(tabContentIdToShow).style.display = 'block';
+}
+</script>
+
+
+</head>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/misterv520">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gw2.html">GW2</a></li>
+			<li><a href="specs.html">SPECS</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="mental.html">Mind</a>
+			  <a href="physical.html">Body</a>
+			  <a href="pre2018.html">Pre-2018</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			</div>
+		    </li>
+			<li><a href="books.html">LIT</a></li>
+			<li><a href="photos.html">PHOTOS</a></li>
+		</ul>
+		
+	<h1 style="font-size: 300%; text-align: center; font-weight: normal; margin: 10%;">Photos</h1>	
+	
+	<licenter><a href="https://photos.google.com/">Google Photos</a></licenter>
+	<br>
+	
+	<ul>
+		<licenter id="tabs1" onclick="showStuff(this)">June</licenter>
+		<licenter id="tabs2" onclick="showStuff(this)">July</licenter>
+		<licenter id="tabs3" onclick="showStuff(this)">August</licenter>  
+	</ul>
+	
+	
+	<div id="tabs-1" class="tabContent">
+	<div class="row">
+	<h1 id="1">June</h1>
+	<br>
+		<div class="column"><img id="enlarge" src= "Photos/June19/061919.jpg"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/062219.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/062319.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0790.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0812.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0819.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0848.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0849.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0851.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0853.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0856.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0881.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0884.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0888.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0889.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0891.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0894.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0896.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0907.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0909.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0916.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0917.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0919.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0921.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0922.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0923.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0925.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0933.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0935.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0938.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0950.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0951.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0952.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0954.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0956.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0957.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0960.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0962.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0963.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0967.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0968.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0972.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0975.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0982.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0983.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0984.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0985.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0989.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0990.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0991.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0993.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0994.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0995.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0996.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0998.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_0999.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1000.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1002.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1007.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1009.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1013.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1021.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1023.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1027.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1035.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/June19/IMG_1036.JPG"/><br></div> 
+
+	</div>
+	</div>
+	
+	<div id="tabs-2" class="tabContent">
+	<h1 id="2">July</h1>
+	<div class="row">
+	<br>
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1047.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1058.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1063.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1074.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1077.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1081.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1084.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1085.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1090.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1113.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1117.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1120.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1124.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1126.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1134.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1136.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1137.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1141.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1142.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1144.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1146.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1147.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1148.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1153.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1154.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1161.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1170.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1171.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1179.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1186.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1190.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1193.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1194.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1199.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1202.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1203.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1204.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1205.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1206.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1207.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1208.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1209.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1212.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1216.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1219.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1222.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1223.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1225.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1235.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1247.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1251.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1258.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1260.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1261.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1265.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1277.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1278.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1279.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1281.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1283.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1307.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1333.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1335.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1344.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1346.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1354.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1368.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1373.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1375.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1384.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1395.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1397.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1398.JPG"/><br></div> 
+		<div class="column"><img id="enlarge" src= "Photos/July19/IMG_1407.JPG"/><br></div> 
+	</div>
+	</div>	
+		
+	<div id="tabs-3" class="tabContent">
+	<h1 id="3">August</h1>
+	<div class="row">
+	<br>
+	</div>
+	</div>
+	
+	<img class="imgB" src="bg2.png">
+
+	</div>
+</div>
+	
+	
+	
+<footer>©2019 Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>		
+	
+</body>
+</html>

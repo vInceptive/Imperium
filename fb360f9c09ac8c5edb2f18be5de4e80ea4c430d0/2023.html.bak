@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - 2023</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	$("button").click(function(){
+		$("#p1").toggle();
+	});
+});
+</script>
+
+</head>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/misterv520">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="pre2018.html">Pre-2018</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			  <a href="2020.html">2020</a>
+			  <a href="2021.html">2021</a>
+			  <a href="2022.html">2022</a>
+			  <a href="2023.html">2023</a>
+			</div>
+		    </li>
+		</ul>
+		<br><br><br><br>
+		 <div class="box">
+               <h1>Contents</h1>
+               <button>Show/Hide</button> 
+               <div id="p1">
+					<h2 id="1">January</h2>
+						<a href="#1" id="p1">01/01</a><br>
+						<a href="#2" id="p1">01/04</a><br>
+						<a href="#3" id="p1">01/08</a><br>
+						<a href="#4" id="p1">01/13</a><br>
+						<a href="#5" id="p1">01/20</a><br>
+						<a href="#6" id="p1">01/26</a><br>
+						<a href="#7" id="p1">01/30</a><br>
+					<h2 id="2">February</h2>
+						<a href="#8" id="p1">02/04</a><br>
+						<a href="#9" id="p1">02/08</a><br>
+						<a href="#10" id="p1">02/13</a><br>
+						<a href="#11" id="p1">02/18</a><br>
+						<a href="#12" id="p1">02/21</a><br>
+						<a href="#13" id="p1">02/25</a><br>
+					<h2 id="3">March</h2>
+						<a href="#14" id="p1">03/01</a><br>
+						<a href="#15" id="p1">03/06</a><br>
+						<a href="#16" id="p1">03/13</a><br>
+						<a href="#17" id="p1">03/19</a><br>
+					<h2 id="4">April</h2>
+						<a href="#18" id="p1">04/01</a><br>
+						<a href="#19" id="p1">04/06</a><br>
+						<a href="#20" id="p1">04/14</a><br>
+						<a href="#21" id="p1">04/20</a><br>
+						<a href="#22" id="p1">04/29</a><br>
+					<h2 id="5">May</h2>
+						<a href="#23" id="p1">05/07</a><br>
+						<a href="#24" id="p1">05/14</a><br>
+						<a href="#25" id="p1">05/20</a><br>
+						<a href="#26" id="p1">05/26</a><br>
+					<h2 id="6">June</h2>
+						<a href="#27" id="p1">06/03</a><br>
+						<a href="#28" id="p1">06/15</a><br>
+						<a href="#29" id="p1">06/19</a><br>
+						<a href="#30" id="p1">06/26</a><br>
+					<h2 id="6">July</h2>
+						<a href="#32" id="p1">07/04</a><br>
+						<a href="#33" id="p1">07/09</a><br>
+						<a href="#34" id="p1">07/18</a><br>
+						<a href="#35" id="p1">07/23</a><br>
+						<a href="#36" id="p1">07/27</a><br>
+				</div>
+        </div>
+		
+		 <a href="#title"> <img src="b2t.png" style="position: fixed; width: 50px; height: 50px; bottom: 0px; right: 0px;"></a>
+		 
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">01January23. 1626 </p>
+<h1 id="1">HNY</h1>
+<img src="line.png" id="cleanline">
+It's the first of 2023. I just came off of my first duty day and watch last night. I'm optimistic about life in the navy so far but hesitant as I am still getting used to it and still feeling really anxious about my change in life and the negative feedback loop. I'm sure it'll get better since Corry was like this at first. I'll adapt and grow because of it. Lets see since about four days ago I've gone back to SD. Moved some of my stuff to the ship. I went to the international auto show on friday on my day off and go to see some cool cars and explore the coastal area of downtown. Yesterday I had moow watch and talked with an fc2, gsa?1, and ync. I learned a lot and got to sleep on the ship for the first time. Fun. I'm trying to study on the side for CompTIA A+ and learn how to play the ukulele. I found out that my housing paperwork wasn't even put in yet so I did that friday. Hopefully I'll get BAH and get a place to move in soon. Just like corry lol might take awhile. Roll with the punches. A bit tired. Just picked up some food and some bedding for my rack. Let's make this year better than last year. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">04January23. 1632 </p>
+<h1 id="2">I Really Wanna Stay At Your House</h1>
+<img src="line.png" id="cleanline">
+Wednesday of a great day. Yesterday I had duty and it went much better. I stood my watch and met a lot of new people. I had to go on a duty driver to pick up food for dinner; it was stressful but I somewhat enjoyed it. The weather was rainy and I was a little confused on how to operate the van at first. I picked up a bunch of ramen at a place up north and then popeyes. It felt good delivering the goods when I got back. At night I played some cards with CTR3 Howard and some CSs, it was super fun. I got a blanket and pillow for my rack so sleeping was super cozy. I kind of look forward to my next duty day. The other day I also went running at Sweetwater park/Rohr dog park then shopped at Sprouts for groceries. I'm well stocked now. Just came back from the field doing pull day and I'm about to study some CompTIA then make dinner, frozen meal + greens yummy. I recently started tracking every hour of my day for a new years resolution. I seems a little OCD but its really helped me put things into perspective and divvy my time better while avoiding negative habit loops. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">08January23. 1007 </p>
+<h1 id="2">Anthem #2—Floorfilla</h1>
+<img src="line.png" id="cleanline">
+Sunday. Just had a double duty day because they wanted someone with access to the sses on duty day 3. It is what it is. I felt strange being in a new section but I got to interact with the XO and some others in this section. I was bored out of my mind and just drew and read a bit. I'm about to get some innout with CTT Goodrow and I'm gonna knock out some errands these next two days and get some exercise in. I'm gonna go to figure out rock climbing on wednesday after turnover. I've also been practicing the ukulele, taking on Bernidetta's ukulele challenge. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">13January23. 0533 </p>
+<h1 id="3">Not Another Rockstar—Maisie Peters</h1>
+<img src="line.png" id="cleanline">
+It's been a great couple of days. I've just been doing POM three section duty and improving myself. The new duty section was not as easy to make friends in because I didn't really try and didn't know anyone in it. My last duty day was really hectic, they had us load cargo onto the ship, monitor the sses, and offload the lego bricks off the ship at the same time. Today we're returning to regular schedule as everyone returns from POM. I'm planning on going back home this weekend to go to anime impulse. On wednesday I went to Asylum climbing to try bouldering and it was awesome. I learned a lot and had a lot of fun. I did fuck up my pinky but the callouses will heal nicely. I will definitely return. Yesterday wasn't as good, I relapsed in the morning because I felt so lonely and got triggered by the disconnection from a soo won meta I couldn't join back into. So my cue is loneliness, aloneness in front of a computer, and free time. This is what I need to avoid especially in the mornings when I have a free day. Gotta rebound and not beat myself up. I've been studying and practicing ukulele in my off time to fill in the void. Let's have a good weekend onwards. 
+
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">20January23. 1814 </p>
+<h1 id="4">Promised Neverland</h1>
+<img src="line.png" id="cleanline">
+A week since my last update. So I went home last week for MLK weekend. I chilled on Saturday at parent's home and then got pho at grandma's. It was raining so badly. Like these two weeks of January has already accounted for over half of our annually rain. The pho was delicious though and worth coming home for. On sunday I went to Anime Impulse '22. It was fun and rainy so the mood was kind of down but I got some boba and bought some mystery anime bags. All in all a good time. Coming back I didn't do so hot. On Tuesday/Wednesday I had back to back duty days because of the section realignment and spent time on the ship. On Thursday I recovered and today I'm feeling a lot better. I went back to Asylum Climbing earlier and got some food for free at the corner pin cafe. I want to improve my climbing so bad. Tomorrow I'm going to run some errands and prep for some bbq at Rabasca's place on sunday. Finished the promised neverland earlier and Im reading the laws of human nature by Robert Greene. Duty day Monday. Relax. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">26January23. 1202 </p>
+<h1 id="5">Given</h1>
+<img src="line.png" id="cleanline">
+Life has been good and getting better. Sunday at the Rabascas was really fun. We talked and watched Seven Samurai and grilled steaks with potato salads. Howard was there aswell. Duty on Monday was okay. On tuesday we went to firefighting school on dryside and it was a lot of fun and a great refresher. Relieve the nozzleman! Yesterday we had a normal half day and I went climbing after work. I sent my first v2/v3 it felt good. I can feel my fingers getting weaker then stronger. Today I just came back from the CTM symposium on wetside and it was cool. I got to meet all the CTMs on NBSD and saw Swofford again. I've been playing a lot of fire emblem engage. Trader Joe's has really tasty and affordable frozen foods. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">30January23. 1613 </p>
+<h1 id="6">FreeTaxUsa</h1>
+<img src="line.png" id="cleanline">
+Monday. Today was my day off since I had duty on saturday. I didn't do anything productive and just relapsed. Overall I'm doing good but days like these just suck. It's rainy and I'm inside all day with my laptop. Recipe for disaster. Yesterday went pretty well though. I got my taxes done and went for a run at Chollas Lake. I need to get there earlier so I can run more before it closes. I think I'm going to find more places to run nearby. Climbing has been good, I purchased an annual pass so I'm gonna hit the walls every week. I think my workout routine is going to be BUDs, Pull day, and Climbing for strength workouts and running inbetween, four days for cardio. We're easing into longer days so I'll have to pack lunch now, probably going to make oatmeal in the mornings and bring it to work. I'm about to shower because I feel filthy and then grab dinner and do a quick pull workout. Godspeed. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">02February23. 1014 </p>
+<h1 id="7">00—Dycide</h1>
+<img src="line.png" id="cleanline">
+The week went by fast. We went to the San Diego Zoo for a reenlistment ceremony, it was super fun and I saw a lot of animals that I didn't even know existed. Getting in free was also a bonus. Had duty on thursday and it was uneventful except I was secondary duty driver for the day and had to pick up restricted food and go on a food run. It was stressful because the pier was blocked and we had to go the long way. Still got it done and getting off the ship is always good. Today I'm gonna cut my hair and then go climbing, grab some dinner. I'm moving into the beacon in less than two weeks so I'm excited for that. We're moving out of the yards in March so there's prep for that. I'm trying to be better at socialization and being more consistent with my goals. I'm gonna go home for president's weekend to wash my car and purchase a secondary monitor from microcenter. 
+		
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">08February23. 1617 </p>
+<h1 id="8">September—Earth, Wind, & Fire</h1>
+<img src="line.png" id="cleanline">
+Wednesday. Work blur mostly. Just off a duty day. This week went by fast and slow during the time in. Monday I did my audiogram and went to the field after. My hearing is mostly the same if not a little worst on the low end but better on the higher frequencies. Duty day was busy doing restricted meals and food runs then I had 2-7 watch at night. I got my room in the beacon approved and I'm moving in next week. I have an orientation tomorrow. Sleep is kind of fuck atm but I'll try and get it back on track. Fire emblem engage has been a lot of fun. I plan to go back home for the presidents day weekend. Tonight I just want to do a simple workout, get dinner, practice ukulele, play a chapter of engage and then sleep early. One more day. How are you doing. Yes. 
+
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">13February23. 1930 </p>
+<h1 id="9">Kojo no Tsuki—Duo En</h1>
+<img src="line.png" id="cleanline">
+Monday night. Just came off duty and work. Life has been busy with the move coming up and work ramping up. We had indoc finally this week where the newbies meet all the leadership. I'm moving in tomorrow, can't wait for better internet and a more permanent residence to plant my roots. I got a bunch of goals planned out this week and the rest of this month. I'm watching Katanagatari and I'm thoroughly enjoying it. On duty days I've been secondary duty driver, lot of restricted meal pickups. I'm getting to know my co workers a bit more now and I'm sensing a bit more comradery between us. I want to complete all of my quals before we go on deployment in july 2024 so I can focus on my expeditionary warfare pin. E5 exams next month, I gotta stay consistent with studying so I can pass like before. My brain is a bit fried from the info dump from indoc and my body is tired from exercising after a work day. Sleep is good. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">18February23. 0911 </p>
+<h1 id="10">Porch—Symeze</h1>
+<img src="line.png" id="cleanline">
+It's been a very busy couple of days after moving into the beacon on tuesday. I've been spending most of my off work time relaxing or planning interior design. I've got a theme of Scandinavian, Feng Shui, and cyberpunk going on or at least I plan to implement it. Some notable stuff that happened this week, moving around furniture, buying essentials at walmart, sitcom at work, going to CSE on thursday and seeing the CTRs work, planning to going home for the long presidents weekend, duty/watch yesterday. Yeah I gotta get driving. Without masturbating to pornography I feel a lot more present and energetic. I maintain eye contact a lot more and social interactions are a lot smoother and natural. More vital astra. Au voir. 
+
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">21February23. 0544 </p>
+<h1 id="11">No Blues—Wes Montgomery</h1>
+<img src="line.png" id="cleanline">
+It has been quite a busy yet productive weekend. I went home on saturday and washed the exterior of my car and chilled. Literally, our house is freaking freezing at night/morning. I always catch a cold in my old room. Sunday I spent all day working on the interior. I changed the domelight, took out the seats, cleaned and protected every piece in that interior. A lot of brushing and wiping but I'm extremely proud of my work. Feels nice to sit in a clean car and do some slight maintenance on the interior. Afternoon I went to Ikea to pick up some DIY furniture for my desk I have planned. Droved up to Burbank and met a nice Ikea employee from Florida who handed me my stuff. We small talked a bit about Florida and it was nice. Traveling gives you this connection with people from places you've been to that not only makes you grow but also helps socialization. I went back the next morning and found out my internet is down when I got back. I got extremely stressed out and relapsed. Fuck... Sigh. I'm still working out the logistics of my interior design, what really helped was Design Rules by BCC. It really helps in understanding basic design principles. Today should be a short day at work since we're going on a division hike and I have an optometry appointment. Reset. Catch your stress and observe it with mindfulness. 
+	
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">25February23. 1620 </p>
+<h1 id="12">Another Love—Tom Odell</h1>
+<img src="line.png" id="cleanline">
+Saturday. The rest of the week went by pretty quickly. The whole month of February kind of went by just like that. I've just been focusing mostly on my office area right now. The furniture is built and the tabletop and top pieces are being shipped. I've been a bit lazy in terms of fitness blaming business and the weather. I need to get strong again. The pullup bar is being shipped aswell. I've been making progress with that regard, getting pieces selected. Tomorrow I'm planning on going to Ikea to get some inspiration and ideas then to Chollas. 	
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">01March23. 0543 </p>
+<h1 id="13">Be Alright—John K</h1>
+<img src="line.png" id="cleanline">
+Days like yesterday give me hope about the future. I get good days and bad days and mood swings, depression and then happiness. Motivation and sluggishness. Self loathing and self love. For the most part these past three days have been good. It's probably not the best idea to label things as good or bad but rather enjoy the moments as they last. Sunday I went to IKEA and looked around. I came to the conclusion that a lot of the stuff is cheap and mass produced, they look decent but it feels too impersonal to me and reminds me too much of unthoughtful capitalism. It's still be great place to get inspiration and figure out what you truly want and to experience. Afterwards I went to the apartment of the chairman of San Diego, East Guo to buy an office chair. I went to the Towers in Chula Vista based on an ad of Facebook met with him in his apartment and tested 10 or so different high end chairs. At first I was set on the Herman Miller Sayl based on the looks but it wasn't very comfortable and lacked lumbar support. After trying everything I ended up with the Steelcase Leap and bought it for $395. What value. The newer Aerons and Steelcase series 2 were also very good but lacked options/were out of my price range. Overall a very good experience. I lugged that thing home in the yata and I'm sitting on it right now. Duty on monday was decent. A lot of duty driving, we had panda express. It was almost as good as I remember from college. Decent value as well. Yesterday the highlight of my day was going to a devgru information event on the barge. It gave me something to aspire towards and sounds like something I'd like to do in my future navy career. Most of the CTs here have concluded civilian life is better and is getting out but having orders to devgru seems like the play. So many quality of life benefits and things to help you do your job and reach your goals. Afterwards I ran into Chaps who was actually transferring there this year and picked his brain on the process and his experience, really the epitome of my day. My interior design, goals, and focus has really sharpened after yesterday. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">06March23. 0742 </p>
+<h1 id="14">Ibisco—Mill3ristic</h1>
+<img src="line.png" id="cleanline">
+A nice couple of days. I have today off due to nice to have day off when we have duty on the weekends. Life has been pretty good. I've been running errands trying to get my office setup, a lot of the parts will be available to pickup today, Monday. I've been focusing on my quals and the e5 exam on thursday. I bought a power tower to workout in my room and assembled it yesterday. On friday I went bouldering again after a small break and hung out with Saunders and Howard playing games and eating Panda Express. I started to read Crying in Hmart, it's a memoir about the life of a korean asian american and her memories growing up with her now deceased mother. It's very well narrated by the author herself, she has an amazing voice and the breadth of emotions she conveys hit home frequently. It makes me think about my parents and the time I have left with them and what really matters in life. I went to trader joes yesterday in the vietnamese college town area of SD. The cashiers are always so nice and conversational. Got a bunch of frozen food and boba. It's a good time here. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">13March23. 1700 </p>
+<h1 id="15">Jesus Walks—Kayne West</h1>
+<img src="line.png" id="cleanline">
+A week has gone by. Last week was mostly good. I finally started my COMSEC class in SD and it's been pretty chill. The instructors are really cool, everyone is an ET. I my e5 advancement exam again last thursday and felt that I did pretty well because I recognized a lot of it and a good number of them were straight from Bluejacketeers. Duty on thursdays went really well too. I had the 17-22 with Pedroza and Ms Mathews and we had some deep conversations. Friday I "passed" my quiz and caught up since I missed thursday and felt a little out of it. It started raining like crazy and I had to meet my parents for Costco and Pho. Kind of stressful which led me into a downward spiral this weekend where I didn't really do anything and went doom mode. I did however setup my desk vesa and LEDs which worked for one night then died. That really triggered my doom mentality even more. Today the weather is much better along with my attitude but the damage is done. Reset and move on. I notice the day after a relapse my voice is very quiet and my body language is closed and super timid. Shit sucks. I started watching the Last of Us from HBO and it's very emotional. Anime Impulse this weekend. Let's go on a date with ourselves. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">19March23. 0545 </p>
+<h1 id="16">Infiltration</h1>
+<img src="line.png" id="cleanline">
+Sunday. Duty day. About to go on duty and I'm good. I finished comsec this week and it went by pretty fast. I've been working on my desk setup slowly and it's finally mostly finished. Currently typing on it right now. The three lantern lamp really makes it. I am in love with how everything turned out. The led fiasco and all the shipping hiccups to the chair adventure makes it all worth it in the end. The journey is what really matters in the end. It's a theme I've been thinking about recently. Like the roadtrip in november was painful and exciting but the best memories were the things that happened along the way and how I grew from those experiences rather than finally getting here. I also finished Crying in Hmart and it was really tear jerking and inspiring and relatable. I would highly recommend it. Yesterday I went to Anime Impulse in san diego and looked around for some wall art and bought some gacha bags as per tradition. I've been exploring the idea of dating yourself more recently. Like selfcare but in a more aware, active mode. Thinking out loud, doing hobbies I enjoy, getting boba, and noticing how I feel. It's been doing wonders on my state of mind. g2g. Oh and the Last of Us is fucking amazing. Endure and survive.
+
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">26March23. 0917 </p>
+<h1 id="17">Dell</h1>
+<img src="line.png" id="cleanline">
+Sunday. This week went by pretty quickly. I learned TCCC, the tourniquet course and worked on some quals. Besides that not much else. I finished Vivy the anime about ai, it was decent. Visually amazing and the concepts were intriguing. I also finished the Last of Us. It was amazing and pretty much followed the source material which is how you do video game adaptation series. I give it 9.6/10. Today I'm going to go on a hike at Fortuna trails and then get some boba. The month is almost over, overall it's been very productive and I'm extremely happy with my desk setup. I just want to finish it with an art piece of my mamba that I think will really tie everything together. Next month I'll be focusing on the reading nook I've got planned out and finishing up all my quals. I'm proud of what I've accomplished this month and look forward to April's goals and events. Let's celebrate with this upcoming hike. I also started listening to Ashley's War, a very relevant book about the cultural support team in special operations during the Iraq War. The military stuff is piquing my interest now that I'm in the midst of it all. Very motivating narrative and insight on being a woman in the military and having a reason for being in general. I'm also excited to take leave mid April to go home and work on my car and hang out with the cousins. Sammy is visiting from Australia and my sister is coming back from Japan so it'll be a good time. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">01April23. 0842 </p>
+<h1 id="18">Summer in My Heart—Eric Chiryoku</h1>
+<img src="line.png" id="cleanline">
+It has been another week. Last sunday was a nice spur of the moment weekend with friends. Right before going on that hike, Rabasca invited me to hangout with his wife, Howard, and Dienamine. It was fun chatting, getting boba, dressing as denim hipsters, singing, and playing card games. This week went by fast as well. Duty was a blur since I was on watch and then basically drove all day and night. The rain this year has been insane, almost every week. Yesterday I went to CTM tech time and learned about TSRAs and useful information about NECs and quals. I've been watching Odd Taxi and it's pretty good. A thriller about the everyday life of a Tokyo taxi driver caught up in a whirlwind of narratives and unique everyday plots. Besides that I plan to do the hike today at noon and grab some food afterwards then do some laundry. Gotta relax but not feel unproductive. I keep falling into this cycle of feeling unease from not being able to relax and having to do something then I miss my planned goal because I'm too lazy/afraid/overthinking it and then relapse and feel tired/sleepy/unmotivated and then punish myself with feelings of regret and self loathing. On a happier note, I've ordered more parts for my reading nook and they should be here next week. I want to replace my excessive surfing of the internet with more focused and growth oriented reading as a more healthy form of relaxation/entertainment. Maybe get some boba too. Love yourself.
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">06April23. 1818 </p>
+<h1 id="19">Reoccurring Problem</h1>
+<img src="line.png" id="cleanline">
+Thursday. It's been a slow week. The LAN was down until today so a lot of the admin stuff was postponed on the ship. We moved all of the stuff out of the barge office and into our spaces pretty quickly. At home I've got most of my reading nook sorted out and its been a pleasure. Tomorrow is IWO's going away lunch and we're going to brazilian bbq so I'm super stoked for that. We rung him off today. For the most part we're just sitting on our asses awaiting for stuff to go out of iem and migration to basic phase/wetside. The change of command is next week and that's something to look forward to. The hike on saturday was awesome but tiring. Not an easy hike. The place reminds me of the vineyards of corvo blanco. I hiked up to the peak of North Fortuna mountain and back down. probably should go counterclockwise next time because the way down is slippery. Imma go to sleep because I'm tired. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">14April23. 0605 </p>
+<h1 id="20">Wind Scene</h1>
+<img src="line.png" id="cleanline">
+Friday. Today we're having the change of command aboard the Midway. The week flew by pretty quickly. It was quite a blur since I caught something and was sick for a good part of it. Fogo de chao was kind of overrated. The food was okay but the main attraction was just that, okay. I don't really recall any memorable cut of meat. 5/10 would not go agane. I also ended up losing my parking ticket and having to pay $25 to get out... Oh wells. Duty saturday was good. I had early watch with Myre, Pang, and Mathews. We had some deeper conversations and then I did a food run for everyone. Sunday I ran a bunch of errands and went for a run at a nearby lake. Tuesday I went cranking and it was okay. Then I got sick and have been getting flash fevers for the past two days. I'm going to try and enjoy today and this upcoming leave to the fullest. Planning on relaxing, maybe do something tomorrow and go home at night. Gotta do laundry and a small workout today. Sunday I plan on working on my interior. Going to install the quilted leather and maybe sealant the exterior. Maybe get dinner with friends. Monday the cousins are meeting up to catch up. Sammy from Australia is coming so it's going to be awesome. It's been almost three years. Ranking of kings is amazing. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">20April23. 0533 </p>
+<h1 id="21">Blaze It</h1>
+<img src="line.png" id="cleanline">
+Thursday. The weekend and leave flew by pretty quickly. Saturday morning I went back to LA and picked up Jeff and we went to Chau's. We caught up a bunch and toured Chau's place before going to ayce sushi at Aiken in Pasadena. Same old Pasadena. It was a good time, we ate a lot. It was nice meeting Chau's girlfriend and laughing about our suffering. Too bad I lost my sense of taste and smell because of the sickness I caught last week. Afterwards we went to the movies and watched The Mario Movie and got boba after. On Sunday I worked on my car, installing the quilted leather floor mats and washing/sealing her. On monday I went to Lacy park and ran then picked up some boba and covid test kits before the dinner at the Cheesecake Factory. Meeting our cousins from across the pool was fun, it's nice to catch up but damn there wasn't enough time to really catch up besides the introductions and niceties. The Cheesecake Factory was pretty good. The fried mac and cheese, marsala, and burnt cheesecake was so good but I couldn't taste it, fuck. We went to Wanderlust creamery and got some ice cream. Back to work yesterday and found out I got fsa duties in the chief's mess. It's nice to know that I'm missed when I'm gone. Also started Spy x Family  yesterday and I'm totally obsessed with it already. Waka WAK!. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">29April23. 1525 </p>
+<h1 id="22">Cranking</h1>
+<img src="line.png" id="cleanline">
+Cranking has been very tiring. It's not bad though, I've made connections with a bunch of people and the chief's mess is easier. It's been super tiring though with the unloads, serving, migration, and prepping to get back to wetside. I started playing Hades and I'm enjoying that very much. I'm overstocked on food now since I bring food back from the galley. I keep relapsing though. We are going underway soon so I need to prepare for that. Less computer more reading, being productive/focusing on goals, and destress via media... 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">07May23. 0719 </p>
+<h1 id="23">Huh</h1>
+<img src="line.png" id="cleanline">
+We're back on wetside finally out of the yards as of friday. It felt good to be underway even if only for a couple of minutes. Cranking has been tiring as hell and it hasn't even been a month yet. I'm trying to make the best of it. I've been starting to work on the entryway of my room and the bedside. Pieces are coming in. I finished 10 rounds of Hades and got the ending. Pretty good game. Also finished reading the biography of Richard Feynman. It was ok. There were some interesting tales and his quirky curiosity/personality really made it bareable. Not going to lie, it was a slog of a read especially at the end. I started reading The House in the Cerulean Sea, about a caseworker who gets a case about magical and very unique orphans. The performance on audible is really good. The story is good as well. Yesterday I went to get my car registered in California. A huge pain having to hop around for a smog check and express tags. Expensive as fuck too... It's May, my birthmonth. I'm going to stop masturbating from now on. To do that I'll need to focus on other things and stay away from the PC during certain hours. I notice that particularly from 14-16, I relapse more often so from noon to 16 I'll be either outside or reading. New schedule. Yesterday I was watching Jake in Shanghai again. Feels good to see that city again especially in these strange times of pre proxy war? We're going underway in a couple of days for refueling so that'll be a good experience. Lakers in the conference semifinals against the Warriors. Let's go Lakers.    
+
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">14May23. 1001 </p>
+<h1 id="24">Hopelessness and Death</h1>
+<img src="line.png" id="cleanline">
+More time between entries. It's a sunday. I had duty yesterday. We were suppose to go underway tomorrow but that's been delayed. We had a day off friday so that was nice. Getting more settled in on wetside and things are getting better. I've still been an anxious mess partly due to the stress and constant work. I've started reading When things fall apart and it's very good at explaining mindfulness and meditation practice. It goes indepth into the why and how of the philosophy behind Buddhist fundamentals. Very readable and it really ties everything I've sort of learned over the years about present thought into a concise and simple text. Highly recommend. There's a chapter about hopelessness and death that really changed my perspective on the topics and made everything really click. I've finished spy x family. It was good. I've also finished my gen 3 legendary aurene dagger last week. Another grind done. Lakers are in the western conference finals. Hooyah baby. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">20May23. 0732 </p>
+<h1 id="25">Liability—Lorde</h1>
+<img src="line.png" id="cleanline">
+Sat. Another long week of cranking. I've been mostly clean until yesterday. My whole body aches and my wrist is fucked from breakouts. It been okay for the most part though. I've been on an intermittent fast for about a week now and I feel a lot more alert and energetic. My anxiety has been manageable until yesterday when I relapsed. Thursday was hell, constant moving, serving, standing, unloading, taking out trash, colors, up from 4 to sunset. Duty day sucks. I've just started using a biomonitor from whoop, seems promising so far. We've got a 96 hour liberty next week but I have duty sunday so it's more like 72. I'm thinking of driving back home thursday maybe and coming back saturday but not sure yet. The june underway is going to be broken up so that's another blessing. Today I'm going to go for a run around noon and pick up my shelves from the post office. I also want to cut my hair before then. I've been watching an anime called summertime rendering. It's about a guy whose childhood friend dies mysteriously and he finds out that shadows have been behind the whole thing. Eveery time MC dies he returns to a previous point and tries again. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">26May23. 1642 </p>
+<h1 id="26">Flowers Blooming in the Church</h1>
+<img src="line.png" id="cleanline">
+It's friday and I have it off along with tomorrow. Two days after my birthday. 29. Last year of my twenties. It feels like it has flown by and I was 19 just a few years ago. Cranking has sucked. I was finally late on thurdays for once. Felt very stressful but I got off with a warning. I'm back home for half this weekend. We had dim sum with popo this morning. Apparently I have BTL next week for a couple of weeks. Not sure how that is going to affect our underway. I've been reading about buddhism and general practices in "when things fall apart." It's a decent primer on mindfulness and practical wisdom in general. I also started watching Good Omens on amazon. It's about Christianity from the perspective of an unconventional angel and demon. Pretty funny and well thought out. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">03Jun23. 0942 </p>
+<h1 id="27">Won't Back Down</h1>
+<img src="line.png" id="cleanline">
+Saturday. It's been a chill week for the most part. I stayed BTL on Tuesday and have been doing that for the week until yesterday. I found out I advanced to e5 Thursday night. So yesterday we had a promotion ceremony and all that jazz on the foecsle. It's crazy because the quota was at 49%. 42/90 who passed made second. CTM2 Quach. Besides that I started reading a gentle man in Moscow, it's good so far. About a count in Moscow during the communist uprising/revolution. I've also been obsessed with the amazon show, Upload. It's about having consciousness uploaded to an alternate afterlife coded by humans in the future and all the shenanigans associated with that. Very fun and heartfelt show. I've also started playing FF14 again and it's still slow as fuck. The game holds your hands through everything and treats you like a complete idiot. The rotation is a three skill rotation lol...
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">11Jun23. 1759 </p>
+<h1 id="28">Could You Be Loved—Bob Marley</h1>
+<img src="line.png" id="cleanline">
+Sunday. Another quick week. I finished watching Upload, it finished pretty well in season 2. This week has been mostly BTL training leading up to the OC spray course on friday. Getting pepper sprayed is not fun. We finished that course on friday and it was not that bad. We got taught so much during BTL, I hope I can retain at least some of it. Takedowns, baton use, m9/m4 use, deadly force, vehicle searches, combat tactical movements, unarmed stances/tech, detaining, and much more. I bought a kit lens for my camera for the coming underway but it's not here yet. That's tomorrow. I started watching Chainsaw Man yesterday and I'm almost done with the first season. It's so good. Going back to cranking for the underway, will be tough but suffer a little regularly and you often cease to suffer. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">15Jun23. 1342 </p>
+<h1 id="29">Underway</h1>
+<img src="line.png" id="cleanline">
+Thursday. Dizzy. So we went underway monday until wednesday afternoon. It was an interesting experience. I got mad seasick on tuesday when we were going full speed. It was such a shitty day. Massive throbbing in the head and feeling of throwing up. I sort of got used to it the following day. It was awesome seeing the Spruance sail and leave/enter homeport. I got to return to cranking which still sucks but wasn't the worse. Getting sea legs and coming back on shore was an experience in itself. We've got the weekend as 96 hour liberty so that will be nice. This morning we had more BTL and learned/practiced more tactical movements and responses to different scenarios. Overall an easy day. I'm looking forward to more underways. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">19Jun23. 0754 </p>
+<h1 id="30">La Paix Interierue—Alain Pironi</h1>
+<img src="line.png" id="cleanline">
+A pretty standard rest of the week. We have a 96 hour liberty this weekend and I haven't done much. I had duty on saturday and managed to read a good chunk of a Gentleman in Moscow. I absolutely adore this book. It's like the suite life of the Count except a much darker and prim version in Moscow. The perspective from a noble is strangely relatable as he recalls and experiences the dying of an older age and the coming of a world where he does not fit into. I finished chainsaw man and really enjoyed it's story and art. Feels a lot like jujukaisen. I started Initial D and the Legend of Vox Machina, both good so far. It was father's day yesterday and I just stayed in and it's juneteenth today. There's a strong urge in me for something more. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">26Jun23. 2240 </p>
+<h1 id="31">Lasting Lover—Sigala</h1>
+<img src="line.png" id="cleanline">
+Last week went by pretty fast. On Friday we went to the gunshoot to get weapons quals. It was fun but long as fuck. We didnt leave until 2100. It was the first time I shot the m4. The location and everything was pretty scuffed but awesome. Good mountain roads on the way there but the dirt roads sucked. It was near the border of mexico. After that I had a mostly chill weekend. I notice that my recovery during the weekend sucks, sleep is all over the place. I need to work on that. Today I was hit with a curveball. Basically had to escort Diaz all day as he is getting kicked out of our command. Had to take him to Balboa hospital and do a bunch of running around to figure out what was going to happen to him. I think he has a good heart but just a bad/misguided attitude and a problem with being responsible. We're about to go underway again tomorrow for one day, that should be fun. I hope I don't get sea sick this time...
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">04Jul23. 0819 </p>
+<h1 id="32">La Paix Interieure—Alain Pironi</h1>
+<img src="line.png" id="cleanline">
+It's the morning of the fourth of July. It doesn't seem like the family is doing anything this year since it's on a Tuesday. This week has been good for the most part. On monday I escorted Diaz to Balboa hospital to get a mental evaluation and that took all day, until 2200. Tuesday we went underway for a day. The rest of the week blew by since CoC gave me friday off. Still cranking and what not. I got to catch up on some errands friday and saturday. I drove out into the mountains/outskirts of SD on sat. It nice out there. I went to the optometry first to get some transition glasses made and an eye exam along with it. I then went to Brody's bar near Jamul. I was planning on visiting a vineyard out there but drove past it and decided to drive back along Otay Lake. Finished the trip with a visit to trader joe's to stock up on groceries. Overall a good day. Sunday I had duty and yesterday I stayed in all day and have one of those down days; I did drive Goodrow to the airport though so at least there was some good yesterday. I wrote about my failures which I've included in the about section on friday and that really helped put my life in a new perspective and brought back some reminiscing. I'll do more writing prompts because they seem to help...
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">09Jul23. 1625 </p>
+<h1 id="33">Remember Me—Leslie Parrish</h1>
+<img src="line.png" id="cleanline">
+Sunday. The short week is over. It felt very long though even though it was only three days. I had duty friday so it dragged on to Saturday morning. We found out the long range schedule for our ship until late 2025. Been mostly work still as a FSA. In gw2 I've finally finished the decade of the dragon achievements this weekend. Beautiful armor and cape. Still watching Initial D and reading a Gentle on Moscow/Rage of Dragons. Undertale is kind of mid to be honest. I'm not wowed by the game at all. It's all kind of gimicky except the soundtrack. Same way I feel about FF14. Next week I'll visit home and work on my car and visit the cousins. I dissected an excerpt from the Mediations just now and I'll transcribe it onto the about page. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">18Jul23. 1645 </p>
+<h1 id="34">553 Jessica Lahey</h1>
+<img src="line.png" id="cleanline">
+Tuesday. Last week was long but short at the same time. Mostly same old cranking with a skeleton crew. Half the ship was gone on leave so it was pretty chill. The weekend was great. I drove home sasturday morning and went to Smith Park to play sports with the cousins. It was really fun and hot. We play pickup and beat some chinese kids. Ryan is a monster at bball. Afterwards I went home to chill and wash my car. At 4 we met up at Kelly's for the grad party and it was kind of awkward in the beginning. It was in part due to the heat and mosquitoes. As it got dark we played family jeopardy and it was so much fun. Lots of secrets we leaked and we learned much about each other. We had some deeper conversations at night and drank until 1 am. It was a good time. The next day I had brunch with Chau and Jeff at Aloha and caught up. I got boba with Chau and then drove back to SD. Monday was duty, I found out that I was done with cranking today and finally back in to my division again.   
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">23Jul23. 1554 </p>
+<h1 id="35">Tender Side of the Moon—Michelle Qureshi</h1>
+<img src="line.png" id="cleanline">
+Sunday. Kind of long week adapting to a new return to OT. It's been busyish. Not as tiring as cranking but a lot of maintenance and moving about the ship. On friday with went to the funeral of the fourth CO of the Spruance. It was hot and kind of ceremonious. Besides that I've been trying to draw more, doing a practice where I draw the same thing everyday. I've also been trying to break my addiction to porn, it's something I want to accomplish within 6 months if a gun was up against my head. It was a writing prompt answer. Unfortunately my streak broke today. Once that trigger hits I can't stop... There are three main reasons why I'm trying to be porn-free. <br>1) It's consuming my very limited free time, roughly 300 hours a year based on data this year.<br> 2) It ruins my ability to maintain and grow relationships.<br> 3) It physically nerfs me; I end up weaker, sore, and tired/sleepy after orgasm.<br> 4) It mentally nerfs me as well; I don't feel like doing anything afterwards and my mind is hazy/not performing optimally. I am going to replace it with healthier habits: dating myself, art (photography/drawing), working on car, reading, exercise, cooking, chores, journaling/writing, working, socializing, and doing nothing. Doing nothing has been big for my this week. It has been a longer period I've abstained since I've practiced doing nothing. It's sort of clicked what meditation is now. Literally doing nothing so that your baseline levels of neuro chemicals equalize. Basically getting your happiness levels to normal so that life will become more enjoyable/meaningful. So every chance I get to wait/pass time, I shall cherish and quiet my mind for it is one tiny step towards a better me. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">27Jul23. 0545 </p>
+<h1 id="36">Bang!</h1>
+<img src="line.png" id="cleanline">
+Thursday. It's been a really chill week; we've been going to CRY T1 school for readiness class which basically teaches us the fundamentals of CTs and shipboard basics. It's a really good refresher for me since I turned off my brain for three months cranking. I almost don't know what to do with all the free time. Two things I was to discuss, I started reading the Almanack of Naval Ravikant and boy does this book have a fountain of wisdom on wealth and happiness. It's a book on Naval's insights compiled from talks, conversations, interviews, and self reflections by Tim Ferriss and friend. It's written like a modern day stoic and it's one of those books that just clicks with me and drives me into a maniac frenzy to try and deconstruct and absorb it as much as I can. The second idea I wanna talk about is the youtube video: a generation of sexless men. I saw it on my feed as Asmongold reacts to it. It's a gem of a video that explains why so many men these few decades have become involuntarily celibate due to technology, dating apps, loss of face to face communication, blame on the environment around them/false reality due to their circumstances, unrealistic expectations due to social media and prevalent pornography. Got to go to muster...
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">06Aug23. 0536 </p>
+<h1 id="37">Livin' and Lovin'</h1>
+<img src="line.png" id="cleanline">
+Sunday. I've got duty today... It's been pretty good this past week. I've learned a lot about CTM shit and how hectic the Navy is. I've finished reading a Gentleman in Moscow and it's a gloriously fun read. The ending was just perfect and so very suspenseful when the Count prepares and plans this absurd escape from the hotel to end up in a village his best friend died in in Russia by pretending to go to Norway. Genius. Sofia goes off with the American and the Count lives the rest of his life with the Willowy woman. Quite romantic. I'm still compiling the Almanack and thinking about how it applies to my life and listening to the Expanse on Audible. I've also finished Vinland Saga s2. The non-violent fight to see the king was such a powerful scene. 
+
+
+<!-- COPI PASTA
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">XXAug23. XXXX </p>
+<h1 id="x">X</h1>
+<img src="line.png" id="cleanline">
+X
+
+
+ -->	
+		 
+		 
+		<img class="imgB" src="bg2.png">
+
+	</div>
+</div>
+	
+	
+	
+<footer>©<script>document.write(new Date().getFullYear())</script> Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>		
+	
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - GW2</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#p1").toggle();
+    });
+});
+</script>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/vInceptive">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gw2.html">GW2</a></li>
+			<li><a href="specs.html">SPECS</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="mental.html">Mind</a>
+			  <a href="physical.html">Body</a>
+			  <a href="pre2018.html">Pre-2018</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			</div>
+		    </li>
+			<li><a href="books.html">LIT</a></li>
+			<li><a href="photos.html">PHOTOS</a></li>
+		</ul>
+		
+	<img src="Shiny.png" style="position: static; width: 100%; border: 2px solid black; margin: auto; margin-top: 50px;">	
+	
+	<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">Nov 22, 2016</p>
+	<br>
+	<h1>GUILD WARS 2 LS EPISODE 3 WALKTHROUGH</h1>
+	
+	<div class="box">
+	<h1>Contents</h1> 
+	<button>Show/Hide</button> 
+		<div id="p1">
+		<a href="#bff" id="p1">1. Bitterfrost Frontier</a><br>
+		<a href="#eli" id="p1">2. Elixir</a><br>
+		<a href="#tbc" id="p1">3. The Bitter Cold</a><br>
+		<a href="#fo" id="p1">4. Frozen Out</a>
+		</div>
+	</div>
+	
+	<h1 id="bff">Bitterfrost Frontier</h1>
+	<img src="line.png" id="cleanline">
+	<p id="bodytextog">Upon arriving at Bitterfrost Frontier I found myself in a cold riverway that has been frozen over. Tall trees loom in the background and there are giant braziers to light. The braziers seem to protect me from the raging blizzard and melt frozen objects. Interesting.</p>  
+	<img src="gw2img/1.jpg" id="blogimage">
+	<p id="bodytext">My quest marker indicated that I should find Sorrow's Eclipse Sanctuary and speak to its leaders.<p> 
+	<img src="gw2img/2.jpg" id="blogimage">
+	<p id="bodytext">A kodan and a quaggan. Coo!<p> 
+	<img src="gw2img/3.jpg" id="blogimage">
+	<p id="bodytext">They told me that I must create an elixir that will allow me to penetrate the heart of the bitter cold.<p> 
+	
+	<h1 id="eli" style="margin-top: 15px;">Elixir</h1>
+	<img src="line.png" id="cleanline">
+	<p id="bodytextog">The ingredients I needed were winterberries, eggshells, suet, a fire stone, and a hot spring.</p>
+	<img src="gw2img/4.jpg" id="blogimage">
+	<p id="bodytext">I found winterberries from foraging the forest areas and suet from the monsters nearby. There is an incubator near Woomulla where I placed eggs to convert to eggshells.</p> 
+	<img src="gw2img/5.jpg" id="blogimage">
+	<p id="bodytext">A cave to the northeast of the forest is where I went next.</p>
+	<img src="gw2img/6.jpg" id="blogimage">
+	<p id="bodytext">Here I spoke to a Hooga Dizdiz about the fire stone. The grawl gave me a stone for doing a few trivial tasks.</p>
+	<img src="gw2img/7.jpg" id="blogimage">
+	<p id="bodytext">The final step is to cook the elixir in the region's hottest hot spring the locals guided me in the right direction.</p>
+	<img src="gw2img/8.jpg" id="blogimage">
+	<p id="bodytext">HOT!</p>
+	
+	<h1 id="tbc" style="margin-top: 15px;">The Bitter Cold</h1>
+	<img src="line.png" id="cleanline">
+	<p id="bodytextog">After brewing the elixir I made my way to the bitter cold area of the map and drank the potion. A large canyon laid before me.</p>
+	<img src="gw2img/9.jpg" id="blogimage">
+	<p id="bodytext">I climbed a few plateaus and glided to this mechanism that melted the waterfall revealing a cave. </p>
+	<img src="gw2img/10.jpg" id="blogimage">
+	<p id="bodytext">Oh fun a boss monster!</p>
+	<img src="gw2img/11.jpg" id="blogimage">
+	<p id="bodytext">As I fought the abomination I realized that it was immune to damage until I lured it to the cave bugs where their juices made the beast vulnerable. </p>
+	<img src="gw2img/12.jpg" id="blogimage">
+	<p id="bodytext">Easy.</p>
+	<img src="gw2img/13.jpg" id="blogimage">
+	<p id="bodytext">Now I can retrieve a sample of the abomination for Taimi. I returned to Sorrow's Eclipse and spoke with Deep Water.</p>
+	<img src="gw2img/14.jpg" id="blogimage">
+	
+	<h1 id="fo" style="margin-top: 15px;">Frozen Out</h1>
+	<img src="line.png" id="cleanline">
+	<p id="bodytextog">Deep water told me that Braham and Rox were spotted entering a cave to the south.</p>
+	<img src="gw2img/16.jpg" id="blogimage">
+	<p id="bodytext">I caught up to my friends and we treked through the cavern in search of a scroll that makes Jormag and its minions weakened.</p>
+	<img src="gw2img/18.jpg" id="blogimage">
+	<p id="bodytext">We fought hoards of creatures and minions.</p>
+	<img src="gw2img/17.jpg" id="blogimage">
+	<p id="bodytext">Eventually we ended up in a large enclosure where some strange ritual was taking place.</p>
+	<img src="gw2img/22.jpg" id="blogimage">
+	<p id="bodytext">To take the boss down I had to get the beast to run over the minions protecting it. It allowed Braham to use the scroll which removed its protection.</p>
+	
+	<iframe width="100%" height="100%" style="margin-bottom: 10px;" src="https://www.youtube.com/embed/vHvOqI0H4W4" frameborder="0" allowfullscreen></iframe>
+	
+	
+	<img src="gw2img/25.jpg" id="blogimage">
+	<p id="bodytext">"Raid boss" down.</p>
+	</div>
+	
+	<img class="imgB" src="bg2.png">
+	
+</div>
+	
+	
+<footer>©2017 Vincent Quach, vInceptive Gaming<br>All video game works belong to their respective owners.</footer>		
+	
+</body>
+</html>

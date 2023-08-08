@@ -1,0 +1,914 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - 2021</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	$("button").click(function(){
+		$("#p1").toggle();
+	});
+});
+</script>
+
+
+
+</head>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/misterv520">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="pre2018.html">Pre-2018</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			  <a href="2020.html">2020</a>
+			  <a href="2021.html">2021</a>
+			  <a href="2022.html">2022</a>
+			</div>
+		    </li>
+		</ul>
+		<br><br><br><br>
+		 <div class="box">
+               <h1>Contents</h1>
+               <button>Show/Hide</button> 
+               <div id="p1">
+					<h2 id="1">January</h2>
+					<a href="#1" id="p1">01/31</a><br>
+					<h2 id="1">February</h2>
+					<a href="#2" id="p1">02/02</a><br>
+					<h2 id="1">March</h2>
+					<a href="#3" id="p1">03/01</a><br>
+					<a href="#4" id="p1">03/13</a><br>
+					<a href="#5" id="p1">03/15</a><br>
+					<a href="#6" id="p1">03/20</a><br>
+					<h2 id="1">April</h2>
+					<a href="#7" id="p1">04/20</a><br>
+					<h2 id="1">May</h2>
+					<a href="#8" id="p1">05/18</a><br>
+					<a href="#9" id="p1">05/21</a><br>
+					<h2 id="1">June</h2>
+					<a href="#10" id="p1">06/24</a><br>
+					<a href="#11" id="p1">06/25</a><br>
+					<h2 id="1">July</h2>
+					<a href="#12" id="p1">07/13</a><br>
+					<a href="#13" id="p1">07/19</a><br>
+					<a href="#14" id="p1">07/23</a><br>
+					<a href="#15" id="p1">07/28</a><br>
+					<h2 id="1">August</h2>
+					<a href="#16" id="p1">08/03</a><br>
+					<a href="#17" id="p1">08/10</a><br>
+					<a href="#18" id="p1">08/14</a><br>
+					<a href="#19" id="p1">08/22</a><br>
+					<a href="#20" id="p1">08/26</a><br>
+					<a href="#21" id="p1">08/30</a><br>
+					<h2 id="1">September</h2>
+					<a href="#22" id="p1">09/01</a><br>
+					<a href="#23" id="p1">09/08</a><br>
+					<a href="#24" id="p1">09/12</a><br>
+					<a href="#25" id="p1">09/16</a><br>
+					<a href="#26" id="p1">09/17</a><br>
+					<a href="#27" id="p1">09/21</a><br>
+					<a href="#28" id="p1">09/23</a><br>
+					<a href="#29" id="p1">09/27</a><br>
+					<h2 id="1">October</h2>
+					<a href="#30" id="p1">10/03</a><br>
+					<a href="#31" id="p1">10/06</a><br>
+					<a href="#32" id="p1">10/11</a><br>
+					<a href="#33" id="p1">10/22</a><br>
+					<a href="#34" id="p1">10/24</a><br>
+					<a href="#35" id="p1">10/26</a><br>
+					<a href="#36" id="p1">10/29</a><br>
+                	<h2 id="1">November</h2>
+                     <a href="#37" id="p1">11/02</a><br>
+         	        <a href="#38" id="p1">11/06</a><br>
+                    <a href="#39" id="p1">11/10</a><br>
+                    <a href="#40" id="p1">11/14</a><br>
+                    <a href="#41" id="p1">11/21</a><br>
+					<a href="#42" id="p1">11/25</a><br>
+					<a href="#43" id="p1">11/28</a><br>
+					<a href="#44" id="p1">12/02</a><br>
+					<a href="#45" id="p1">12/07</a><br>
+					<a href="#46" id="p1">12/13</a><br>
+					<a href="#47" id="p1">12/14</a><br>
+
+				</div>
+        </div>
+		
+		 <a href="#title"> <img src="b2t.png" style="position: fixed; width: 50px; height: 50px; bottom: 0px; right: 0px;"></a>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">January 31, 2021. 9:22 PM</p>
+<h1 id="1">Make You Feel My Love - Adele</h1>
+<img src="line.png" id="cleanline">
+It has been a depressing half year. I have been spending most of my time playing swtor and watching twitch/nba. I've managed to get my sith assassin to ilvl 306 and nearly fully geared in less than two weeks. In terms of how I'm feel, it's not good. I've been mostly literally jerking it and my health is suffering for it. The start of this year has not been good for me. Some notable events were OTV Rust craze for the first half and GME stocks for the second half. Rust was an awesome time that quickly fell but the time it lasted was incredibly entertaining. Seeing so many streamers interact with each other reallys shows how technology and gaming can bring people together. My most memorable interaction was Cyr's character and Rust Vegas when Cream Rocket, the vtubers, rolled into town and they all sang on the strip to midi piano covers. With GME going to the moon, the layman is becoming rich and it doesn't show much signs of stopping. What this recent explosion in stock has shown is that wealth is quite easy to obtain provided one has a large enough sum to invest with. I've started watching the fifth season of The Expanse as the season finale will be this Wednesday. California is still on lockdown but cases are stable and declining now. The vaccine has been released to the elderly and medical workers. Mass public distribution will come in the following months. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Admission
+2. An attempt
+
+<i>What would make today great?</i>
+1. Finish one.
+2. Better food.
+3. No blame. 
+
+<i>Three things I can improve today over yesterday.</i>
+1. Water.
+2. Write. 
+3. Read.
+</pre>		 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">February 02, 2021. 4:18 PM</p>
+<h1 id="2">Chance - Angel Olsen</h1>
+<img src="line.png" id="cleanline">
+It's a lovely tuesday. Not too much to talk about. I keep getting horrible migraines when I workout hard recently. After returning to my original albeit higher rep routine from doing the bwf primer, I've felt so winded. My jumproping has been pretty good except for a small calf strain that nags whenever I jump. Lunar new years event has started in gw2, the skins look weak though. In swtor I almost have the tech frags for a full set of death knoll. In feh the cyl vote has ended with Gatekeeper, Marth, Marianne, and Eirika. This year is looking up. Another thing I want to discuss is mindset. I notice when one is depressed they are deluded into believing they are were wrong or deluded into playing the victim where they blame rather than take responsibility. This is a realization I've gotten from One. George Washington's live so far until age 22 has been insane. He's given 100 troops at that age for relaying a message to a french colonel from the british while braving the cold frontier with the natives. Something I noticed is that he is quite sombre and stoic but does what is necessary. That is a good mindset to have.   
+<pre>
+
+<i>I am grateful for...</i>
+1. Tuesdays
+2. History
+
+<i>What would make today great?</i>
+1. Read
+2. Swtor Reset
+3. Clippers vs nets
+
+<i>Three things I can improve today over yesterday.</i>
+1. Sleep 
+2. Dont 
+3. Stall
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">March 01, 2021. 3:18 PM</p>
+<h1 id="3"></h1>
+<img src="line.png" id="cleanline">
+Another listless month. I spent most of the month watching GTA V RP. The nopixel 3.0 release has been awesome. Watching the Deanbois, Cleanbois, ChangGang, and LSPD mostly. I also started my modded Witcher 3 playthrough. It has been amazing. Playing it with ghostmode mod and a bunch of QoL and visual mods. Life has been lonely with hits of dopamine. The last time I left the house was chinese new years. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Salt 
+2. Pepper
+
+<i>What would make today great?</i>
+1. Workout
+2. Bitcher 3
+3. Clip nails. 
+
+<i>Three things I can improve today over yesterday.</i>
+1. Clean desk. 
+2. More water. 
+3. Heads up. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">March 13, 2021. 4:26 PM</p>
+<h1 id="4">Memories of You - Persona 3</h1>
+<img src="line.png" id="cleanline">
+It's been a good week. I'm cold turkey. Like it has been cold. The week had some small showers. I've started a data scientist machine learning certification course from Microsoft. It's not too confusing but the coding on python is a bit overwhelming. I can see a lot of practical implementations of using machine learning to identify patterns and sort information. I also finished the Witcher 3 main story yesterday. Such an incredible experience. I liked how ghostmode actually makes the game hard and more memorable. Vaccines have been rolled out for about 15% of the US population. I'm trying to focus on three "one" things from now on. Books, profession, and health. Books is fairly obvious, I've been neglecting my learning and mental growth so I want to read more consistently. To do so I've mocked a three week checkout period for the books I am currently reading. Profession I'm doing certificates that I can add to my resume and will apply and get something by the summer. After this Microsft Azure cert I will look into the Google tech support one. Health I've got a good routine via bodyweightfitness and cardio via cycling and jump roping.    
+<pre>
+
+<i>I am grateful for...</i>
+1. Strawberries
+2. Robes.
+
+<i>What would make today great?</i>
+1. 2 hour skill 
+2. Heart of stone? 
+3. Read George Washington / Graveyard.  
+
+<i>Three things I can improve today over yesterday.</i>
+1. Sleep earlier, less chance to be abruptly awaken / better circadian. 
+2. Less screen time before bed. 
+3. More water. 
+</pre>
+	
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">March 15, 2021. 5:24 PM</p>
+<h1 id="5">Red Planet - Scandroid, Lazerpunk</h1>
+<img src="line.png" id="cleanline">
+Feeling wonderful after a scintillating workout. I've been reading and watching about George Washington and Michael Jordan. Michael Jordan in the last dance has really been a model for me recently. The whole series is extremely powerful and inspirational. Even though it was only two decades ago, it really seems like another time with how different things have changed.  
+<pre>
+
+<i>I am grateful for...</i>
+1. Food from my sister.
+2. These wide beats. 
+
+<i>What would make today great?</i>
+1. Two exercises. 
+2. Strawberries. 
+3. Witcher bear gear. 
+
+<i>Three things I can improve today over yesterday.</i>
+1. more yoga. 
+2. more reading. 
+3. less assumptions. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">March 20, 2021. 5:40 PM</p>
+<h1 id="6">Joker and the Thief - Wolfmother</h1>
+<img src="line.png" id="cleanline">
+It has been a pretty hectic week. On tuesday my monitor died and I was stuck on a single monitor setup. Annoying to say the least when what you are used to is gone. Today the new monitor arrived and I just finished setting up. It has been going pretty good with a small relapse mid week. I got extremely lonely and restless late at night. I'm almost 75% done with my machine learning certificate and I got certified for CPR/AED/first aid too. Keep going. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Machine
+2. Learning.
+
+<i>What would make today great?</i>
+1. Two courses
+2. One thing transcript. 
+3. Elite. 
+
+<i>Three things I can improve today over yesterday.</i>
+1. Worry less. 
+2. No screens before bed. 
+3. No cookies. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">April 20, 2021. 4:30 PM</p>
+<h1 id="7">Red Prince Theme - Borislav Slavov</h1>
+<img src="line.png" id="cleanline">
+I am feeling a lot better. I started reading the book "The Laziness Lie" and it has helped me realize how I can better my life. This past year with all the disasters and pandemic has took a toil on my mind and body. I didn't want to admit it but I was/am depressed. Not so much as a broken mentally it is usually generalized as but feelings of lethargy and hopelessness. I also realized that I was in a perpetual state of perfectional anxiety where I get paralyzed by feelings of imperfection and put off doing things; even basic things like chores and eating. I kept thinking that I was useless and biding my time for something that will carry me out from the abyss. When I was depressed I would deny or didn't even think that such a weakness could happen to me. It takes up so much energy to cycle through these dark thoughts, depleting my will and supplying the cycle of self resentment and loathing. I found it helpful to embrace my "laziness" as a sign that my body needs to rest mentally and physically. Yesterday I received my first dose of the covid vaccine. It was a bit stressful since I had not left the house in months. My car battery died and I had to get maintenance on it. Other than that I've still been keeping up with gtarp, got back into mhw, had an amazing weekend of league of legends 3-2's, and had a lot of fun with Steven in Elite Dangerous.  
+<pre>
+
+<i>I am grateful for...</i>
+1. Laziness.
+2. Steven.
+
+<i>What would make today great?</i>
+1. Mhw.
+2. Soup. 
+3. Fish oil.
+
+<i>Three things I am feeling.</i>
+1. Relaxed.
+2. Excited.
+3. Slight angst. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 18, 2021. 12:29 AM</p>
+<h1 id="8">Cry Me a River</h1>
+<img src="line.png" id="cleanline">
+Another month. I'm down bad again. The momentum from last post was derailed and I'm not in the best of mindsets. It's so strange how moods can change so fast. Steven came to visit for a weekend in April which was fun. We hungout and had a backyard bbq. The thing that stresses me out and causes my relapses is my financial situation and job situation. I'm not in school and unemployed, kind of wasting my time away. I started to hard grind gw2 again and time just flies while watching gtarp on nopixel. Last weekend was Lucy and Jenny's Graduation party at nbc seafood. We had a dinner and hungout after at Lucy's place. We talked about family and current events. It was motivating and demotivating for me to hear about everyone and where they are going. I am simply stuck right now. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Pain.
+2. 
+
+<i>What would make today great?</i>
+1. $
+2. $
+3. $
+
+<i>Three things I am feeling.</i>
+1. Down
+2. Bad.
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">May 21, 2021. 12:16 AM</p>
+<h1 id="9">Trying - Orion Sun</h1>
+<img src="line.png" id="cleanline">
+Been simply working out and watching gta rp lately. I returned to meditating in the mornings. I'm still having a lot of trouble getting out of bed in the afternoons. Today chang gang unlocked the jewellery bench and did a timelord arc. It was a crazy rp arc day. Tomorrow is the 4v4v4v4 super heist. It's going to be lit. Lakers beat the Warriors to secure a 7th seed into the playoffs. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Daemons. 
+2. 
+
+<i>What would make today great?</i>
+1. sleep. 
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Hopeful
+2. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">June 24, 2021. 5:42 PM</p>
+<h1 id="10">N/A - N/A</h1>
+<img src="line.png" id="cleanline">
+It's been a month since my 27th  birthday. It has been depressing. Same old stuff and lack of meaning. Mostly playing Radiant Dawn, NFS Heat, Gw2, FEH, ED, and now Three Houses. Lakers have been eliminated in the playoffs. I've finished Daemon, it's a really good futuristic dystopian novel. I've started Man's Search for Meaning by Victor Frankl. It's about a nazi concentration camp doctor/survivor's notes about what occurred there and how it affected him during and afterwards. It put into perspective the things we take for granted. Small things like being able to sleep at night in a bed or having more than watery soup and scanty bread. One instance that I remembered quite well was how the author mentions that a step into the dormitory was one of the greatness challenges the inmates faced because they didn't have the energy after doing manual labor all day and eating so little. They would have to grab the door frame and hoist themselves to get up one step because they were so weak. Dad is pissed that I'm not doing anything right now so he has cut off the internet. I have finished embellishing my resume yesterday and applied to a couple of jobs. I've reread the summary for Oathbringer yesterday and I'm starting Rhythm of War. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Food. 
+2. 
+
+<i>What would make today great?</i>
+1. Read
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Excited. 
+2. Annoyed. 
+3. Grateful.
+</pre>
+
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">June 25, 2021. 11:59 PM</p>
+<h1 id="11">The Wire - Haim</h1>
+<img src="line.png" id="cleanline">
+I've sent a couple more applications for jobs and it's been okay. Not as bad as all the negativity than made me procrastinate so much. Besides that today has been pretty unproductive. Rhythm of War has started off strong, I read it until I fell asleep last night. Today I watched Yung Dab reunite with Siz Fulker in gta rp. It's been two years in the making and the emotions were everywhere. I cri evertiem. 
+<pre>
+
+<i>I am grateful for...</i>
+1. music
+2. Nopixel
+
+<i>What would make today great?</i>
+1. More apps?
+2. Stormlight
+3. A shirt. 
+
+<i>Three things I am feeling.</i>
+1. conflicted.
+2. everywhere
+3. elated.
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">July 13, 2021. 12:02 PM</p>
+<h1 id="12">My Hero - Foo Fighters</h1>
+<img src="line.png" id="cleanline">
+I spoke with some recruiters from the army and navy, it went well. I got some interview experience and did an actually interview this morning for Teksystems/Laerdel. I'm a bit nervous about the position but I know I'm going to be alright. I got some good advice while listening to the TF podcast yesterday about nervousness and how to deal with it. You just need to remind yourself that less qualified and prepared people have done what you worry about before. That's the distinction between informed and uninformed confidence. Having the I think I can versus the I know I can. I also liked the finding comfort in discomfort. I have a screening interview in two hours so I got to get ready for that. I also watched a funny as hell vod of cyr playing Muck with the muckvengers. Just constant laughing especially the final round with Jake transcending to godhood the hilarity that ensued.  
+<pre>
+
+<i>I am grateful for...</i>
+1. Opportunities. 
+2. Discomfort. 
+
+<i>What would make today great?</i>
+1. Ace the interview. 
+2. Read. 
+3. gw2?
+
+<i>Three things I am feeling.</i>
+1. nervous.
+2. excited. 
+3. doubt. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">July 19, 2021. 11:24 PM</p>
+<h1 id="13">True Kinda Love</h1>
+<img src="line.png" id="cleanline">
+It's monday. I'm going to a military testing center to take my asvab test on wednesday. It's really early so I'll be staying at a hotel in Riverside. It's a bit crazy to me but I'm not as nervous because I'm prepared. This will be my entrance into the Navy nuclear program. A new chapter as some would say. Yesterday I hung out with the boys all day and it was such a cathartic experience after the past year and half in quarantine. We hiked brown mountain to the dam in hot ass weather. My legs are so poor at traversing horizontally because of all my cycling and skipping. We went to Chri's KBBQ in Pasadena after. It was decent, service was slow because of the shift change but the staff were friendly and attentive afterwards. We ate so much but it was good fun. After, we went to T Pumps for boba and got $4 24oz BYOBoba so worth and walked to a "park" according to Chau. lol. Then we drove Andrew home and stayed at his house in Chino for a bit and went back. My legs are shot. I also watched Jake's roundtrip to Austin, TX day 1 where he went to Flagstaff, AZ. That town looked pretty cozy and the cost of living is so low. I want to finish with my translation of Dr. Frankl's logotherapy particularly the paradoxical intention. "It is not the broken's pity, worry, or contempt that will break the cycle of one's misfortunes/mal-thoughts but rather the way to cure is self-realization/transcendence of the process and ability to do."
+<pre>
+
+<i>I am grateful for...</i>
+1. Irony.
+2. 
+
+<i>What would make today great?</i>
+1. Good sleep. 
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Resolve.
+2. Determined.
+3. ReSpOnSiBlE.
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">July 23, 2021. 9:44 PM</p>
+<h1 id="14">I LOVE BIG SPEAKERS - BASS BOY</h1>
+<img src="line.png" id="cleanline">
+I'm back from MEPS after doing my asvab test and most of my medical testing. Riverside/Moreno Valley was pretty cool and the experience was pretty awesome. Waking up at 430 was crazy but the people I was processing with was eye opening. All my life I looked at the military as a last resort but these people looked at it as a way to better their lives. There were so many recent high school graduates. Downtown Riverside was more historic than I thought. The second day of processing was actually great considering how much processing and waiting we did. I really connected with these strangers more than I've ever before. It was unlucky that my leather shoes fucked up my feet and delayed my medical but for some reason there's a silver lining. The airforce recruiter finally got in touch with me and since I didn't sign any contracts yet I'm technically a free agent that's pretty much done with processing. All because I decided to go for a walk. Is this an intervention from God steering me away from the Navy towards the Airforce? I don't know. Overall it was a great experience being by myself and suffering with others. I look forward to seeing the airforce opportunities and the next six years. I also finished Man's Search for Meaning just now, reading some of it while at MEPS.  
+<pre>
+
+<i>I am grateful for...</i>
+1. Navy homies. 
+2. blissful suffering 
+
+<i>What would make today great?</i>
+1. Fruit?
+2. Working on the weekend like usual.
+3. Blowing things up. 
+
+<i>Three things I am feeling.</i>
+1. Elated. 
+2. Changed.
+3. Forward.
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">July 28, 2021. 10:42 PM</p>
+<h1 id="15">Wake Up — Lyn</h1>
+<img src="line.png" id="cleanline">
+Doing better at home. I think I'm going to fully commit to the navy as a nuke. I found out that the USAF isn't a guaranteed job and I'm unlikely to get my top preference. We'll see. I've been mostly watching the olympics and playing gw2 and working out. This year the olympics at Tokyo have been awesome. My favorite event was women's road cycling. The story of the underdog Anna Kiesenhofer taking gold after leading for 130km is insane. Just an incredible feat of human will and self application. Doing it all without a team or coach. Crazy. End of Dragons have revealed some hype stuff regarding the Canta expansion. I'm very excited to see the "ronin" elite spec for the theif. Dual swords hype? I'm starting to run again after discovering how weak my horizontally weak my legs are and I'm going to need it for basic military training. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Mom's spaghetti.
+2. Fan. 
+
+<i>What would make today great?</i>
+1. Sleep.
+2. .
+3. .
+
+<i>Three things I am feeling.</i>
+1. Tired. 
+2. Motivated. 
+3. Inspired. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 03, 2021. 12:17 PM</p>
+<h1 id="16">Let Me Explain</h1>
+<img src="line.png" id="cleanline">
+It's august, the summer heat is almost over. I've been mostly reading, studying engineering principles, and watching streams. Gave myself a wonderous bowl cut and ran throughout the weekend. There's a linger sharp pain when I land on my ankle when I rolled it weeks ago. I'm resting because of it. I'm gonna go on a longish walk in the afternoon. I'm mainly learning about electrical principles the circuits and types etc. I've been watching nopixel again mostly Otto/Koil. The rp is popping off still along with some IRL collab meta. Next Sunday I'm returning to the MEPS to finalize everything. I'm hoping to get basic military training out of the way before next year but it's going to be tight. I'm half way through Rhythm of War. It's such a great bedtime bed. I fall asleep to it so easily and reads so naturally. In FEH I finally completed my protect the Ashera composition and it owns. A couple of months in the making but it is easily my favorite team to play. I'm still looking for some temporary work but it's hard. I get ghosted or left hanging after the initial interview/call. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Limit breakers. 
+2. Ink
+
+<i>What would make today great?</i>
+1. Motors.
+2. Long walk.
+3. Read.
+
+<i>Three things I am feeling.</i>
+1. Anticipation
+2. Steady
+3. Wistful
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 10, 2021. 9:34 PM</p>
+<h1 id="17">I am a Sailor</h1>
+<img src="line.png" id="cleanline">
+A day after I'm back from the meps. I've finished processing for the navy but won't hear about my contract until two more weeks. I'm excited but also anxious because I most likely won't go to bootcamp until next year so my financial situation isn't looking too hot atm. I've been studying and exercising to learn everything in preparation. Idk, it's hard getting a job I guess. Going to the meps a second time was pretty cool. I knew the drill and met some cool people including the roommate Bernardo again. It was a lot faster this time and a lot more chill. I'm going back to the office on Thursday to meet with the guy who'll prepare me for bootcamp I presume.  
+<pre>
+
+<i>I am grateful for...</i>
+1. Tea with mara
+2. 
+
+<i>What would make today great?</i>
+1. 
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Good
+2. Bad
+3. Ugly
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 14, 2021. 4:49 PM</p>
+<h1 id="18">Charlie B - Uhware</h1>
+<img src="line.png" id="cleanline">
+It's a saturday. I've spent some time transitioning to military life. Physical training and military stances and lingo. The hardest part is probably the pushups for me. I'm currently maxing out at 30 and I need at least 50. I probably won't be shipping out until next year maybe in feb or march. It's a while. I'm looking to get some ebt so I can bulk up and cook for myself. Three elite specs for End of Dragons has been revealed. The gun necro, dagger virtuoso/mesmer, and the willbender guardian with 6 mobility skills real nice.... That's pretty exciting. I'm about to get sushi with Andrew and Jeff at Anaba. I hope it's good.  
+<pre>
+
+<i>I am grateful for...</i>
+1. Car.
+2. 
+
+<i>What would make today great?</i>
+1. Stay present. 
+2. Say yes to emotion.
+3. 
+
+<i>Three things I am feeling.</i>
+1. Worried. 
+2. Good.
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 22, 2021. 11:04 </p>
+<h1 id="19">Slow Death Hymn — Mischief Brew</h1>
+<img src="line.png" id="cleanline">
+Things are going good. My ankles don't hurt anymore and my sleep schedule is good. I enjoy running in the mornings now. I also got a temporary warehouse job starting tomorrow in Alhambra. The commute is going to be great. Still no navy contract but I'm hopeful. In FEH they released the CYL heroes and Eirika is awesome. I've gotten her to the point of awesomeness and spec'ed my team around her and nino. In gtarp I've been watching Penta play Gamba kid Jimy. It's hilarious. I've finally reached the nuclear section of engineering studies. I've probably forgotten a ton of it already but at least being familiar with the material will help. After this I'm going to Kelly's house to pray for gramps. Yesterday I created a budget spreadsheet with everything. I'm quite proud of it. At night I'm going to pick up Steven from the Ontario airport. Honor, Courage, Commitment.  
+<pre>
+
+<i>I am grateful for...</i>
+1. Harmony.
+2. In all things. 
+
+<i>What would make today great?</i>
+1. Pijja.
+2. Do things as if you had done it before. 
+3. YUP.
+
+<i>Three things I am feeling.</i>
+1. Excitement. 
+2. Sweet. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 26, 2021. 18:44</p>
+<h1 id="20">Universe — Hige Dandism</h1>
+<img src="line.png" id="cleanline">
+Well that was the fastest job I've ever quit. Lasted two days at Evike. It was too strenuous for how much I was getting paid. My back was giving out. That was definitely not sustainable and the work environment was not enjoyable at all. Sunday at Kelly's was really cool. We hungout and got boba and discussed plans to buy a cabin together. Good times. At night I picked up Steven and we hungout yesterday at Glendora food lab. That was fun too. Right now I'm about to pickup Kevin and Ryan to go for ayce sushi at Aikan. Lets go. I am a United States Sailor. 
+<pre>
+
+<i>I am grateful for...</i>
+1. 
+2. 
+
+<i>What would make today great?</i>
+1. 
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. 
+2. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">August 30, 2021. 18:52 </p>
+<h1 id="21">Believer - Lastgasp</h1>
+<img src="line.png" id="cleanline">
+Monday. Still doing my thing. Thursday was fun as hell. Ayce sushi at aikan with the fam and boba after. The sushi was definitely not as good as Anaba but it was satisfying. We had the dangerous wasabi sushi lol. Sheesh. My reading habits have not been good. Fortunately the pass few sections in applied engineering have been short. I'm still relapsing. Havent been keeping busy and the lonely urge sets in. I'm getting stressed again about my financial situation but still motivated to get this ball rolling. In terms of health, my left ankle is bothering my since that stupid job last week. It was a pain running on it so I've given myself a few days off and I'll try to run on it tomorrow. August is almost over, let the fall commence. Sailor's Creed: <br> I am a United State's Sailor. <br> I will support and defend the Constitution of the United States of America and I will obey the orders of those appointed over me.  <br>I represent the fighting spirit of the navy and those who have gone before me to defend freedom and democracy around the world. <br>I proudly serve my country's navy combat team with honor, courage, and commitment.  <br>I am committed to excellence and the fair treatment of all. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Kipchoge 
+2. greatest runner of our time. 
+
+<i>What would make today great?</i>
+1. Read.
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Mixed. 
+2. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 01, 2021. 21:31 </p>
+<h1 id="22">Denied</h1>
+<img src="line.png" id="cleanline">
+Well apparently my age waiver for the nuke program was denied so I can't become a nuke. Huge bummer. Tomorrow I'm going to interview for a sushi helper position at Yama's Seafood for a potential part time position and then heading to the office to confirm and sign some navy stuff. Today didn't feel too great but it gets better. I was able to run four miles yesterday and it felt really good. The ratings I am looking at now are AG - Aerographer, CTR/N Cryptologic Tech, AE - Avionics Electrician, and CTM. I also started watching Berserk. It's really good. Lets get it. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Cool weather. 
+2. 
+
+<i>What would make today great?</i>
+1. Read
+2. Sleep.
+3. 
+
+<i>Three things I am feeling.</i>
+1. Determined. 
+2. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 08, 2021. 17:20 </p>
+<h1 id="23">One Down, One Up — John Coltrane</h1>
+<img src="line.png" id="cleanline">
+About a week. I'm waiting for a rate to pop up. Pretty much halted my studies and focusing on reading. I started FE7 and im around chapter 23. It's simple yet bleeds fire emblem. The story is okay. The animations are godlike. Something about pixel sprite animation that feels so satisfying. I've started reading Meditations by Marcus AUrelius and A Short History of Nearly Everything. Both are great so far. It's been hot past few weeks. I've been thinking about my own mortality and the creation of the universe. Festival of the Four winds still going on. Bit of wvw, bit of living story recap, annual supply drop package, bit of four winds. Changing rates would very likely get me an early ship date. I'm hoping for early November. My physical training has been going well. Tiny strain on my left shoulder but I can confidently say I can hit the requirements easily. I did my first speed run on Tuesday. Jeez it was hard. I want to find a way to categorize Marcus Aurelius' quotes for future referencing. I was thinking about a discord bot or coding program but now that I think about it. A simple Google Sites might be the easiest. Ja ne.   
+<pre>
+
+<i>I am grateful for...</i>
+1. DiHydrogren oxide comets 
+2. Supernovae
+
+<i>What would make today great?</i>
+1. Curry and rice.
+2. Berserk. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Peace.
+2. Reason.
+3. Nature. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 12, 2021. 21:52 </p>
+<h1 id="24">Zombie</h1>
+<img src="line.png" id="cleanline">
+Sunday. I've finished Meditations and it has really helped me improve my state of being in terms of mentality and mortality. I mostly stayed home this weekend but tried to keep productive. I did a long run yesterday and felt some minor pain in my left ankle so I laid off running today. It's still pretty hot even though it is september. I want to start categorizing the quotes from meditations tomorrow and get that going. I'm still excited about getting my rate and I'm really looking forward to an early ship date. Tomorrow we got a DEP meeting at 1600 at Modjeska? park so I got to drive down there in the afternoon. I finished Berserk today and I'm unsure about that ending. Pretty much everything up until the crazy ending I really liked. The ending just got too imaginative and dark. I usually like dark things but this just goes against nature. It wasn't bad but it wasn't for me I guess. I also read about Isaac Newton and a few nineteenth century thinkers in a short history of almost everything. I liked how the book started but it doesn't have a structure that makes sense to me. Seems more like semi-chronological rambling on semi important subjects. Again, everything is opinion. Use your own reason to make your own judgements. Nopixel implemented the tuner shop and that rp is popping off. I've been watching gamba kid and otto. So the car dream progression is currently looking like: Mazda Miata ND > Porsche Taycan > Porsche 911 964 > Porsche Singer    
+<pre>
+
+<i>I am grateful for...</i>
+1. Apples.
+2. 
+
+<i>What would make today great?</i>
+1. Sleep.
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Refreshed. 
+2. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 16, 2021. 8:45 </p>
+<h1 id="25">CTM</h1>
+<img src="line.png" id="cleanline">
+I've been approved for the CTM rate and have locked in a ship date of October 7th. That's less than three weeks from now and I'll be in Illinois. It's a crazy jump in my timeline but to be honest, it all worked out in the end. From the tribulations of the past few months I'm finally confirmed a rate. MEPS trouble, military options, nuclear age waiver, and sitting in DEP. I'm kind of glad all that happened. DEP meeting on Monday was awesome. I was mostly able to keep up though my knowledge portion was lacking and Otoole kept it easy on me. I think I got one of the most rare rates in the Navy. There's apparently only about 800-900 of us. That's crazy. I'm about to go to the office to finalize everything and talk about how shipping out will go. I've started reading How to Not Die and it has really opened my eyes about how positively terrible our nutrition is especially in the US. It seems that a vegan diet is really the only sensible diet. I'm still in the beginning of the book but my prior preconceptions have all been shattered. Fish oil and multi-nutrition is useless. Animal byproducts are harmful. Moderation seems to lessen the damage but a smaller hammer to the head is still a hammer. I never really thought about how poor nutrition is like damaging tissue three times a day. Completely unsustainable. Anyways I've created a really want to read shelf and these are the books I'm bring to my navy journey.   
+<pre>
+
+<i>I am grateful for...</i>
+1. Fate.
+2. Baby. 
+
+<i>What would make today great?</i>
+1. Enjoy.
+2. Civilian
+3. Life.
+
+<i>Three things I am feeling.</i>
+1. Happy.
+2. Crazy. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 17, 2021. 18:06 </p>
+<h1 id="26">The Search — NF</h1>
+<img src="line.png" id="cleanline">
+About to go to bonchon with andrew and jenny in an hour. Less than three weeks until boot. I'm reading through how to not die and it's slightly getting me stressing about how pretty much everything other than vegan foods can lead to every damn disease and cancer. I'm trying to make the most of civilian life at the moment. I was surprised that it's not even the stuff you eat that can kill you but what you breath/inhale or come in contact with. It seems that a lot of spices can be beneficial too.   
+<pre>
+
+<i>I am grateful for...</i>
+1. Berries 
+2. Nuts
+
+<i>What would make today great?</i>
+1. Food
+2. Fam
+3. Fresh greens. 
+
+<i>Three things I am feeling.</i>
+1. Anticipation
+2. Swag
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 21, 2021. 9:10 </p>
+<h1 id="27">276 Terry Laughlin</h1>
+<img src="line.png" id="cleanline">
+Big chilling on a tuesday. It's pretty hot today. I did a speed run this morning. Bonchan/FTB on friday was really fun. Good food and fun times playing pool. We're gonna do a going away party for me on sunday. On saturday I went to Rose Hills with Derek and then dim sum. Got to go to sycamore lake and see the chess graves again. Yesterday I went to get an eye exam and ordered my prescription glasses. I came up with a healing mercy nomads thief the other day and played it in gw2. Not bad.   
+<pre>
+
+<i>I am grateful for...</i>
+1. Priorities. 
+2. Drag.
+
+<i>What would make today great?</i>
+1. Read. 
+2. Dinner?
+3. 
+
+<i>Three things I am feeling.</i>
+1. Dizzy.
+2. Hot. 
+3. Concerned. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 23, 2021. 16:12 </p>
+<h1 id="28">I'm a Believer — The Monkees</h1>
+<img src="line.png" id="cleanline">
+Yesterday I picked up my glasses. Everything is so clear now. Man my contacts were so bad and worn out. It's night and day. Afterwards I went to Lucy's for chicken rice and to hangout with the cousins. Larry was there along with his girlfriend. It was nice. It's crazy that two weeks from now I'll be in Illinois. I stumbled upon a deal for a newer gen kindle paperwhite so I'm excited to get that too. Mom made some delicious tacos for dinner with chicken/mushroom, chipotle sauce, onions, parsnips, avocados and cilantro. Yum. I've been thinking about my gaming habits. There's no way I'll be able to consistently play guild wars 2 during my time in the navy. So I guess pre end of dragons is the end for my thief. Thousands of hours going to retire soon. I've had so many memories these past seven years and I'm grateful it's helped me through a monotone chapter of my life. It's time to play the game of life.   
+<pre>
+
+<i>I am grateful for...</i>
+1. Arenanet 
+2. Mom's cooking.
+
+<i>What would make today great?</i>
+1. Cooler weather. 
+2. Peach
+3. Reading.
+
+<i>Three things I am feeling.</i>
+1. Content. 
+2. Mild Stress. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">September 27, 2021. 19:23 </p>
+<h1 id="29">Night Striker — Miles Matrix</h1>
+<img src="line.png" id="cleanline">
+Monday. The weekend was amazing. On saturday I ran about five miles and then dropped my car at fufu's For dinner Andrew, Jeff and I went to Top's Restuarant in Pasadena. We got takeout and ate it at PCC. Loco moco, indo fried rice, and hawaiian seafood bbq. So good. We talked and chatted then went to Factory Tea Bar to get boba and chat some more. Probably the last time I'll see the boys in a long while. Yesterday we went back to FTB for my bon voyage party hosted by Jenny. It was really fun but I was running on four hours of sleep because I was so excited and woke up at four. We ate and sang. I scored a 99 singing Creep by Radiohead. Good times. This morning I woke up and fucked around and relapsed, it was one of those Monday mornings where you just don't... That dragged on through the afternoon and then I collapsed to sleep. Woke up just now and showered. Not my best day but these will be far and between. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Resources. 
+2. Jenny
+
+<i>What would make today great?</i>
+1. Read.
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. Groggy. 
+2. Lonely.
+3. Disappointed. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 03, 2021. 07:48 </p>
+<h1 id="30">Could You Be Loved — Bob Marley and The Wailers</h1>
+<img src="line.png" id="cleanline">
+It's the sunday before the week I ship to bootcamp. I'm stressing out a bit trying to think about preparing and what's coming up. It has been affecting my sleep. I'm trying to relax and get as much sleep as possible since I'll be sleep deprived during boot. I watched a documentary on rtc and it has got be excited and scared at the same time but I know I'll be okay. Three more days. 
+<pre>
+
+<i>I am grateful for...</i>
+1. Fruits.
+2. Veggies.
+
+<i>What would make today great?</i>
+1. Sweep floor, tidy room.
+2. Make list of things to pack.
+3. Read. 
+
+<i>Three things I am feeling.</i>
+1. Everything.
+2. 
+3. 
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 06, 2021. 07:57 </p>
+<h1 id="31">Goodbye</h1>
+<img src="line.png" id="cleanline">
+Yesterday was my last day at home. It's all feeling surreal right now. I got to visit grandma and then went to get dinner with Andrew, Annie, Derek, my sister, and then boba with Jenny. We went to Bhanu indian market for food and the garlic naan was to die for. The staff were super cool and it was good food. Afterwards we went to Au79 for boba, chatted and memed. Good times. I'm about to be picked up and shuttled to San Diego for a night stay and then processing in the morning. Flying to Illinois tomorrow. I finished Rhythm of War too. It was so good and I'm glad it timed so well before I left. I can't wait to read what happens next with Taravangian becoming Odium and Kal speaking the fourth ideal. See me in December!
+<pre>
+
+<i>I am grateful for...</i>
+1. Ma Pap
+2. Recruiters.
+
+<i>What would make today great?</i>
+1. Enjoy 
+2. Last
+3. Liberties. 
+
+<i>Three things I am feeling.</i>
+1. Nostalgic
+2. Reminiscent 
+3. Soul's Refugee.
+</pre>
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 11, 2021. X:XX </p>
+<h1 id="32">Anchors</h1>
+<img src="line.png" id="cleanline">
+It has been four days into Navy Bootcamp. But almost a week since I left home. On 06Oct21. Not much time has passed relatively but it has felt like a long ass time. So much has happened in these past few days and since I have so much time I decided to write it down. <br> Wednesday: I left home and Otoole drove me down to Corona to take a bus to San Diego. We're pretty similar in terms of personalities and ideology. He got me to read 1984 and I'm a little bummed I can't access my kindle. During the bus ride I met and conversed with a gentleman who turns out to have grown up in the 626. Hunter was testing for the army and was born at the San Gabriel Hospital. Wtf right? His older cousin is Brittany Alamino? who I went to high school with, same graduating class. When we got to MEPS hotel we ended up sharing the same room. <br> Thursday: Shipping processing at MEPS was a slog and a blue. We ended up flying around 1500 from the SD airport. We had to take a detour to Dallas airport as a layover. We got to Chicago around 2300 and took a bus to Great Lakes. Processing that first night was a clusterfuck but it wasn't too bad, though I'm not gonna lie I was scared as fuck. I was kind of happy (Kengere's brother) called me one of the fastest motherfucker in the room. After sealing our shit and getting our stuff we were driven to our bunks to sleep. <br> Friday: "It was all a dream." Waking up that day felt so surreal. So much regret and fear and nervousness. One of the boys had a seizure. We learned the routines of hygiene and chow and studied. I met my quadmates Madrid, Punsky, Malone, Padilla, Sanchez, Pollard, and Amaya. We are a pretty good group, disciplined, chill, young/old, I hope we don't get split apart. <br> Sat: We eventually find out that we are in quarantine for a few days and that there isn't enough recruits to fill a whole division (training group) with just vaccinated ones. The days in quarantine blue beyond this point. We get pretty close as a quad. We went through the motions together. Hygiene, chow, clean, study, talk, workout. Quarantine sucks. We just sang anchors aweigh, we are all trying to make the best of a shit situation. These past three days, we've played dungeons and dragons together with Malone, Sanchez, and Punsky (GM). My first dnd session was in navy bootcamp. Tomorrow we might officially start bootcamp. Hooyah.  
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 22, 2021. </p>
+<h1 id="33">P Week</h1>
+<img src="line.png" id="cleanline">
+I have some down time finally during processing week. This week has been sooo long. We are finally an official division after ten days of ROM/HOLD. A whole lot of waiting, processing, and following directions like cattle. We met our RDCs, Apparently we have four RDCs, one senior chief and three petty officers. They seem pretty reasonable but of course we just got cleared for medical yesterday. Speaking of medical, the five shots was terrible. I felt tired all day and my feet hurt because of the damn boots.  Also these glasses are straight up ass. I can't wait to graduate and get rid of these bootleg glasses. In terms of division, we have vastly improved since ROM/HOLD. I remember we would bitch, moan, argue, and complain every night but now we are too tired and militant to do so. First week almost done. The most important step is the next one. Also ROM is shit. The sandwiches were shit. The waiting wasn't so bad though. The galley food is amazing too. I've eaten so much since we got to the U.S.S. Pearl Harbor. I wish I could weigh myself. My meal system is pretty optimized now. Lots of veggies, morning milk tea. I was really surprised by the food. My upper left ass cheek hurts to move. Our schedule is a bit hectic. We have been doing something every hour since Monday. I don't really feel homesick since coming here and no phones/tech isn't so bad; my head is shaved and we know our graduation date: Dec 15th. We got our NWUs too, I can't wait to wear them. Our div, 903, has a problem with talking which we got beat for during hold thrice. Once for eating cake on the Navy's Birthday, twice for talking too much/in the galley. The worst one was to remake our racks over and over and over again. At least it made us really fast at making our racks. Yesterday the other training divisions arrived for processing, their rpoc sounded horrible. It was nice to see 903 join together to compete just a little bit. Speaking of other divisions, one div (019) busted a dryer yesterday and a fire started. We had to grab our blankets and evacuate. Funny thing that we learned about fire drills that same day. Another crazy thing that happened this week during clothing issue and stencilling was that my bunkmate, Eddington was asmoed for some dumb reason. I was shitting my pants. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 24, 2021. </p>
+<h1 id="34">24OCT21</h1>
+<img src="line.png" id="cleanline">
+It's Sunday and it's hygiene after lunch. We officially moved into the USS Constitution on Friday. We had the screening PRT and I did pretty good. That gym air is something else. I almost threw up after the pacer run and had cough fits the entire time. We moved out yesterday carrying 50+ lbs sea bags from the pearl to constitution. It's nice to finally have a place to settle for a while. I realize that so far I haven't mentioned anything about the people here. There's about 80+ recruits in this division and some are interesting characters. From the tight quads from ROM; Punsky, Madrid, Malone, Padilla, Sanchez, and Amaya are still here. We are big chilling. After meeting the RDCs and going into the permanent height line, my bunkmates changed. During hold I became acquainted with Morgan, Reyes, got to talk to Simons a bit. Processed with the CT crew and JJ from Jamaica. Rpoc is Mendoza from San Diego, Aroc is Moore, and MA is Morgan again. The food at the Constitution is better since we can grab our own food and portions for sides and we don't need to march to another ship. Yesterday we also went to our first ceremony drill practice. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 26, 2021. </p>
+<h1 id="35">Marching</h1>
+<img src="line.png" id="cleanline">
+Currently waiting in dental for my cleaning and filling repair. Since last time we went to the NEX and swim qualifications. The night we went to the Nex on sunday was a torrential storm. Everything got wet and soaked. The wind in Chicago is something else. At the nex I spent around $90 on stuff and there were alot of recently graduated sailors there. They seemed so gallant compared to our preday one butts. Marching back in the rain was pretty hypnotic though. I bought some drip drops, a casio watch, and mecham deoderant. I grabbed most of these on a whim. We've been marching a lot. Pretty much to everywhere. Yesterday morning's march in the rain was horrible. Cold, wet, and windy. We had to wear wet socks until we got back. The swim qualification went better than I thought. We started with the tower dive into the pool length swim. I lost my glasses in the pool. I swam mostly the backstroke and the deadman float/jacket float went well. I thought it was going to be hard but it was easy after I calmed down and regulated my breathing. The abandon ship evolution was my favorite part. A life jacket assisted dive into a hand hold ring into a life raft. That qual was a good time. I want to swim more after this. It's easier now that I have glasses instead of contacts. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">October 29, 2021. 07:25 </p>
+<h1 id="36">29OCT21</h1>
+<img src="line.png" id="cleanline">
+We have some free time this friday before my CT screening interview. I am currently sitting at recruit receipts at the pearl. We are close to finishing our first real week. It is raining a bit this morning. The days are blurring together since we are doing so much everyday. I have a hard time remembering what happened on which day. For the gist of it we did mostly routines, PT, and marching. PT and beatings are kind of cozy. Besides the screaming, I am getting pretty strong. THat combined with the amount of food we get makes it more bearable. On Tuesday we went to dental and I got my chipped filling fixed. On Wednesday I had my first real watch. I was so nervous with all the chiefs and petty officers and questions and logs. By the end of the watch I was decent and memorized my chain of command. Stress and pressure really accelerates growth. Unfortunately Morgan was separated because of medical issues. The days are flying by really fast. In terms of sleep I haven't gotten a full well rested night in a while. A lot of our boys were SIQ'ed for the past three days. Most of them are back and fit for full duty now. I am kind of sad because I am missing cardio physical training right now. We had a couple of classes already too this week. One was a first aid class where we learned about the basics and how to carry a body. The second class was about the core values of the navy with the Lieutenant Chaplain. That class was boring but he made it fun. The division is starting to get better and we are coming together. There was one night where we were marching back from chow and we marched past another division with a ton of flags that jeered and taunted us in front of our petty officer. A few brothers I have gotten closer to are: Alban, Lugomanon, Reinagarcia, Simond, and Salesman. Our ship is finally full with the other divisions. Apparently we might have a test today so I'm going to study. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 02, 2021. 1100 </p>
+<h1 id="37">02Nov21</h1>
+<img src="line.png" id="cleanline">
+It's a Tuesday.. The weekend went by pretty fast. Friday was awesome. I got to call home to get some information and had a nice conversation with dad. After my screening interview I talked with Brittany about life and navy thing, it was a nice change of pace. On Saturday we did drill hall and I was assigned to railguard. We talked with the other divisions on week 4 and it seems the rest is smooth sailing. Sunday we went to church and got liberty. I went to Catholic church but was falling asleep because it was so early. I'm a bit sleep deprived since I get early reveille for shit these few days. I had two watches in one day. We also shined shoes and practiced for our dynamic inspection. We didn't do anything for halloween. Yesterday we got haircuts, got a class, and practiced marching/inspection. Today I went to dental for cleaning and learned how to properly clean my teeth. I'm currently in class for controlling stress. I'm having trouble staying awake as with some in the class. I notice that noticing others falling asleep helps me stay awake. I like the method of the navy in that we wake each other up, when we see each other falling asleep, we wake them up and they stand in the back of the room. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 06, 2021. 0800 </p>
+<h1 id="38">06Nov21</h1>
+<img src="line.png" id="cleanline">
+I am doing JOOD quaterdeck watch at the moment. It's my first time but so far it is pretty chill. It is friday and week 2 is almost over. It hasn't been as bad as I assumed it would be. We had out dynamic makeup inspection on wednesday and I did bunk makeup, the easier of them. Making my bunk is going to be one of those things that will become a habit I'll keep for life. Our division passed the DMI and next was the education test. It was a 75 question test ranging from aircraft to military justice, to uniforms etc. All of it was from the book so that was easy. We barely scored enough to get the flag. After that was the personnel inspection. We were inspected based on our uniform, hygiene, military bearing, and memorization. We nailed most of it except rank and recognition. Getting a full nights sleep has been nonexistent. We've been sleeping at 2200 and waking before 0530 sometimes earlier for watch/appointments. The air here has been really dry. My fingers and lips are chaffing. I got my first beating yesterday by PO Mrowka because I hygiened after taps. It was a thing I did in ROM/Holding and no one told us we couldn't. Kind of stupid but free workout I guess. Our division strength is down to 81 people from 90 initially. I'm kind of bummed I'll miss drill hall practice because of watch but I always fall asleep anyways and this is kind of cozy. I hope that I can read my kindle when I get to the fleet and do this. Small stuff like this cushy carpet podium I'm standing on really makes standing so much better. It's the little things in life that makes it bearable. Over a quart of the way there. I hear it only gets better from here. We also got fitted for the rest of our niforms on thurs. We're getting our NSUs, dress whites/blues, and track suit soon. It smells like pizza in the galley right now and I can smell it from the quarterdeck. Man I love chow. Chow has been good. I've learned to love oatmeal, wildrice/couscous, whole grain cereals. Beans and legumes are good too. Apparently I've gained 15 lbs so far. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 10, 2021. 1112</p>
+<h1 id="39">10Nov21</h1>
+<img src="line.png" id="cleanline">
+It is Wednesday 3-3. We are currently in a class about risk management/classified. Yesterday we had our first drill inspection and we passed and got the ability to sing candences while we matched. The physical training and beatings have been getting tougher. I am constantly sore in the morning due to a lack of protein/sleep. We have a personal fitness test next week and I feel ready. Our first 1.5 mile run is then. Running for sustained runs have been good, I'm getting back into form. I wish we could run longer/more. The boys in this division have been getting better in terms of showtime. Our inspections are on point we just have a talking problem like most divisions. There's also a lot of big egos clashing mostly from the young ones. I also notice that everyone gets really emotional over anything that conflicts with instructions which doesn't help/is a waste of energy/adds to the problem. We're definitely far better than when we were in ROM. The boys here grow up fast. Padilla/Sanchez have changed since ROM. more responsibility, discipline, and repetition changes a young man. Change in myself I notice is my volume and posture. The position of attention really helps fix forward neck/rolled shoulders. Standing for hours has been easier and easier. I'm able to project and sound off better than before. The constant volume control to talk/whisper has helped immensely. We started our gun training the other day and it was the first time I touched a gun. Safety, magazine, chamber. Clear and safe. I can't wait to actually shoot it...
+
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 14, 2021.</p>
+<h1 id="40">NEX</h1>
+<img src="line.png" id="cleanline">
+We're sitting at the nex phone station and doing our firstish phone call at the moment. Its interesting listening to their conversations and how happy everyone gets. Sundays are pretty chill. We did a team building exercise earlier and it was pretty funny. We talked about our favorite sports team and who we would and wouldn't take to war. Yesterday we had grad drill and it went very well. We practiced and talked with the senior female divion. Two more days and we're half way to Dec 15th. We're working together surprisingly well together as a division when we're under pressure. All of the fun stuff is coming up: personnel inspection, marlinspike, guntraining, firefighting, guntraining, confidence chamber. I'm looking forward to it. During our computer labs I found out the thief EoD spec is going to be named the specter. That sounds so fucking cool. Like N7 specter. There's some interesting people in this division. One person I've talked a bit with today is Robles. He is an aspiring author who has a whole saga written in his mind. He is out of it sometimes like that character from What remains of Edith Finch.
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">November 21, 2021. 1134 </p>
+<h1 id="41">21Nov21</h1>
+<img src="line.png" id="cleanline">
+Holiday routine. The past week hasn't been too bad. The main events were RDC assessment and laser arms training. We also did a couple of fire fighting courses. We learned about damage control and firefighting. Oh and we did marlinspike on tuesday. We got 15 safety hits but managed to come together as a division. I caught the common cold on Wednesday and had fever that night. I felt like crap during the RDC assessment. I still managed to hit 11:28 for my 1.5 mile run. Thursday night I got an asmo bunkmate, a Mr. Wright who was one week from graduation. I gotta go to chow... Arms training was kind of cool. I got to shoot air recoiled laser guns and discovered that I could not physically pull the trigger all the way for the initial shot. I was "not" advised to use both fingers to pull the trigger. The disassembly section was fun too. It's so interesting how simply it is to take apart an m9 beretta. Yesterday was out final drill practice with division 906, our senior division. I don't like goodbyes so I tend to avoid them altogether. Apparently we've got to perform in three graduations. That'll be cool. We've got live fire, confidence chamber, fire fighting, line handling, PFA, PI, static, test 2, and drill tape coming up. Hooyah... 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">25Nov21. 1042 </p>
+<h1 id="42">RTC Thanksgiving</h1>
+<img src="line.png" id="cleanline">
+It is thanksgiving holiday routine and senior chief just pulled another prank on us. The first time we found White sleeping outboard and ended our routine. He had us put on our outer garments and line up to go marching. He reversed uno'd and resumed holiday routine. This time he interrupted it saying that we were too loud and told us to hydrate. Again he at eased up and told us we got a phonecall to our families and gave us a dialogue about missing thanksgivings and relieving our brothers and sisters. This week has been pretty amazing. On Monday we did livefire and I got marksman with the m9. 3 points from sharpshooter with a malfunctioned gun. I had to call a training timeout. I'm confident that I can get expert next time. After that some of us packed shells into the magazine while listening to music. Hooyah. On tuesday we learned about damage control and went through the confidence chamber. It felt like the turning point of bootcamp. The tear gas burned but gave e confidence to face stressful situations in the future. Yesterday we ran for 20 mins. It was so nice, the sun was out and I kept up with Lofton and Kee. We also learned about firefighting. Relieve the nozzleman. Aye! 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">28Nov21. 0758 </p>
+<h1 id="43">28Nov21</h1>
+<img src="line.png" id="cleanline">
+Sunday routine. Feeling pretty good. Besides training and prepping for our test/inspections, everything has been very chill. We are pretty much wearing boots until the end. I'm not too worried about what's coming up. I feel pretty prepared. Damn this pen sucks... It's weird how the shit recruit ball pen feels so much better now. Lately I've been thinking a lot about what I'll do when I get out of here. I have a big bad list written down and I daydream about what I'll do and wear and buy. It's difficult but I'm trying to stay in the present. One of my goals is to run a 10 in 1.5 mile, basically staying at a 7 in pace. Our second test is tomorrow too and I want to 5.0 that. December is around the corner and the weather has more or less remained the same. It's supposed to get really cold and snowy. I look forward to that. The other day we had a midnight fire and ran to the grinder in our shorts and sandals in 30 degree weather. Not fun. We've got a bunch of things coming up and I want to take it one at a time. The most important step is the next one. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">02Dec21. 1840 </p>
+<h1 id="44">02Dec21</h1>
+<img src="line.png" id="cleanline">
+Thurs of a long week. We had classes, education test, static inspection, division photos, and fire fighting applications packed this week. On top of that we had to go to practices for tomorrow's graduation. It's going to be our first graduation we're performing in. I'm a doorman now for the officers and master chiefs. I was a railguard but Kee put me here by pranking me as if I was in serious trouble. I nearly had a heart attack. At least my job is easy now. 90 degree doors and a greeting. I'm currently standing JOOD watch again and there's some downtime. I scored pretty good on the education test, bombed my static, and did good on the peanut butter PI today. Less than two weeks until graduation. It's been busy and I'm trying to find the good from every moment but damn bootcamp feels long. All the long stuff is out of the way now to sprint to the end and to battlestations. I wish I brought stationary so I can write a letter to my sister. She sent me one and I haven't had a chance to reply. 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">07Dec21. 0732 </p>
+<h1 id="45">07Dec21</h1>
+<img src="line.png" id="cleanline">
+Tuesday. It's the day after our PFA and we are feeling great because everyone passed. Last Friday was so tiring. We had graduation performance and it went well. During the ceremony one of the RPOCs fainted and banged her head. We did well on our NSU personnel inspection and our drill tape inspection. On Sunday all I did during holiday routine was draw for people. Time passed by fast. I also wrote a letter to my sister. All we have left is the dress blues inspection and firefighting applications. We all learned to grenade and torpedo so we're excited to try it. During the PFA when we found out Wright passed with 12:14 (by one second) everyone blew up and cheered so hard. I think the RDCs were really proud since we spent so long waiting and getting ready. We are currently in a consumer awareness class just chilling. I've been thinking about what I want to do once I get out of here. I also have been trying to enjoy the present moment because I know I'll miss some parts of bootcamp and how it has changed me for the better. Running during the PFA was nirvanic. I was focused and in the zone. My breathing was on spot and body was prepared. I ended with my goal of breaking 11 mins. (10:45?) I can't wait to get out and run by myself. Apparently today is the anniversary of pearl harbor... (future edit 20Jan22: We got beat hard for failing our line handling applications that very day.) 
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">13Dec21. 1924 </p>
+<h1 id="46">B-Day (BST-21)</h1>
+<img src="line.png" id="cleanline">
+It's the day of battlestations. I've been awake for 36 hours and my mind is ush. Battlestations was a once in a lifetime experience. We were basically dropped into a destroyer and roleplayed a scenario where it was attacked. We did control room, line handling, cargo exchange, inventory, engineering, rover watch, lookout watch, fire escape, firefighting, search and rescue, ammo transfer, jubby patch, and damage control. The night went by fast but the whole experience was exhausting. I am now a navy sailor. Tonight we rest. I'm anxious about graduation and the future/uncertainty. I'm sure it's just the exhaustion talking. Mom and dad are probably in Chicago now, they flew this morning. I spent $200 on graduation photos today and I need to pickup the division coin on Wednesday. Unsure what is to come in the following weeks but I'm free soon with three diagonal stripes on my shoulders. 15 mins until taps. Brace for shock. I can't wait to get my phone back.   
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">14Dec21.  </p>
+<h1 id="47">Signoff</h1>
+<img src="line.png" id="cleanline">
+Tonight is my last full night at RTC. Tomorrow we have graduation and liberty then I get on a bus to Pensacola at some ungodly hour for 16 hours. Tonight I have JOOD watch, the last watch. Today was pretty chill we just did a bunch of preparations for leaving and moving. We had a pizza party with a bunch of chain of command personnel which was kind of fun. Food was good and everyone was hyped and it was a cool party. It has been a long but fast two months of bootcamp. A lot of the same and new. Living together with the boys taught me a lot about dealing with people and being more social. RTC taught me more about myself and dealing with stress. Doing difficult things has really steeled me against the hardships of life. Division 903 also got the battlestations pennant for performing the best during bst-21. Hooya love to sweat. It's going to be so chaotic tomorrow. We walked by the U.S.S. Pearl Harbor and went in and I was feeling nostalgic for the halls/compartments we stayed in holding two months prior. Seeing new recruits being processed felt sagely. See you on the fleets. —SN Quach v.
+
+<!-- COPI PASTA
+
+<p style="line-height: 25px; margin-left: 10px; color: grey; font-size: 10px;">XXDec21. XXXX </p>
+<h1 id="x">X</h1>
+<img src="line.png" id="cleanline">
+X
+<pre>
+
+<i>I am grateful for...</i>
+1. 
+2. 
+
+<i>What would make today great?</i>
+1. 
+2. 
+3. 
+
+<i>Three things I am feeling.</i>
+1. 
+2. 
+3. 
+</pre>
+
+ -->
+	
+	<img class="imgB" src="bg2.png">
+
+	</div>
+</div>
+	
+	
+	
+<footer>©<script>document.write(new Date().getFullYear())</script> Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>		
+	
+</body>
+</html>

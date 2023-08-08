@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - About</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</head>
+
+<script>
+function validateForm() {
+var x = document.forms["Form"]["name"].value;
+if (x == "") {
+	alert("Missing name!");
+	return false;
+	}
+	
+var y = document.getElementById('message').value;
+if (/^\s*$/g.test(y)) {
+    alert("Missing message!");
+	return false;
+    }
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	$("button").click(function(){
+		$("#p1").toggle();
+	});
+});
+</script>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/vInceptive">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="pre2018.html">Pre-2018</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			  <a href="2020.html">2020</a>
+			  <a href="2021.html">2021</a>
+			  <a href="2022.html">2022</a>
+			  <a href="2023.html">2023</a>
+			</div>
+		    </li>
+		</ul>
+	
+	<img class="imgB" src="bg2.png">
+	
+	<br>
+	
+	<a href="#title"> <img src="b2t.png" style="position: fixed; width: 50px; height: 50px; bottom: 0px; right: 0px;"></a>
+
+	
+	<img src="me.png" style="position: static; border: 3px solid black; margin: auto; width: 100%;">
+	
+		<div class="box">
+               <h1>Contents</h1>
+               <button>Show/Hide</button> 
+               <div id="p1">
+					<a href="#1" id="p1">Optimistic Nihilism</a><br>
+					<a href="#2" id="p1">According to Your Nature</a><br>
+
+				</div>
+		</div>
+	
+	<br><br>
+	
+	<h1 style="font-family: Garamond; margin: auto;margin-top: 5px;" id="1">ME.exe</h1><br>
+	<img src="line.png" id="cleanline">
+		<p>-1.7x higher risk of breast cancer</p>
+<p>-increased type-2 diabetes risk; insulin resistance</p>
+<p>-age-related tasting variation (bitter dullness over time)</p>
+<p>-3x risk of schizophrenia</p>
+<p>-1.5x higher risk for coronary artery disease</p>
+<p>-2 - 3x higher prostate cancer risk if routinely exposed to the pesticide fonofos</p>
+<p>-2x increased risk of Melanoma</p>
+<p>-somewhat more insensitive to pain</p>
+<p>-carrier of a recessive deafness mutation</p>
+<p>-1.42x risk of Autism</p>
+<p>-moderately enhanced hippocampal volume</p>
+<p>-methylenetetrahydrofolate reductase (MTHFR) enzyme gene for homocysteine recycling abnormal</p>
+<p>-lower heart attack risk than average (0.46x)</p>
+<p>-lose 2.5x as much weight on a low fat diet</p>
+<p>-not to maintain weight loss unless you perform high energy exercise</p>
+<p>-lactose intolerance risk; likely to be lactose intolerant as an adult</p>
+<p>-increased risk of myopia</p>
+<p>-increased risk of baldness</p>
+<p>-Optimistic and empathetic; handle stress well (more empathetic, feel less lonely, employ more sensitive parenting techniques, and have lower rates of autism[better able -to discern the emotional state of others])</p>
+<p>-slightly higher risk of ischemic stroke (silent/brain stroke)</p>
+<p>-Dry earwax. No body odour. Likely Asian ancestry.</p>
+<p>-1.94x risk of developing rheumatoid arthritis</p>
+<p>-1.16x increased risk of Osteoarthritis</p>
+<p>-2.5x increased risk for narcolepsy</p>
+<p>-0.80x reduced risk for glioblastoma (brain tumor) as well a 84% in CAD risk</p>
+<p>-Increased longevity. Less mental decline with age.&nbsp;</p>
+<p>-Increased chance of Prion Disease (infectious brain disease)</p>
+<p>-0.65x efficiency in processing folic acid</p>
+<p>-Reduced 0.34x risk of Age Related Macular Degeneration (eye degradation with age)</p>
+<p>-reduced risk (0.84x) for late-onset (adult) asthma</p>
+<p>-Better performing muscles. Likely sprinter. (Fast-twitch muscle fibers)</p>
+<p>-Stronger memory performance; greatly increased memory performance</p>
+<p>-Tend not to be a heavy smoker</p>
+<p>-Increased monoamine oxidase A activity (monoamine oxidase A is involved in the breakdown of the neurotransmitters serotonin, epinephrine, norepinephrine, and dopamine. -Signals transmitted by serotonin regulate mood, emotion, sleep, and appetite. Epinephrine and norepinephrine control the body&apos;s response to stress. Dopamine transmits -signals within the brain to produce smooth physical movements.)</p>
+<p>-Normal lower risk of Multiple Sclerosis.</p>
+<p>-Likely slightly taller - carrier of two alleles for increased height</p>
+<p>-Larger stomach volume, does not get full as easily as T allele carriers</p>
+<p>-highest odds of photic sneeze reflex (sneeze in response to bright light)</p>
+<p>-decreased cancer risk</p><br><br>
+
+<a id="2"><h1 style="font-family: Garamond; margin: auto;margin-top: 5px;" id="1">According to Your Nature</h1><br></a>
+<img src="line.png" id="cleanline">
+<blockquote><p>Do people and events distract you? Stop being whirled around by things outside yourself.&nbsp;</p>
+<p><br></p>
+<p>Meanwhile, avoid the opposite trap of being absorbed in the minutia of daily life. Don&apos;t weary yourself in endless activity with nothing of real accomplishment to show for it.&nbsp;</p>
+<p><br></p>
+<p>Don&apos;t worry about what others think. Mind what <strong>you</strong> think. Watch the movements of your mind, and focus your thoughts on something worthy.&nbsp;</p>
+<p><br></p>
+<p>Ask yourself the important questions: What is the nature of the cosmos? What is my nature? How is this related to that? What part do I play in the whole?&nbsp;</p>
+<p><br></p>
+<p>No one can stop you from living according to your nature&mdash;from thinking, saying, and doing things that benefit all.&nbsp;</p></blockquote>
+
+<p>Modern Translation:&nbsp;</p>
+<p><br></p>
+<p>Do you find it difficult to focus? It is because you are concerned with things beyond yourself. (Other people/events/priorities)</p>
+<p><br></p>
+<p>However also, avoid losing yourself to your daily grind and letting your days flyby meaninglessly. Don&apos;t wear yourself down without even noticing it.&nbsp;</p>
+<p><br></p>
+<p>Ignore most of what others may be thinking, especially about you. Think about what <strong>YOU</strong> think. What is on your mind, is it about something worthy of your thought?</p>
+<p><br></p>
+<p>Ask yourself: What is your purpose in this universe? What do you have that can achieve your life&apos;s purpose? What actions can you take right now to benefit the whole?</p>
+<p><br></p>
+<p>With your strengths and plan in mind, no one or thing can stop you. Your thoughts, words, and actions are now aligned with the universal way.&nbsp;</p>
+<p><br></p>
+<p style="text-align: center;"><u>Life&apos;s Purpose</u></p>
+<p style="text-align: center;">-A united egalitarian mankind</p>
+<p style="text-align: center;">-Nature/strength: Wealth/hunger for knowledge and Meditations</p>
+<p style="text-align: center;">-Action: Connect with others to build &quot;power&quot; and read/learn to gain wisdom to wield said power</p>
+<p style="text-align: center;">-Concentrate on: Developing the science to change the universe and unite countries</p>
+<p style="text-align: center;">- Focus: Artificial Intelligence, Quantum/Macro Physics, Being a Gentleman</p>
+
+
+
+<a href="https://medium.com/personal-growth/43-prompts-that-will-change-your-life-for-the-better-f8178a622d19"><h1 style="font-family: Garamond; margin: auto;margin-top: 5px;" id="1">Writing Prompts</h1><br></a>
+<img src="line.png" id="cleanline">
+
+<p><em>1. Make a map of your failures indicating the rough date they occurred. Write beside each one what you learned. </em></p>
+<p><br></p>
+<p>-Academics (2012-2013) Dropping out of college. I was immature in a sense that I blamed my failures on everything else besides my own lack of effort and character. I was also addicted to pleasure and the negative feedback loops of self-indulgence and easy rewards.&nbsp;</p>
+<p>I learned that I had no discipline and that excuses were not the answer. I didn&apos;t fully realize it at the time but over time I learned the hard way how to be more disciplined. I am grateful I made lifelong friends during this time and learned how to live by myself.&nbsp;</p>
+<p><br></p>
+<p>-Depression (2015) Doing absolutely nothing and just existing and living with dark thoughts and having no goals or anyone to turn to was what I faced during this time. I was in terrible terms with my family and recluse to my friends. Lying in bed wanting to end it all.&nbsp;</p>
+<p>I learned that I never want to be in that state of living ever again and will do anything to avoid it. What got me out of the hole was that I simply decided one day that I was going to find a job and improve my life. I drove to Starbucks everyday to use their internet and applied for dozens of jobs. Shit sucked and I ended up with a dead-end job.&nbsp;</p>
+<p><br></p>
+<p>-Weak (2016?) After hiking in Andrew&apos;s farewell hike to Inspiration Point and having failed to reach the top, I realized how my lifestyle was completely self-destructive and unsustainable. I felt like a hamster on a wheel. Work a dead-end minimum wage job to come home dead tired. I played videogames on my free time all day and return to nightshift. Surviving off of mass gainer. Utter shit. Also my dog disappeared. That was so painful.</p>
+<p>I learned how to exercise my mind and body to become something more. I forget how but I stumbled upon a youtube channel called Improvement Pill and learned a lot about self-improvement. One especially life changing video was the recommendation on reading &quot;Tools of Titans&quot; by Tim Ferriss. This book gave my insight on the lives of world class performers and taught me a lot about their habits, routines, and mindset that branched out to a plethora of topics that I explored to improve myself or at least try to be my best. I got fit, went back to school, learned so much about the world and myself, stemming from this singular channel.&nbsp;</p>
+<p><br></p>
+<p>-COVID-19 (2020) A dark year. Everything paused and the world I lived in paused. No more school, no more friends/family, no more outside world. A creeping darkness returns.&nbsp;</p>
+<p>I learned to appreciate everything I took for granted; nature, people, money, sunshine, society, health. It gave me a new perspective on how much worse life could be and had become in an instant. I had to pull myself out of the hole once more but this time, many other people were in holes all around me. Enter the Navy...</p>
+<p><br></p>
+<p>-Love (Corry) (2022) I had my first e-girlfriend at Corry Station after joining the Navy. It was a brief love but damn did I feel invincible as if the world/universe simply worked out. Rachel was beautiful and brilliant bit it simply died off. I&apos;m not sure 100% why but I believe it may be my inexperience in romantic endeavors. I also experienced a familial bond with my CTM A-school family. We&apos;re all out of touch with each other now but I love you all and I hope you are well, Byrd, Chav, Oki, Mcvay, Anderson, Tomas, Prinzi, Womack, Amaya. &lt;3</p>
+<p>I learned the value of love and relationships; how fleeting and difficult it is to develop and maintain; why it is important and to be/try to be more sociable.</p>
+<p><br></p>
+<p><br></p>
+
+
+
+<a href="file:///C:/Users/Vincent/Dropbox/JOURNALS/Me.exe/2023.html#35"><h1 style="font-family: Garamond; margin: auto;margin-top: 5px;" id="1">5 Year Goal in 6 Months</h1><br></a>
+	
+	<!--
+	
+	<h1 style="font-family: Garamond; margin: auto;margin-top: 5px;" id="X">X</h1><br>
+	<img src="line.png" id="cleanline">
+
+
+
+	<h1 style="margin-top: 20px;">CONTACT ME</h1>
+	
+	<p style="margin: auto; width: 100%;">If you would like to contact me for whatever reason, use the form below.</p>
+	
+	<form name="Form" action="" onsubmit="return validateForm()" method="post" style="line-height:30px; margin: auto;">
+	Name:* <input type="text" name="name"> <br>
+	Email: <input type="text" name="email"> <br>
+	Message:* <br> <textarea id="message" rows="4" cols="50" name="message" form="Form">
+	</textarea> <br>
+	<input type="submit" value="Submit"> 
+	</form> -->
+	
+	</div>
+	
+</div>	
+	
+	
+<footer>©<script>document.write(new Date().getFullYear())</script> Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>		
+	
+</body>
+</html>

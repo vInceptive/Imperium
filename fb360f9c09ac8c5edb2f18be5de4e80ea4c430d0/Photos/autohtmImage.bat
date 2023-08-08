@@ -1,0 +1,1 @@
+for %i in (*.jpg) do echo ^<div class="column"^>^<img id="enlarge" src= "Photos/July19/%i"/^>^<br^>^</div^> >> imgdump.html

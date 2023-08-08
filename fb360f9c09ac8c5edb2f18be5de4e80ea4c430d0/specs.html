@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - Specs</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</head>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/vInceptive">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gw2.html">GW2</a></li>
+			<li><a href="specs.html">SPECS</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="mental.html">Mind</a>
+			  <a href="physical.html">Body</a>
+			  <a href="pre2018.html">Pre-2018</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			  <a href="2020.html">2020</a>
+			  <a href="2021.html">2021</a>
+			</div>
+		    </li>
+			<li><a href="books.html">LIT</a></li>
+			<li><a href="photos.html">PHOTOS</a></li>
+		</ul>
+		
+	<br>
+	<img src="pcgshot1.png" style="width: 100%; margin: auto; margin-bottom: 20px; border: 2px solid black;">
+	<h1>Full PC Specifications:</h1>
+	<img src="line.png" id="cleanline">
+	<p id="bodytext" style="line-height: 140%;">
+	·Mobo: ASUS TUF B450M-PLUS GAMING AM4 Micro ATX <br>
+	·CPU: AMD RYZEN 7 2700 8-Core 3.2 GHz <br>
+	·CPU Cooler: AMD Wraith Prism Cooler<br>
+	·GPU: EVGA GeForce GTX 1660 Ti SC<br>
+	·RAM: Team T-Force Delta II RGB Series 16GB (2 x 8GB) DDR4 3000 Desktop Memory Model TF4D416G3000HC16CDC01 <br>
+	·PSU: Corsair CXM Series 750W 80 Plus Bronze Modular<br>
+	·SSDs: G.Skill Phoenix FTL 240GB / OCZ Saber 1000 240GB / Drevo X1 PRO 512GB <br>
+	·HDD: Western Digital Blue 500GB<br>
+	·OS: Windows 10 Home Premium (x64)<br>
+	·Case: Thermaltake VERSA N21 Snow Edition ATX Mid Tower <br>
+	·Fans: 2x Corsair AF120 LED Quiet Edition 120mm <br>
+	·Monitors: LG 27QN600-B 27” QHD (2560 x 1440) IPS Display with FreeSync 75hz / AOC E2280SWDN 22" 1080p 60hz <br>
+	·Headsets: Philips Fidelio X2HR / Monoprice Retro w/ BRAINWAVZ XL Large Memory Foam Earpads<br>
+	·Microphone: Neewer NW-700<br>
+	·Mouse: Logitech G600<br>
+	·Keyboard: Glorious Gaming Mechanical Keyboard w/ Box Whites switches + samplers & Vortex White Translucent Doubleshot backlit PBT + POM Keycaps<br>
+	·Tablet: Wacom Intuos 
+	<img src="pcgshot3.png" id="blogimage" style="margin-top: 10px;">
+	<img src="pcgshot2.png" id="blogimage">
+	<p style="text-align: center;">o/</p>
+	
+	</p>
+	
+	
+	<img class="imgB" src="bg2.png">
+		
+	</div>
+</div>
+	
+	
+	
+<footer>©<script>document.write(new Date().getFullYear())</script> Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>		
+	
+</body>
+</html>
