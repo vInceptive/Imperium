@@ -1,93 +1,146 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta content="text/html" charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="icon.png">
-<title>Imperium - vInceptive Gaming</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Password Protected</title>
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
+        <style>
+            *,
+            *:after,
+            *:before {
+                box-sizing: border-box;
+            }
+            body,
+            html {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 300;
+                font-size: 16px;
+                background: #f2f2f2;
+                color: #2D3737;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100%;
+            }
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var d = 0; d < dropdowns.length; d++) {
-      var openDropdown = dropdowns[d];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+            .protected {
+                background: #fff;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                border-radius: 3px;
+                min-width: 500px;
 
-</head>
+            }
+            .protected__content {
+                padding: 24px 28px;
+            }
+            .protected__content__heading {
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0 0 12px;
+                line-height: 1;
+            }
+            .protected__alert {
+                display: none;
+                border-bottom: 1px solid transparent;
+                border-radius: 3px 3px 0 0;
+                padding: 12px 14px;
+                color: #a94442;
+                background-color: #f2dede;
+                border-color: #ebccd1;
+            }
+            .protected__content__input {
+                display: block;
+                border: solid 1px #ccc;
+                padding: 12px 14px;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                font-size: 16px;
+                width: 100%;
+                border-radius: 3px;
 
-<body> 
+                margin-bottom: 12px;
+            }
+            .protected__content__input:focus {
+                outline: none;
+                border-color: #228843;
+            }
+            .protected__content__btn {
+                background-color: #228843;
+                border-radius: 3px;
+                cursor: pointer;
+                border: none;
+                color: #fff;
+                padding: 12px 14px;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
 
-<img class="imgA" src="line.png">
+            }
+            .protected__content__btn:hover {
+                background-color: #1C6D36;
+            }
 
-<div id="background2">
+        </style>
 
-	<div id="extrapadding">
-	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
-	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
-	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
-	<a href="https://www.twitch.tv/vInceptive">
-	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
-	</a>
-	<div id="title">T H E &nbsp I M P E R I U M</div>
-	<div id="subtitle">My Realm of Play</div>
-		
-		<ul>
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="about.html">ABOUT</a></li>
-			<li><a href="gw2.html">GW2</a></li>
-			<li><a href="specs.html">SPECS</a></li>
-			<li class="dropdown">
-			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
-			<div class="dropdown-content" id="myDropdown">
-			  <a href="mental.html">Mind</a>
-			  <a href="physical.html">Body</a>
-			  <a href="2018.html">2018</a>
-			  <a href="2019.html">2019</a>
-			</div>
-		    </li>
-			<li><a href="books.html">LIT</a></li>
-		</ul>
-	
-		<br><br><br><br><br><br>
-		The entire history of me. <sup>AH</sup> <sup>(After HTML)</sup>
-		As of 2018 this website is like my journal in which I express my thoughts onto a visual medium. It is a mess right now but hopefully I will organize it as time passes. time. <br> 
-		TO ADD: ART MOVIES MUSIC GW2>GAMING BOOKS FOOD CULTURE HEALTH???
-		
-		<!-- <img src="wasd.png" style="position: static; border: 2px solid black; margin: auto; margin-top: 35px; display: block; width: 100%;">
-		
-		<h1 style="margin-top: 20px;">RECENT</h1>
-		<a href="gw2.html">
-		<img src="bitter.jpg" style="width: 100%; height: auto; position: static; border: 2px solid black; margin: auto;">
-		<h2>GUILD WARS 2 LWS3 EPI. 3 WALKTHROUGH</h2>	
-		</a>
-		
-		<p style="line-height: 25px; margin: auto; width: 100%;">My walkthrough for the Guild Wars 2 living world season 3 episode 3, "A Crack in the Ice." </p>
+    </head>
 
-		<p style="line-height: 25px; color: grey;">Nov 22, 2016</p> -->
-		
-	<img class="imgB" src="bg2.png">
-		
-	</div>
-</div>
+    <body>
 
-	
-<footer>©2018 Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>	
-	
-</body>
+        <div class="protected">
+            <div class="protected__alert" data-id="alert">You entered the wrong password</div>
+            <div class="protected__content">
+                <h1 class="protected__content__heading">You need a password to continue</h1>
+                <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
+                <button data-id="button" type="button" class="protected__content__btn">Continue</button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+        <script type="text/javascript">
+            "use strict"
+            var button = document.querySelectorAll('[data-id="button"]')
+            var password = document.querySelectorAll('[data-id="password"]')
+
+            function login(secret) {
+                var hash = sha1(secret)
+                var url = hash + "/index.html"
+                var alert = document.querySelectorAll('[data-id="alert"]')
+
+                var request = new XMLHttpRequest()
+                request.open('GET', url, true)
+
+                request.onload = function () {
+                    if (request.status >= 200 && request.status < 400) {
+                        window.location = url
+                    } else {
+                        parent.location.hash = hash
+                        alert[0].style.display = 'block'
+                        password[0].setAttribute('placeholder', 'Incorrect password')
+                        password[0].value = ''
+                    }
+                }
+                request.onerror = function () {
+                    parent.location.hash = hash
+                    alert[0].style.display = 'block'
+                    password[0].setAttribute('placeholder', 'Incorrect password')
+                    password[0].value = ''
+                }
+                request.send()
+            }
+
+            button[0].addEventListener("click", function () {
+                login(password[0].value)
+            })
+
+            document.onkeydown = function (e) {
+                e = e || window.event
+                if (e.keyCode == 13) {
+                    login(password[0].value)
+                }
+            }
+        </script>
+    </body>
 </html>

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icon.png">
+<title>Imperium - About</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</head>
+
+<script>
+function validateForm() {
+var x = document.forms["Form"]["name"].value;
+if (x == "") {
+	alert("Missing name!");
+	return false;
+	}
+	
+var y = document.getElementById('message').value;
+if (/^\s*$/g.test(y)) {
+    alert("Missing message!");
+	return false;
+    }
+}
+</script>
+
+<body> 
+
+<img class="imgA" src="line.png">
+
+<div id="background2">
+
+	<div id="extrapadding">
+	<img src="line.png" style="position: absolute; width: 105px; height: 3px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 233px; height: 2px; margin-left: 10px;">
+	<img src="line.png" style="position: absolute; width: 360px; height: 1px; margin-left: 10px;">
+	<a href="https://www.twitch.tv/vInceptive">
+	<img src="twitch.png" style="position: fixed; width: 50px; height: 50px; top: 0px; right: 0px; border: 2px solid black;">
+	</a>
+	<div id="title">T H E &nbsp I M P E R I U M</div>
+	<div id="subtitle">My Realm of Play</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gw2.html">GW2</a></li>
+			<li><a href="specs.html">SPECS</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">YEARS</a>
+			<div class="dropdown-content" id="myDropdown">
+			  <a href="mental.html">Mind</a>
+			  <a href="physical.html">Body</a>
+			  <a href="2018.html">2018</a>
+			  <a href="2019.html">2019</a>
+			</div>
+		    </li>
+			<li><a href="books.html">LIT</a></li>
+		</ul>
+	
+	<img class="imgB" src="bg2.png">
+	
+	<br>
+	<h1>Schedule</h1>
+	
+	<img src="me.png" style="position: static; border: 3px solid black; margin: auto; width: 100%;">
+	
+	<h1 style="font-family: Garamond; margin: auto;margin-top: 5px;">Yeh.</h1>	
+	
+	<p style="line-height: 25px; margin: auto; width: 100%px, margin-top: 0px;">Info.</p>    
+
+	<!-- <h1 style="margin-top: 20px;">CONTACT ME</h1>
+	
+	<p style="margin: auto; width: 100%;">If you would like to contact me for whatever reason, use the form below.</p>
+	
+	<form name="Form" action="" onsubmit="return validateForm()" method="post" style="line-height:30px; margin: auto;">
+	Name:* <input type="text" name="name"> <br>
+	Email: <input type="text" name="email"> <br>
+	Message:* <br> <textarea id="message" rows="4" cols="50" name="message" form="Form">
+	</textarea> <br>
+	<input type="submit" value="Submit"> 
+	</form> -->
+	
+	</div>
+	
+</div>	
+	
+	
+<footer>©2018 Vincent Quach, vInceptive Gaming<br>All works belong to their respective owners.</footer>		
+	
+</body>
+</html>
